@@ -1,0 +1,116 @@
+
+.slider-first__central-block {
+   display: flex;
+   width: 1458px;
+   justify-content: space-between;
+   align-items: center;    
+}
+
+.slider-first__block-advertisements {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   position: relative;
+   width: 545px;
+   z-index: 2;
+}
+
+.block-advertisements__frame{
+   position: absolute;
+   top: -30px;
+   right: 0;
+}
+
+.block-advertisements__text {
+   font-family: var(--font-family);
+   font-weight: 600;
+   font-size: 86px;
+   line-height: 112%;
+   text-transform: uppercase;
+   color: var(--black);    
+   width: 100%;
+}
+
+.persent-30 {
+ font-family: var(--font-family);
+font-weight: 600;
+font-size: 86px;
+line-height: 112%;
+text-transform: uppercase;
+color: var(--black);
+}
+
+.slider-first__block-photo-models {
+   display: flex;
+   max-width: 804px;
+   box-sizing: border-box;
+   position: relative;
+   align-items: center;
+}
+
+.shop-button {
+   width: 175px;
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 18px;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+   text-align: center;
+   color: var(--black);
+   background: transparent;
+   border: 2px solid var(--black);
+   height: 56px;
+   margin-top: 48px;
+}
+
+.Explore-block__wrap {
+   display: flex;
+   justify-content: space-between;
+   margin-top: 118px;
+}
+
+
+.Explore-block__img {
+ max-width: 1060px;
+max-height: 363px;
+}
+
+.Explore-block__text {
+   font-family: var(--font-family);
+   font-weight: 500;
+   font-size: 56px;
+   line-height: 129%;
+   text-transform: uppercase;
+   color: var(--black);
+}
+
+.Explore-block__text-describe {
+   font-family: var(--font3);
+   font-weight: 400;
+   font-size: 25px;
+   line-height: 148%;
+   letter-spacing: 0.01em;
+   color: var(--black);
+   text-transform: math-auto;
+   margin-top: 34px;
+}
+
+.Explore-block__describe-block {
+ margin-right: 101px;
+}
+
+.Explore-block-wrap {
+   max-width: 620px;
+   width: 100%;
+   padding-top: 21px;
+   position: relative;
+}
+
+.Explore-block__figure {
+   max-width: 626px;
+   position: absolute;
+   top: 0;
+   right: 0;
+}
+
+   

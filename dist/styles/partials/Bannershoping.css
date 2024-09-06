@@ -1,0 +1,118 @@
+
+
+.Bannershoping {
+    background: url('/dist/img/Bannershoping/Bannershoping__background.png') no-repeat center center;
+    display: flex;
+    width: 100%;
+    height: 467px;
+    margin-top: 62px;
+}
+.Bannershoping__wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    height: 100%;
+}
+
+.Bannershoping__img {
+    z-index: 0;   
+}
+.slider-first__block-advertisements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+    width: 545px;
+    z-index: 2;
+}
+
+.block-advertisements__text {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 86px;
+    line-height: 112%;
+    text-transform: uppercase;
+    color: var(--black);    
+    width: 100%;
+}
+
+.Bannershoping__wrap {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+
+.Bannershoping-block-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 639px;
+    min-height: 312px;
+    margin-top: 77px;
+    margin-left: 269px;
+    position: relative;
+}
+
+
+.Bannershoping-text {
+    width: 100%;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 56px;
+    line-height: 129%;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
+
+.Bannershoping-text-describe {
+    font-family: var(--font3);
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 148%;
+    letter-spacing: 0.01em;
+    color: var(--black);
+    max-width: 639px;
+    text-transform: none;
+}
+
+.shop-button {
+    width: 175px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);
+    background: transparent;
+    border: 2px solid var(--black);
+    height: 56px;
+    margin-top: 48px;
+}
+
+
+
+.Bannershoping-frame {
+    position: absolute;
+    top: -19px;
+    right: 0;
+}
+
+.shop-button {
+    width: 175px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);
+    background: transparent;
+    border: 2px solid var(--black);
+    height: 56px;
+    margin-top: 48px;
+}
+
