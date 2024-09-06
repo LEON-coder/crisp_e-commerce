@@ -1,15 +1,15 @@
 
-@import url('/dist/styles/partials/Header.css');
-@import url('/dist/styles/partials/SliderSectionOne.css');
-@import url('/dist/styles/partials/SelectingBrand.css');
-@import url('/dist/styles/partials/BlockSeeOffers.css');
-@import url('/dist/styles/partials/ShopSomeWear.css');
-@import url('/dist/styles/partials/Bannershoping.css');
-@import url('/dist/styles/partials/FeaturedItems.css');
-@import url('/dist/styles/partials/ExploreBlock.css');
-@import url('/dist/styles/partials/Blog.css');
-@import url('/dist/styles/partials/BlogCheckboxes.css');
-@import url('/dist/styles/partials/Footer.css');
+@import 'partials/Header.css';
+@import 'partials/SliderSectionOne.css';
+@import 'partials/SelectingBrand.css';
+@import 'partials/BlockSeeOffers.css';
+@import 'partials/ShopSomeWear.css';
+@import 'partials/Bannershoping.css';
+@import 'partials/FeaturedItems.css';
+@import 'partials/ExploreBlock.css';
+@import 'partials/Blog.css';
+@import 'partials/BlogCheckboxes.css';
+@import 'partials/Footer.css';
 
 
 
