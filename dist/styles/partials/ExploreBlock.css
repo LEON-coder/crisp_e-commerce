@@ -21,24 +21,6 @@
    right: 0;
 }
 
-.block-advertisements__text {
-   font-family: var(--font-family);
-   font-weight: 600;
-   font-size: 86px;
-   line-height: 112%;
-   text-transform: uppercase;
-   color: var(--black);    
-   width: 100%;
-}
-
-.persent-30 {
- font-family: var(--font-family);
-font-weight: 600;
-font-size: 86px;
-line-height: 112%;
-text-transform: uppercase;
-color: var(--black);
-}
 
 .slider-first__block-photo-models {
    display: flex;

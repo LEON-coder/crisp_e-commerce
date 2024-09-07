@@ -1,8 +1,15 @@
 
 
 .ShopSomeWear__select-panel {
-    max-width: 177px;
-  }
+  max-width: 191px;
+  width: 100%;
+  max-height: 285px;
+  justify-content: space-between;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
 .ShopSomeWear__select-panel_headline {
     font-family: var(--font-family);
     font-weight: 400;
@@ -14,8 +21,7 @@
 
 .ShopSomeWear__select-panel_checkbox {
     display: flex;
-    flex-direction: column;
-    width: max-content;
+    flex-direction: column;    
 }
 
 .ShopSomeWear__checkbox {
@@ -32,10 +38,12 @@ background: url('../assets/img/ShopSomeWear/checkbox_checked.png');
 
 
 .checkbox-wrapper {
-    display: flex;
-    position: relative;
-    align-items: center;
-    margin-bottom: 20px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin-bottom: 20px;
+  width: 191px;
+  height: 22px;
 }
 
 .checkbox-wrapper input {

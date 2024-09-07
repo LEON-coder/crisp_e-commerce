@@ -1,17 +1,4 @@
 
-.ShopSomeWear__select-panel_headline {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 24px;
-    color: var(--black);
-    margin-top: 18px;
-    margin-bottom: 31px;
-}
-
-.ShopSomeWear__select-panel_checkbox {
-  display: flex;
-  flex-direction: column;
-}
 
 .ShopSomeWear__checkbox {
   font-family: var(--second-family);
@@ -23,15 +10,6 @@ color: var(--black-2);
 }
 .ShopSomeWear__checkbox:checked {
 background: url('/dist/img/ShopSomeWear/checkbox_checked.png');
-}
-
-
-.checkbox-wrapper {
-    display: flex;
-    position: relative;
-    align-items: center;
-    margin-bottom: 20px;
-    height: 22px;
 }
 
 .checkbox-wrapper input {

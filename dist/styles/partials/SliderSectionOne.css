@@ -2,18 +2,10 @@
 /* SliderSectionOne */ 
 
 
-.slider-section-one__wrap {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 20px;
-}
+
 .slider-first {
   width: 100%;
   height: 800px;
-
-  background: linear-gradient(174deg, rgba(255, 255, 255, 0.6) 35.42%, rgba(255, 255, 255, 0.6) 100%), url('/dist/img/SliderFirst/background.png');
   display: flex;
   justify-content: center;
   align-items: center;
