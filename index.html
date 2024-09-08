@@ -26,7 +26,7 @@
                 <article class="submenu-contents-block">
                   <article class="navigation__link_submenu-content">
                     <ul class="navigation__list_submenu">
-                      <h3 class="navigation__link_submenu_headline"> Menu Category List </h3>
+                      <li class="navigation__link_submenu_headline"> Menu Category List </li>
                       <li class="item-menu">
                         <a href="#" class="link-menu">Product Page With Sidebar</a>
                       </li>
@@ -59,7 +59,7 @@
                   </article>
                   <article class="navigation__link_submenu-content">
                     <ul class="navigation__list_submenu">
-                      <h3 class="navigation__link_submenu_headline"> Menu Category List </h3>
+                      <li class="navigation__link_submenu_headline"> Menu Category List </li>
                       <li class="item-menu">
                         <a href="#" class="link-menu">Product Page With Sidebar</a>
                       </li>
@@ -92,7 +92,7 @@
                   </article>
                   <article class="navigation__link_submenu-content">
                     <ul class="navigation__list_submenu">
-                      <h3 class="navigation__link_submenu_headline"> Menu Category List </h3>
+                      <li class="navigation__link_submenu_headline"> Menu Category List </li>
                       <li class="item-menu">
                         <a href="#" class="link-menu">Product Page With Sidebar</a>
                       </li>
@@ -125,12 +125,11 @@
                   </article>
                 </article>
 <section class="sub-menu-block-pic">
-  <img class="opacity-picture" src="./dist/img/Header/sub_menu/sub-menu-block-shadow.png">
-  <img class="picture-sub-menu" src="./dist/img/Header/sub_menu/sub_menu-img.png">
+  <img class="opacity-picture" src="./dist/img/Header/sub_menu/sub-menu-block-shadow.png" alt="">
+  <img class="picture-sub-menu" src="./dist/img/Header/sub_menu/sub_menu-img.png" alt="">
 </section>
 
               </section>
-             
             </div>
           </li>
           <li class="navigation__item">
@@ -203,9 +202,10 @@
       </nav>
 
       <div class="header__block-autorization">
-        <a class="header__sign-in" href="#"> SIGN IN </a>      
+        <a class="header__sign-in" href="#"> SIGN IN </a>
         <a class="header__create-account" href="#"> CREATE AN ACCOUNT </a>
       </div>
+
       <div class="header__cart-block">
         <a href="#" class="icon-like">
           <svg
@@ -223,27 +223,26 @@
           </svg>
         </a>
 
+          <svg class="icon-cart"
+            width="18"
+            height="22"
+            viewBox="0 0 18 22"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M1.27266 20.8L2.13149 6.2H15.8685L16.7273 20.8H1.27266Z"
+              stroke="white"
+              stroke-width="2.4"
+            />
+            <path
+              d="M5 5V3C5 2.44772 5.44772 2 6 2H12C12.5523 2 13 2.44772 13 3V5"
+              stroke="white"
+              stroke-width="2.4"
+            />
+          </svg>
+
         <div class="shopping-cart-total">
-          <a href="" class="icon-cart">
-            <svg
-              width="18"
-              height="22"
-              viewBox="0 0 18 22"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path
-                d="M1.27266 20.8L2.13149 6.2H15.8685L16.7273 20.8H1.27266Z"
-                stroke="white"
-                stroke-width="2.4"
-              />
-              <path
-                d="M5 5V3C5 2.44772 5.44772 2 6 2H12C12.5523 2 13 2.44772 13 3V5"
-                stroke="white"
-                stroke-width="2.4"
-              />
-            </svg>
-          </a>
 
           <div class="header__shopping-cart-block">
             <p class="shopping-cart-text">Shopping Cart</p>
@@ -259,7 +258,6 @@
 
     <section class="sign-in__pop-up">
       <form class="sign-in-form">
-
           <svg class="pop-up-close" width="23" height="23" viewBox="0 0 23 23" fill="" xmlns="http://www.w3.org/2000/svg">
             <path d="M0.849121 1L21.8491 22M21.8491 1L0.849121 22" stroke="#C4C4C4" stroke-width="2" />
           </svg>
@@ -274,13 +272,122 @@ login your account
 <input type="checkbox" id="sign-in-checkbox">
 </label>
 
-<button type="button" class="sign-in-button">
+<button type="submit" class="sign-in-button">
   sign in
 </button>
-<button type="button" class="create-account-button">
+<button type="submit" class="create-account-button">
   create an account
 </button>
       </form>
+    </section>
+
+    <section class="cart-list-pop-up">
+
+      <section class="cart-list-pop-up-wrap">
+        <a href="#" class="cart-list-close">
+        <svg width="23" height="23" viewBox="0 0 23 23" fill="" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.849121 1L21.8491 22M21.8491 1L0.849121 22" stroke="#C4C4C4" stroke-width="2" />
+        </svg>
+      </a>
+
+
+        <article class="cart-list__item">
+<div class="cart-list__img">
+<img src="./dist/img/Header/cart-list/img-cart-1.png" alt="">
+</div>
+
+<div class="cart-list__describe-block">
+<p class="cart-list__describe">
+  Angels malu zip jeans slim black used
+</p>
+
+<div class="cart-list__size-block">
+<div class="size">
+  Size:
+</div>
+
+<div class="size-order">
+  W31/L34
+</div>
+</div>
+
+<div class="cart-list__articul-block">
+  <div class="art_describe">
+    Art.No.:
+  </div>
+  <div class="art_number">
+    434536465
+  </div>
+</div>
+
+<div class="cart-list__price">
+  1 x 129,00 EUR
+</div>
+</div>
+
+<div class="cart-list__editing-block">
+  <svg class="cart-list__delete" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0.849121" width="24" height="24" fill="#E6F1FA" />
+    <path d="M9.69214 8.8418L16.8376 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M16.8358 8.8418L9.69031 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+  </svg>
+
+  <svg class="cart-list__edit" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0.849121" width="24" height="24" fill="#E6F1FA" />
+    <path d="M8.81988 18.0001C8.61931 18.0001 8.42183 17.9214 8.2745 17.774C8.05619 17.5557 7.98908 17.2287 8.10324 16.9417L9.64605 13.0847C9.6854 12.9882 9.74325 12.8995 9.81731 12.8262L15.2171 7.42641C15.5188 7.12479 16.0063 7.12479 16.3079 7.42641L18.6221 9.74063C18.9237 10.0422 18.9237 10.5298 18.6221 10.8314L15.5365 13.917C15.2349 14.2186 14.7474 14.2186 14.4457 13.917C14.1441 13.6154 14.1441 13.1279 14.4457 12.8262L16.986 10.286L15.7625 9.06256L11.0207 13.8052L10.2046 15.844L12.2441 15.0286L12.3575 14.9144L12.1315 14.6884C11.8299 14.3868 11.8299 13.8993 12.1315 13.5977C12.4331 13.296 12.9207 13.296 13.2223 13.5977L13.9937 14.3691C14.2953 14.6707 14.2953 15.1582 13.9937 15.4598L13.2223 16.2312C13.1482 16.3053 13.0603 16.3631 12.9631 16.4025L9.10607 17.9453C9.0135 17.9823 8.91631 18.0001 8.81988 18.0001Z" fill="black" />
+  </svg>
+
+</div>
+        </article>
+        <article class="cart-list__item">
+<div class="cart-list__img">
+<img src="./dist/img/Header/cart-list/img-cart-2.png" alt="">
+</div>
+
+<div class="cart-list__describe-block">
+<p class="cart-list__describe">
+  Angels malu zip jeans slim black used
+</p>
+
+<div class="cart-list__size-block">
+<div class="size">
+  Size:
+</div>
+
+<div class="size-order">
+  W31/L34
+</div>
+</div>
+
+<div class="cart-list__articul-block">
+  <div class="art_describe">
+    Art.No.:
+  </div>
+  <div class="art_number">
+    434536465
+  </div>
+</div>
+
+<div class="cart-list__price">
+  1 x 129,00 EUR
+</div>
+</div>
+
+<div class="cart-list__editing-block">
+  <svg class="cart-list__delete" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0.849121" width="24" height="24" fill="#E6F1FA" />
+    <path d="M9.69214 8.8418L16.8376 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+    <path d="M16.8358 8.8418L9.69031 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+  </svg>
+
+  <svg class="cart-list__edit" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="0.849121" width="24" height="24" fill="#E6F1FA" />
+    <path d="M8.81988 18.0001C8.61931 18.0001 8.42183 17.9214 8.2745 17.774C8.05619 17.5557 7.98908 17.2287 8.10324 16.9417L9.64605 13.0847C9.6854 12.9882 9.74325 12.8995 9.81731 12.8262L15.2171 7.42641C15.5188 7.12479 16.0063 7.12479 16.3079 7.42641L18.6221 9.74063C18.9237 10.0422 18.9237 10.5298 18.6221 10.8314L15.5365 13.917C15.2349 14.2186 14.7474 14.2186 14.4457 13.917C14.1441 13.6154 14.1441 13.1279 14.4457 12.8262L16.986 10.286L15.7625 9.06256L11.0207 13.8052L10.2046 15.844L12.2441 15.0286L12.3575 14.9144L12.1315 14.6884C11.8299 14.3868 11.8299 13.8993 12.1315 13.5977C12.4331 13.296 12.9207 13.296 13.2223 13.5977L13.9937 14.3691C14.2953 14.6707 14.2953 15.1582 13.9937 15.4598L13.2223 16.2312C13.1482 16.3053 13.0603 16.3631 12.9631 16.4025L9.10607 17.9453C9.0135 17.9823 8.91631 18.0001 8.81988 18.0001Z" fill="black" />
+  </svg>
+
+</div>
+        </article>
+      </section>
     </section>
 
     <section class="slider-section-one__wrap">
@@ -445,11 +552,7 @@ login your account
           <div class="selecting-brand-block__headline-wrap">
             <h3 class="selecting-brand-block__headline">chose your brand</h3>
           </div>
-
-
-
-
-          <!-- Слайдер брендов -->
+         <!-- Слайдер брендов -->
           <section class="FeaturedItems__slider">
             <section class="brands-list">
               <div class="owl-carousel owl-theme slider-three">
@@ -666,6 +769,7 @@ login your account
                 </div>
             </div>
             </section>
+          </section>
         </article>
       </section>
     </section>
@@ -1020,13 +1124,13 @@ login your account
                         alt="cloth"
                       >
                     </picture>
-    
+
                     <div class="catalog-clothes-text">
                       <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                       <p class="catalog-clothes-text__describe">
                         Angels malu zip jeans slim black used
                       </p>
-    
+
                       <div class="catalog-clothes-text__price-block">
                         <span class="catalog-clothes-text__price">
                           139,00 EUR
@@ -1046,13 +1150,13 @@ login your account
                         alt="cloth"
                       >
                     </picture>
-    
+
                     <div class="catalog-clothes-text">
                       <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                       <p class="catalog-clothes-text__describe">
                         Angels malu zip jeans slim black used
                       </p>
-    
+
                       <div class="catalog-clothes-text__price-block">
                         <span class="catalog-clothes-text__price">
                           139,00 EUR
@@ -1072,13 +1176,13 @@ login your account
                         alt="cloth"
                       >
                     </picture>
-    
+
                     <div class="catalog-clothes-text">
                       <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                       <p class="catalog-clothes-text__describe">
                         Angels malu zip jeans slim black used
                       </p>
-    
+
                       <div class="catalog-clothes-text__price-block">
                         <span class="catalog-clothes-text__price">
                           139,00 EUR
@@ -1098,13 +1202,13 @@ login your account
                         alt="cloth"
                       >
                     </picture>
-    
+
                     <div class="catalog-clothes-text">
                       <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                       <p class="catalog-clothes-text__describe">
                         Angels malu zip jeans slim black used
                       </p>
-    
+
                       <div class="catalog-clothes-text__price-block">
                         <span class="catalog-clothes-text__price">
                           139,00 EUR
@@ -1124,13 +1228,13 @@ login your account
                         alt="cloth"
                       >
                     </picture>
-    
+
                     <div class="catalog-clothes-text">
                       <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                       <p class="catalog-clothes-text__describe">
                         Angels malu zip jeans slim black used
                       </p>
-    
+
                       <div class="catalog-clothes-text__price-block">
                         <span class="catalog-clothes-text__price">
                           139,00 EUR
@@ -1150,13 +1254,13 @@ login your account
                         alt="cloth"
                       >
                     </picture>
-    
+
                     <div class="catalog-clothes-text">
                       <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                       <p class="catalog-clothes-text__describe">
                         Angels malu zip jeans slim black used
                       </p>
-    
+
                       <div class="catalog-clothes-text__price-block">
                         <span class="catalog-clothes-text__price">
                           139,00 EUR
@@ -1176,13 +1280,13 @@ login your account
                         alt="cloth"
                       >
                     </picture>
-    
+
                     <div class="catalog-clothes-text">
                       <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                       <p class="catalog-clothes-text__describe">
                         Angels malu zip jeans slim black used
                       </p>
-    
+
                       <div class="catalog-clothes-text__price-block">
                         <span class="catalog-clothes-text__price">
                           139,00 EUR
@@ -1202,13 +1306,13 @@ login your account
                         alt="cloth"
                       >
                     </picture>
-    
+
                     <div class="catalog-clothes-text">
                       <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                       <p class="catalog-clothes-text__describe">
                         Angels malu zip jeans slim black used
                       </p>
-    
+
                       <div class="catalog-clothes-text__price-block">
                         <span class="catalog-clothes-text__price">
                           139,00 EUR
@@ -1228,13 +1332,13 @@ login your account
                         alt="cloth"
                       >
                     </picture>
-    
+
                     <div class="catalog-clothes-text">
                       <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                       <p class="catalog-clothes-text__describe">
                         Angels malu zip jeans slim black used
                       </p>
-    
+
                       <div class="catalog-clothes-text__price-block">
                         <span class="catalog-clothes-text__price">
                           139,00 EUR
@@ -1254,13 +1358,13 @@ login your account
                         alt="cloth"
                       >
                     </picture>
-    
+
                     <div class="catalog-clothes-text">
                       <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                       <p class="catalog-clothes-text__describe">
                         Angels malu zip jeans slim black used
                       </p>
-    
+
                       <div class="catalog-clothes-text__price-block">
                         <span class="catalog-clothes-text__price">
                           139,00 EUR
@@ -1278,7 +1382,7 @@ login your account
               <h5 class="FeaturedItems__headline">Most Popular</h5>
             </section>
             <div class="owl-carousel owl-theme slider-two">
-              <div class="item"> 
+              <div class="item">
                 <div class="catalog-clothes-block">
                   <picture class="dress-img">
                     <img
@@ -1286,13 +1390,13 @@ login your account
                       alt="cloth"
                     >
                   </picture>
-  
+
                   <div class="catalog-clothes-text">
                     <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                     <p class="catalog-clothes-text__describe">
                       Angels malu zip jeans slim black used
                     </p>
-  
+
                     <div class="catalog-clothes-text__price-block">
                       <span class="catalog-clothes-text__price">
                         139,00 EUR
@@ -1312,13 +1416,13 @@ login your account
                       alt="cloth"
                     >
                   </picture>
-  
+
                   <div class="catalog-clothes-text">
                     <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                     <p class="catalog-clothes-text__describe">
                       Angels malu zip jeans slim black used
                     </p>
-  
+
                     <div class="catalog-clothes-text__price-block">
                       <span class="catalog-clothes-text__price">
                         139,00 EUR
@@ -1338,13 +1442,13 @@ login your account
                       alt="cloth"
                     >
                   </picture>
-  
+
                   <div class="catalog-clothes-text">
                     <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                     <p class="catalog-clothes-text__describe">
                       Angels malu zip jeans slim black used
                     </p>
-  
+
                     <div class="catalog-clothes-text__price-block">
                       <span class="catalog-clothes-text__price">
                         139,00 EUR
@@ -1364,13 +1468,13 @@ login your account
                       alt="cloth"
                     >
                   </picture>
-  
+
                   <div class="catalog-clothes-text">
                     <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                     <p class="catalog-clothes-text__describe">
                       Angels malu zip jeans slim black used
                     </p>
-  
+
                     <div class="catalog-clothes-text__price-block">
                       <span class="catalog-clothes-text__price">
                         139,00 EUR
@@ -1390,13 +1494,13 @@ login your account
                       alt="cloth"
                     >
                   </picture>
-  
+
                   <div class="catalog-clothes-text">
                     <h5 class="catalog-clothes-text__name">TOP WOMEN</h5>
                     <p class="catalog-clothes-text__describe">
                       Angels malu zip jeans slim black used
                     </p>
-  
+
                     <div class="catalog-clothes-text__price-block">
                       <span class="catalog-clothes-text__price">
                         139,00 EUR
@@ -1783,9 +1887,9 @@ login your account
         <p class="copyright">© 2019. Crisp theme Developed by Belvg</p>
       </section>
     </footer>
- 
+
     <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
-    <script src="dist/slick-1.8.1/slick/slick.js" charset="utf-8"></script>   
+    <script src="dist/slick-1.8.1/slick/slick.js" charset="utf-8"></script>
     <script src="dist/sliders/Featured Items_slider/Owl Carousel/owl.carousel.min.js"></script>
     <script src="dist/sliders/Featured Items_slider/Owl Carousel/initialize_slider.js"></script>
     <script>
@@ -1801,6 +1905,6 @@ login your account
       });
   </script>
   <script src="dist/scripts/sign-in.js"></script>
+  <script src="dist/scripts/cart.js"></script>
   </body>
   </html>
-
