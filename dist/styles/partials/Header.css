@@ -143,7 +143,7 @@
   -webkit-transition: 1s ;
   -moz-transition: 1s ;
   -ms-transition: 1s ;
-  -o-transition: 1s ;
+  -o-transition: 1s ;  
 }
 
 .input-sign-in {
@@ -182,6 +182,19 @@ label {
   background: #fff;
   padding: 45px 30px 0 30px;
   position: relative;
+  top: -900px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  opacity: 0;
+}
+
+.sign-in-form-active {
+  top: 0;
+  transition: 1s;
+  opacity: 1;
 }
 
 .sign-in-button {
@@ -229,12 +242,16 @@ label {
 
 
 .pop-up-close:hover {
- transform: rotate(360deg);
- -webkit-transform: rotate(360deg);
- -moz-transform: rotate(360deg);
- -ms-transform: rotate(360deg);
- -o-transform: rotate(360deg);
- -webkit-transform: rotate();
+  transform: rotate(660deg);
+  transition: 2s;
+  background: black;
+  border-radius: 100%;
+}
+
+@keyframes pulse {
+  from {
+
+  }
 }
 
 .header__create-account {
