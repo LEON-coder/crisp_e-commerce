@@ -27,6 +27,6 @@ $(document).ready(function(){
     autoplay: true,
     autoplayTimeout: 2000,
     autoplayHoverPause: true,
-    smooth: true
+    control: false
   });
 });

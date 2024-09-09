@@ -25,13 +25,12 @@
   
 /* SliderSectionOne */ 
 
-
 .slider-section-one__wrap {
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 20px 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 20px 0 20px;
 }
 
 

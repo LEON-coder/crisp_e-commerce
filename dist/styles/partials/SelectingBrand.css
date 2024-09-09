@@ -2,7 +2,7 @@
 .selecting-brand-block {
     display: flex;
     width: 100%;
-    margin-top: 42px;
+    margin-top: 19px;
     min-height: 221px;
 }
 
@@ -12,6 +12,7 @@
     width: 100%;
     align-items: center;
     position: relative;
+    max-height: 221px;
 }
 
 .brands-list {
@@ -51,16 +52,22 @@
     z-index: 6;
 }
 
- .selecting-brand-block__headline {
+.selecting-brand-block__headline {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    top: 13px;
+    left: 41%;
+    background: #fff;
+    width: 370px;
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 24px;
-    line-height: 283%;
     text-transform: uppercase;
     text-align: center;
     color: var(--black);
+    margin-left: auto;
+    margin-right: auto;
 }
 

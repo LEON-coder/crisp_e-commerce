@@ -59,13 +59,6 @@
   width: 100%
 }
 
-.owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled {
-  display: block;
-  position: absolute;
-  top: -65px;
-  right: 0;
-}
-
 .owl-dots.disabled {
   display: none;
 }
