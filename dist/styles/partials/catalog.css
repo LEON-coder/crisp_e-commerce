@@ -1,0 +1,271 @@
+.catalog-back {
+  background: url('../../img/catalog_page/Bannershoping_catalog-back.png');
+}
+
+.catalog__filter-block {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-direction: column;
+  padding: 0 21px 0 21px;
+}
+
+.catalog__filter-block_wrap {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.catalog__goods-block {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1454px;
+  width: 100%;
+  gap: 26px;
+}
+
+.filter-block {
+  width: 355px;
+  display: flex;
+  flex-direction: column; 
+}
+
+.Brand {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  transition: 1s;
+}
+
+.brand-list {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: -1000px;
+}
+
+summary {
+  display: block;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--black);
+  transition: 1s;
+}
+
+::-webkit-details-marker {display: none;}
+
+summary::before {
+  content: "+";
+  width: 12px;
+  height: 2px; 
+  position: absolute;
+  right: 20px;
+  top: 5px;
+}
+
+details[open] > summary::before {
+  content: "-";
+  width: 12px;
+  height: 2px;  
+  position: absolute;
+  right: 20px;
+  top: 5px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+details[open] > .brand-list {
+  left: 0;
+  transition: 1s;
+  opacity: 1;
+}
+
+.brand-item {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 486%;
+  text-transform: uppercase;
+  color: var(--black-2);
+  align-items: center;
+  display: flex;
+}
+
+.checkbox-item {
+  position: absolute;
+  left: 0px;
+}
+
+.checkbox-item:checked {
+  background-color: red;
+}
+
+.catalog__block-cloth {
+  display: flex;
+  flex-direction: column;
+  width: 344px;
+  margin-bottom: 41px;
+}
+
+.catalog__headline {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #bdbdbd;
+  margin-top: 14px;
+}
+
+.catalog__describe {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--black);
+  margin-top: 5px;
+}
+
+.catalog__price {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--black);
+  margin-top: 18px;
+}
+
+.filter-block__pagination {
+  display: flex;
+  height: 36px;
+  align-items: center;
+}
+
+
+.pagination-item {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 486%;
+color: var(--gray-1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.color_dress {
+  display: flex;
+  justify-content: space-between;
+  width: 461px;
+  height: 27px;
+}
+
+.input-color {
+  display: flex;
+  width: 17px;
+height: 17px;
+}
+
+#blue {
+  background: #24426a;
+}
+#green {
+  background: #18574a;
+}
+#magenta {
+  background: #666689;
+}
+
+.input-color {
+	display: inline-block;
+	margin-right: 10px;
+}
+.input-color input[type=radio] {
+	display: none;
+}
+.input-color label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-radius: 6px;
+	user-select: none;
+}
+.form_radio_group {
+  display: flex;
+  overflow: hidden;
+  max-width: 101px;
+  justify-content: space-between;
+  width: 100%;
+}
+.form_radio_group-item {
+  display: inline-block;
+  float: left;
+  width: 17px;
+  height: 17px;
+}
+.form_radio_group input[type=radio] {
+	display: none;
+}
+.form_radio_group label {
+	display: inline-block;
+	cursor: pointer;
+	padding: 0px 15px;
+	line-height: 34px;
+	border: 1px solid #999;
+	border-right: none;
+	user-select: none;
+}
+ 
+.form_radio_group .form_radio_group-item:first-child label {
+	border-radius: 6px 0 0 6px;
+}
+.form_radio_group .form_radio_group-item:last-child label {
+	border-radius: 0 6px 6px 0;
+	border-right: 1px solid #999;
+}
+ 
+/* Checked */
+.form_radio_group input[type=radio]:checked + label {
+	background: #ffe0a6;
+}
+ 
+/* Hover */
+.form_radio_group label:hover {
+	color: #666;
+}
+ 
+/* Disabled */
+.form_radio_group input[type=radio]:disabled + label {
+	background: #efefef;
+	color: #666;
+}
+
+input[type="radio"]:checked + label:before, input[type="radio"]:not(:checked) + label:before {
+  border-radius: 100%;
+  display: none;
+}
+
+.dark-blue {
+background: #24426a;
+}
+
+.green {
+background: #18574a;
+}
+
+.magenta {
+background: #666689;
+}

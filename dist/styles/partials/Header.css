@@ -197,7 +197,7 @@ label {
   opacity: 1;
 }
 
-.sign-in-button {
+.button {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
@@ -209,6 +209,7 @@ label {
   height: 50px;
   margin-top: 82px;
   margin-bottom: 15px;
+  transition: 1s;
 }
 
 .create-account-button {
@@ -222,6 +223,8 @@ label {
   text-align: center;
   color: var(--white);
   background: var(--black);
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 #sign-in-checkbox {
@@ -320,7 +323,13 @@ label {
 
 .cart-list-pop-up-wrap {
   display: flex;
-  padding: 45px 30px 0 30px;
+  padding: 45px 30px 31px 30px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cart-list__item_block {
+  display: flex;
   flex-direction: column;
 }
 
@@ -343,7 +352,7 @@ label {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 18px;
-  line-height: 133%;
+  line-height: 120%;
   color: var(--black);
 }
 
@@ -464,6 +473,7 @@ color: var(--black-2);
 .navigation__link_submenu-wrap {
   display: flex;
   z-index: 7;
+  background: #fff;
 }
 
 .navigation__link_submenu {
@@ -491,6 +501,7 @@ color: var(--black-2);
   padding-bottom: 5px;
   border-bottom: 2px solid var(--black);
   margin-bottom: 18px;
+  list-style: none;
 }
 
 .item-menu {
@@ -543,4 +554,93 @@ color: var(--black-2);
 
 .sub-menu-block-pic {
   display: flex;
+}
+
+.cart_subtotal-text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cart_subtotal,
+.price-number {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 20px;
+line-height: 340%;
+text-align: right;
+color: var(--black);
+}
+
+.view-cart {
+  margin-bottom: 15px;
+  margin-top: 0;
+}
+
+.checkout {
+  color: var(--white);
+  background: var(--black);
+  border: none;
+  margin-top: 0;
+ 
+}
+
+.checkout:hover {
+  animation: pulse 3s infinite;
+  -webkit-animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+  0% {
+    color: var(--white);;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transform: scale(1);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+  20% {
+    color: gold;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+  40% {
+    color: gold;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+}
+  60% {
+    color: var(--white);
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
 }

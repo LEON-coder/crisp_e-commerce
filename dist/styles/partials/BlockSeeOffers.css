@@ -72,6 +72,7 @@ color: var(--black);
     min-height: 56px;
     border: 2px solid var(--black);
     margin-top: 51px;
+    width: 100%;
 }
 
 .your-look__block-info {
@@ -85,13 +86,9 @@ color: var(--black);
 
 .brand-new-style {
     background: linear-gradient(90deg, #f7e0d5 0%, #f3dcd2 83.85%, rgba(243, 220, 210, 0.14) 100%);
-    display: flex;
-}
+   }
 
 .woman-2 {
-    background: var(--divider);
-    max-width: 557px;
-    height: 100%;
     position: absolute;
     top: 0;
     right: 0;
