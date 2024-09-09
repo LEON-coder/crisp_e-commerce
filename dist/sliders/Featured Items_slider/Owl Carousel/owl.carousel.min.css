@@ -9,6 +9,10 @@
   position: relative
 }
 
+.item {
+    padding: 20px 0px 10px 20px;
+}
+
 .owl-carousel {
   display: none;
   width: 100%;

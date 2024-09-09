@@ -87,10 +87,11 @@ color: var(--black);
     background: linear-gradient(90deg, #f7e0d5 0%, #f3dcd2 83.85%, rgba(243, 220, 210, 0.14) 100%);
     display: flex;
 }
+
 .woman-2 {
     background: var(--divider);
     max-width: 557px;
-    height: 434px;
+    height: 100%;
     position: absolute;
     top: 0;
     right: 0;
@@ -141,7 +142,7 @@ color: #131313;
 }
 
 .BlockProposing__headline-2 {
-    max-width: 260px;
+    max-width: 350px;
 }
 
 .BlockProposing__headline-3 {

@@ -58,7 +58,7 @@ p {
   justify-content: space-around;
   min-width: 100%;
 }
-.item {
+.item_brand {
   background: #ccc;
   flex: 0 0 auto;
   width: 100px;
@@ -74,12 +74,12 @@ p {
   margin: 10px 0;
   transition: all 0.1s ease-in-out;
 }
-.item:hover {
+.item_brand:hover {
   transform: scale(1.05);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
-.item:before {
+.item_brand:before {
   content: counter(item);
 }
 
