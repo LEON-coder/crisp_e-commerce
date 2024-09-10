@@ -530,7 +530,7 @@ section.range-slider input[type=range] {
   -webkit-tap-highlight-color: var(--black);
   background: var(--black);
   left: 0;
-  top: 65px;
+  top: 40px;
   width: 100%;
   height: 2px;
 }
@@ -603,13 +603,15 @@ section.range-slider input[type=range]::-moz-focus-outer {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-top: 24px;  
 }
 
 .Range-block {
   display: flex;
+  margin-top: 24px;
+  justify-content: flex-end;
   position: relative;
-  margin-top: 14px;
+  max-height: 120px;
+  height: 100%;
 }
 
 .rangeValues-left, .rangeValues-right {
@@ -618,6 +620,41 @@ section.range-slider input[type=range]::-moz-focus-outer {
   font-size: 14px;
   text-transform: uppercase;
   color: var(--black);
+}
+
+
+.apply {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--gray-1);
+  border: 2px solid var(--divider);
+  width: 114px;
+  height: 40px;
+  background: var(--light-blue-hover);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.About_Dresses__headline {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 283%;
+  color: var(--black);
+}
+
+.About_Dresses__secribe {
+  font-family: var(--font3);
+font-weight: 400;
+font-size: 18px;
+line-height: 156%;
+letter-spacing: 0.01em;
+color: var(--black);
 }
 
 
