@@ -27,13 +27,6 @@
     z-index: 2;
 }
 
-.Bannershoping__wrap {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    height: 100%;
-    align-items: center;
-}
 
 .Bannershoping-block-text {
     display: flex;

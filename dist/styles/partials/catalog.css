@@ -146,7 +146,7 @@ details[open] > .Color-list {
   display: flex;
   background: #18574a;  
 }
-#magenta {
+#purple {
   display: flex;
   background: #666689; 
 }
@@ -156,7 +156,7 @@ details[open] > .Color-list {
 }
 #Darkgrey {
   display: flex;
-  background: #aaaba7; 
+  background: #a75e5d; 
 }
 #Darkred {
   display: flex;
@@ -170,13 +170,18 @@ details[open] > .Color-list {
   display: flex;
   background: #73513c;
 }
-#purple {
+#pink {
   display: flex;
   background: #dab1b1;
 }
-#Lightgreen{
+
+#aquamarin {
   display: flex;
   background: #2b9fa7;
+}
+#silver {
+  display: flex;
+  background: #c2beb6;
 }
 
 .brand-list {
@@ -278,7 +283,14 @@ details[open] > .brand-list {
   display: flex;
   flex-direction: column;
   width: 344px;
-  margin-bottom: 41px;
+  margin-bottom: 48px;
+}
+
+.catalog__block-cloth:nth-child(9),
+.catalog__block-cloth:nth-child(10),
+.catalog__block-cloth:nth-child(11),
+.catalog__block-cloth:nth-child(12) {
+  margin-bottom: 0;
 }
 
 .catalog__headline {
@@ -325,7 +337,7 @@ color: var(--gray-1);
 .color_dress {
   display: flex;
   justify-content: space-between;
-  width: 461px;
+  max-width: 101px;
   height: 27px;
 }
 
@@ -525,6 +537,7 @@ section.range-slider {
 section.range-slider input[type=range] {
   pointer-events: none;
   position: absolute;
+  appearance: none;
   -webkit-appearance: none;
   -webkit-tap-highlight-color: var(--black);
   background: var(--black);
@@ -538,6 +551,7 @@ section.range-slider input[type=range]::-webkit-slider-thumb {
   position: relative;
   z-index: 1;
   outline: 0;
+  appearance: none;
   -webkit-appearance: none;
   width: 6px;
   height: 20px;
@@ -654,6 +668,50 @@ font-size: 18px;
 line-height: 156%;
 letter-spacing: 0.01em;
 color: var(--black);
+}
+
+.catalog__goods-block-wrap {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  border-left: 1px solid var(--divider);
+  margin-bottom: 39px;
+}
+
+.banner-catalog {
+  background: url('../../img/catalog_page/Bannershoping-2_catalog-back.png') no-repeat center center;
+  max-height: 430px;
+  height: 100%;
+  margin-top: 44px;
+}
+
+
+.catalog__bannershoping-text {
+  color: var(--white);
+}
+
+.catalog__bannershoping-button {
+  color: var(--white);
+  border: 2px solid var(--white);
+}
+
+.catalog-bannershoping-frame {
+  stroke: var(--white);
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.catalog__bannershoping-block-text {
+  margin-top: 59px;
+  margin-left: 179px;
+  padding-top: 19px;
+  margin-bottom: 59px;
+}
+
+.catalog__2-section {
+  margin-top: 26px;
+  padding-bottom: 44px;
 }
 
 
