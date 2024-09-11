@@ -175,11 +175,158 @@ details[open] > .Color-list {
   background: #dab1b1;
 }
 
-#aquamarin {
+
+#aquamarin,
+#aquamarin-2,
+#aquamarin-3,
+#aquamarin-4
+ {
   display: flex;
   background: #2b9fa7;
 }
+
 #silver {
+  display: flex;
+  background: #c2beb6;
+}
+
+
+ #black_dress,
+ #black_dress-2,
+ #black_dress-3,
+ #black_dress-4,
+ #black_dress-5  {
+  display: flex;
+  background: #292a2d;
+}
+#white_dress,
+#white_dress-2,
+#white_dress-3,
+#white_dress-4,
+#white_dress-5,
+#white_dress-6,
+#white_dress-7,
+#white_dress-8 {
+  display: flex;
+  background: #f3ece2;
+}
+
+#blue_dress,
+#blue_dress-2,
+#blue_dress-3,
+#blue_dress-4,
+#blue_dress-5,
+#blue_dress-6,
+#blue_dress-7,
+#blue_dress-8,
+#blue_dress-9,
+#blue_dress-10,
+#blue_dress-11,
+#blue_dress-12 
+ {
+  display: flex;
+  background: #24426a;
+}
+
+
+#green_dress,
+#green_dress-2,
+#green_dress-3,
+#green_dress-4 {
+  display: flex;
+  background: #18574a;  
+}
+#purple_dress,
+#purple_dress-2,
+#purple_dress-3,
+#purple_dress-4,
+#purple_dress-5,
+#purple_dress-6,
+#purple_dress-7,
+#purple_dress-8,
+#purple_dress-9,
+#purple_dress-10
+ {
+  display: flex;
+  background: #666689; 
+}
+
+#grey_dress {
+  display: flex;
+  background: #c2beb6; 
+}
+#Darkgrey_dress {
+  display: flex;
+  background: #a75e5d; 
+}
+#Darkgrey_dress-2 {
+  display: flex;
+  background: #a75e5d; 
+}
+#Darkgrey_dress-3 {
+  display: flex;
+  background: #a75e5d; 
+}
+#Darkgrey_dress,
+#Darkgrey_dress-2,
+#Darkgrey_dress-3,
+#Darkgrey_dress-4 {
+  display: flex;
+  background: #a75e5d; 
+}
+#Darkred_dress,
+#Darkred_dress-2,
+#Darkred_dress-3,
+#Darkred_dress-4,
+#Darkred_dress-5,
+#Darkred_dress-6,
+#Darkred_dress-7 {
+  display: flex;
+  background: #971e34;
+}
+
+#Gold_dress,
+#Gold_dress-2,
+#Gold_dress-3,
+#Gold_dress-4 {
+  display: flex;
+  background: #cba13e;
+}
+#brown_dress {
+  display: flex;
+  background: #73513c;
+}
+#pink_dress,
+#pink_dress-2,
+#pink_dress-3,
+#pink_dress-4,
+#pink_dress-5,
+#pink_dress-6,
+#pink_dress-7 {
+  display: flex;
+  background: #dab1b1;
+}
+
+#aquamarin_dress,
+#aquamarin_dress-2,
+#aquamarin_dress-3,
+#aquamarin_dress-4,
+#aquamarin_dress-5,
+#aquamarin_dress-6,
+#aquamarin_dress-7,
+#aquamarin_dress-8
+ {
+  display: flex;
+  background: #2b9fa7;
+}
+
+
+#silver_dress,
+#silver_dress-2,
+#silver_dress-3,
+#silver_dress-4,
+#silver_dress-5,
+#silver_dress-6 {
   display: flex;
   background: #c2beb6;
 }
