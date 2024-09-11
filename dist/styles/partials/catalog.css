@@ -30,6 +30,51 @@
   flex-direction: column; 
 }
 
+.filter-block__block-name {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.filter-block__name {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 32px;
+  color: var(--black);
+  display: flex;
+  align-self: center;
+}
+
+.filter-block__close {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  cursor: pointer;
+}
+
+.filter-block__stripe {
+  display: flex;
+  align-items: center;
+  margin-right: 8px;
+}
+
+.filter-block__reset {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--black);
+}
+
+.filter-block__checked-items {
+  display: none;
+  flex-direction: column;
+  width: 100%;
+  border: 1px solid var(--black);
+  height: auto;
+  padding: 28px 22px 28px 23px;
+}
 .Brand_dress {
   display: flex;
   width: 100%;
