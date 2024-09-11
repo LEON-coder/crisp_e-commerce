@@ -621,10 +621,22 @@ section.range-slider input[type=range]::-moz-focus-outer {
 .Range-block {
   display: flex;
   margin-top: 24px;
-  justify-content: flex-end;
   position: relative;
+  flex-direction: column;
   max-height: 120px;
   height: 100%;
+  align-items: flex-end;
+  justify-content: space-between;
+  left: -10000px;
+}
+
+details[open] > .Range-block {
+  transition: 1s;
+  opacity: 1;
+  justify-content: space-between;
+  margin-top: 31px;
+  left: 0;
+  margin-bottom: 60px;
 }
 
 .rangeValues-left, .rangeValues-right {
@@ -648,9 +660,6 @@ section.range-slider input[type=range]::-moz-focus-outer {
   width: 114px;
   height: 40px;
   background: var(--light-blue-hover);
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 
 .About_Dresses__headline {
