@@ -877,6 +877,7 @@ color: var(--black);
   padding-left: 30px;
   border-left: 1px solid var(--divider);
   margin-bottom: 39px;
+  align-items: end;
 }
 
 .banner-catalog {
@@ -913,6 +914,70 @@ color: var(--black);
 .catalog__2-section {
   margin-top: 26px;
   padding-bottom: 44px;
+}
+
+.catalog__img-dress {
+  width: 100%;
+}
+
+.catalog__filter-price-dress {
+  width: 255px;
+  height: 46px;
+  padding: 11px 24px 11px 7px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--black);
+  outline: none;
+  border: 1px solid var(--divider);
+}
+
+.catalog__filter-price-dress-wrap {
+  display: flex;
+  max-width: 344px;
+  height: 46px;
+  width: 100%;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.catalog__filter-price-item {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 486%;
+text-transform: uppercase;
+color: var(--black);
+}
+
+.filter-sizes__item {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 486%;
+text-transform: uppercase;
+color: var(--black);
+}
+
+.catalog__filter-sizes {
+  width: 69px;
+  height: auto;
+  border: 1px solid var(--divider);
+  padding: 11px;
+  outline: none;
+}
+
+option {
+  background-color: gray;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.select>select:active,
+.select>select:focus {
+ position: absolute;
+ right: 0;
 }
 
 
