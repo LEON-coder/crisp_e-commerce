@@ -13,6 +13,7 @@
 @import 'partials/Slider.css';
 @import 'partials/animation_brands.css';
 @import 'partials/catalog.css';
+@import 'partials/productDressItem.css';
 
 
 
@@ -86,9 +87,7 @@ input {
   padding: 0 20px;
 }
 
-img {
-  width: 100%;
-}
+
 
 
 

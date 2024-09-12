@@ -1,0 +1,134 @@
+
+.product__dress-item-wrap {
+  display: flex;
+  flex-direction: column;
+  padding: 52px 339px 0 238px;
+}
+
+.product__dress-item {  
+  margin-top: 52px;
+}
+
+.product__drop-menu-block {
+  display: flex;
+  max-width: 1242px; 
+  width: 100%;
+  flex-direction: column;
+}
+
+.product__drop-menu-name {
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 179%;
+  color: var(--black);
+}
+
+.product__drop-menu-headline {
+  position: relative;
+}
+.product__drop-menu-headline::before {
+  content: url(../../img/product-drop-plus.svg);
+  width: 17px;
+}
+
+details[open] > .product__drop-menu-headline::before {
+  content: url("../../img/product-drop-minus.svg"); 
+  width: 17px;
+  height: 2px;
+  position: absolute;
+  right: 20px;
+  top: 0px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.product__drop-menu-describe {
+  font-family: var(--second-family);
+line-height: 214%;
+color: var(--black-2);
+}
+
+.about-product-block {
+  display: flex;
+  margin-top: 32px;
+  border-top: 1px solid var(--divider);
+  width: 100%;
+  padding-top: 25px;
+  justify-content: space-between;
+  transition: 1s;
+}
+
+details[open]  {  
+  position: relative;
+}
+
+.about-product-block__wrap {
+  max-width: 645px;
+  width: 100%;
+}
+
+.product__drop-menu {
+  display: flex;
+  width: 100%;
+  cursor: pointer;
+  position: relative;
+  transition: 1s;
+  background: #f8f9fb;
+  max-width: 1242px;
+  padding: 25px 29px 25px 27px;
+  margin-bottom: 10px;
+}
+
+.product__drop-menu:last-child { 
+  margin-bottom: 0;
+}
+
+.advantages__list-block {
+  display: flex;
+  flex-direction: column;
+  margin-top: 15px;
+}
+
+.advantages__list {
+  display: flex;
+  flex-direction: column;
+  padding-left: 17px;
+}
+
+.advantages__item {
+  font-family: var(--second-family);
+line-height: 200%;
+color: var(--black-2);
+}
+
+.product__wrap {
+  display: flex;
+  margin-top: 56px;
+    justify-content: space-between;
+    width: 100%;
+    position: relative;
+}
+
+.shipping-block {
+  display: flex;
+  flex-direction: column;
+  max-width: 567px;
+  width: 100%;
+}
+
+.product__drop-menu-describe-2 {
+  font-family: var(--second-family);
+    line-height: 214%;
+    color: var(--black-2);
+  margin-top: 20px;
+}
+.product__drop-menu-describe-3 {
+  font-family: var(--second-family);
+    line-height: 214%;
+    color: var(--black-2);
+  margin-top: 20px;
+}

@@ -13,6 +13,11 @@
   position: relative;
 }
 
+.Logo {
+  width: 92px;
+height: 42px;
+}
+
 .navigation {
   display: flex;
   align-items: center;
