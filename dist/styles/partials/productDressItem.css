@@ -12,9 +12,10 @@
 
 .product__drop-menu-block {
   display: flex;
-  max-width: 1242px; 
+  max-width: 1242px;
   width: 100%;
   flex-direction: column;
+  margin-top: 71px;
 }
 
 .product__drop-menu-name {
@@ -140,22 +141,34 @@ color: var(--black-2);
   width: 86px;
   height: 333px;
   justify-content: space-between;
+  position: absolute;
+  left: -96px;
 }
 
 .product__gallery-main-photo {
+  position: relative;
   display: flex;
   width: 624px;
-  height: 790px;
-  margin-left: 15px;
+  height: 790px; 
 }
 
 .product__gallery-dress {
   display: flex;
+  position: relative;
 }
 
 .photo {
   width: 76px;
   height: 96px;
+}
+
+.button-zoom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 74px;
+height: 38px;
+background: var(--white);
 }
 
 .dress-options__bread-scrumb {
@@ -172,11 +185,12 @@ color: var(--black-2);
   display: flex;
   margin-left: 68px;
   flex-direction: column;
+  max-width: 550px;
+  width: 100%;
 }
 
 .product__options {
   display: flex;
-  justify-content: space-between;
 }
 
 .product__dress-options {
@@ -191,10 +205,6 @@ color: var(--black-2);
   justify-content: center;
   align-items: center;
   margin-top: 12px;
-}
-
-.label {
-
 }
 
 .brand-dress-name {
@@ -225,18 +235,21 @@ color: var(--black);
   display: flex;
   flex-direction: column;
   margin-top: 22px;
+  max-width: 532px;
 }
 
 .select-size-list {
   display: flex;
   flex-wrap: wrap;
-  max-width: 270px;
-  max-height: 214px;
   width: 100%;
-  justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 8px;
   margin-top: 10px;
+}
+
+.select-size-block {
+  display: flex;
+  justify-content: space-between;
 }
 
 .select-size__headline {
@@ -245,5 +258,142 @@ font-weight: 400;
 font-size: 14px;
 text-transform: uppercase;
 color: var(--black);
+}
+
+.link__size_guide {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+text-decoration: underline;
+text-decoration-skip-ink: none;
+text-align: right;
+color: var(--link);
+}
+
+.product__total-price-block {
+  display: flex;
+  margin-top: 35px;
+}
+.Quantity_price_total-block {
+  display: flex; 
+}
+
+.Quantity-count-block {
+  display: flex;
+  border: 1px solid var(--divider);
+  width: 119px;
+  height: 43px;
+  background: var(--white);
+  margin-top: 10px;
+  justify-content: space-between;
+}
+
+.price-total-headline {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 14px;
+text-transform: uppercase;
+color: var(--black);
+}
+
+.count-minus {
+  width: 10px;
+  height: 2px;
+  background: var(--divider);
+  margin: 20px 20px;
+}
+
+.count-plus-block {
+  margin: 13px 15px;
+}
+
+.count-plus {
+fill: #C4C4C4;
+}
+
+.currency {
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 26px;
+text-transform: uppercase;
+color: var(--black);
+}
+
+.price-total-block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+}
+
+.price-total {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 26px;
+  text-transform: uppercase;
+  color: var(--black);
+  margin-top: 10px;
+}
+
+.add-to-bag {
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--white);
+  width: 221px;
+  height: 50px;
+  background: var(--black);
+  border: none;
+}
+
+.button-save {
+  border: 2px solid var(--divider);
+width: 220px;
+height: 50px;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: center;
+color: var(--black-2);
+}
+
+.product__block-sale {
+  margin-top: 36px;
+  max-width: 460px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.like-icon {
+  margin-right: 10px;
+  fill: #3F3F3F;
+}
+
+.product__info_image {
+  margin-right: 6px;
+}
+
+.product__info {
+  display: flex;
+  margin-top: 11px;
+}
+
+.product__info_item {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: var(--gray-1);
+    margin-right: 15px;
+}
+
+.product__bold-text {
+  font-weight: 600;
 }
 

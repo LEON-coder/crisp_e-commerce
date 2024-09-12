@@ -266,6 +266,7 @@
       
       <div class="product__gallery-main-photo">
       <img src="../img/Product/big_small.png" alt="">
+      <button type="button" class="button-zoom">Zoom</button>
       </div>
         </article>
 
@@ -320,8 +321,13 @@
       </section>
           
       <section class="select-size">
-        <p class="select-size__headline">Size (Inches)</p>
-        <div class="select-size-list">
+
+        <section class="select-size-block">
+           <p class="select-size__headline">Size (Inches)</p>
+        <a class="link__size_guide" href="">Size guide</a>
+        </section>
+       
+        <section class="select-size-list">
           <div class="form_checkbox_btn">
             <input type="checkbox" class="size-checkbox-item" name="osfa" id="osfa">
             <label for="osfa">osfa</label>
@@ -402,7 +408,53 @@
             <input type="checkbox" class="size-checkbox-item" name="w52" id="w52">
             <label for="w52">w52</label>
           </div>
-        </div>
+        </section>
+
+        <section class="product__total-price-block">
+          <article class="product__quantity-block">
+<span class="price-total-headline">Quantity</span>
+
+<section class="Quantity-count-block">
+<div class="count-minus"></div>
+<div class="count-number"></div>
+<div class="count-plus-block">
+  <svg class="count-plus" width="12" height="12" viewBox="0 0 12 12" fill="" xmlns="http://www.w3.org/2000/svg">
+    <rect y="5" width="12" height="2" fill="#C4C4C4" />
+    <rect x="7" width="12" height="2" transform="rotate(90 7 0)" fill="" />
+  </svg>
+</div>
+</section>
+          </article>
+
+          <article class="price-total-block">
+            <span class="price-total-headline">price total</span>
+            <div class="price-total">90,00 <span class="currency">EUR</span></div>
+          </article>
+        </section>
+
+        <section class="product__block-sale">
+          <button type="button" class="add-to-bag">Add to bag</button>
+          <button type="button" class="button-save">           
+            <svg class="like-icon" width="18" height="18" viewBox="0 0 18 18" fill="" xmlns="http://www.w3.org/2000/svg">
+              <path d="M8.9998 15.4324L8.93425 15.3755L7.89039 14.4692L8.9998 15.4324ZM8.9998 15.4324L9.06536 15.3755M8.9998 15.4324L9.06536 15.3755M9.06536 15.3755L10.1092 14.4692L9.06536 15.3755ZM8.9998 3.98089C9.80379 3.13432 10.9974 2.59995 12.2398 2.59995C14.508 2.59995 16.2998 4.29501 16.2998 6.47652C16.2998 7.80531 15.6706 9.00551 14.5882 10.2684C13.5068 11.5301 11.9613 12.8676 10.1094 14.4691L8.9998 3.98089ZM8.9998 3.98089C8.19582 3.13432 7.00223 2.59995 5.7598 2.59995C3.49162 2.59995 1.6998 4.29501 1.6998 6.47652C1.6998 7.80531 2.329 9.00551 3.41138 10.2684C4.4928 11.5301 6.03835 12.8676 7.89025 14.4691L8.9998 3.98089ZM9.00645 13.3016L9.00637 13.3016L9.00279 13.305L8.9966 13.3109L8.98611 13.3018L8.98604 13.3017C7.27421 11.8204 5.85966 10.596 4.87216 9.49453C3.88329 8.39158 3.3398 7.43014 3.3398 6.47652C3.3398 5.16287 4.37051 4.17325 5.7598 4.17325C6.83254 4.17325 7.87305 4.83937 8.23763 5.73157L8.26304 5.79374H8.3302H9.6694H9.73657L9.76197 5.73157C10.1266 4.83937 11.1671 4.17325 12.2398 4.17325C13.6291 4.17325 14.6598 5.16287 14.6598 6.47652C14.6598 7.43012 14.1163 8.39156 13.1266 9.4945C12.1382 10.5959 10.7219 11.8204 9.00645 13.3016Z" fill="" stroke="#3F3F3F" stroke-width="0.2" />
+            </svg>
+            Save
+          </button>
+      </section>
+
+      <section class="product__info">
+<span class="product__info_item">
+  <svg class="product__info_image" width="14" height="10" viewBox="0 0 14 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M1 3L6 8L13 1" stroke="#828282" stroke-width="2.4" />
+  </svg>Free shipping
+</span>
+<span class="product__info_item">
+  <span class="product__bold-text">Product code:</span>  RFKK1024
+</span>
+<span class="product__info_item">
+  <span class="product__bold-text">TAGS:</span>  NEW arrivals, Top women
+</span>
+      </section>
       </section>
          </section>
   </section>
