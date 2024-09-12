@@ -251,7 +251,8 @@ details[open] > .Color-list {
 #white_dress-5,
 #white_dress-6,
 #white_dress-7,
-#white_dress-8 {
+#white_dress-8,
+#white_dress-9 {
   display: flex;
   background: #f3ece2;
 }
@@ -267,7 +268,8 @@ details[open] > .Color-list {
 #blue_dress-9,
 #blue_dress-10,
 #blue_dress-11,
-#blue_dress-12 
+#blue_dress-12, 
+#blue_dress-13 
  {
   display: flex;
   background: #24426a;
@@ -290,7 +292,8 @@ details[open] > .Color-list {
 #purple_dress-7,
 #purple_dress-8,
 #purple_dress-9,
-#purple_dress-10
+#purple_dress-10,
+#purple_dress-11
  {
   display: flex;
   background: #666689; 
