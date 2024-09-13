@@ -24,6 +24,31 @@
   gap: 26px;
 }
 
+.Women-dress__submenu {
+  display: flex;
+  background-color: red;
+}
+
+.submenu-content-2-drop {
+  display: flex;
+  opacity: 0;
+  flex-direction: column;
+  position: absolute;
+  right: 1000px;
+}
+
+.submenu-content-3-drop {
+  display: flex;
+  opacity: 0;
+}
+
+.link-menu__womens-dress:hover .submenu-content-2-drop {
+  position: absolute;
+  display: flex;
+  opacity: 1;
+  right: 0;
+}
+
 .filter-block {
   width: 355px;
   display: flex;
@@ -525,7 +550,6 @@ details[open] > .brand-list {
   font-family: var(--second-family);
 font-weight: 400;
 font-size: 14px;
-line-height: 486%;
 color: var(--gray-1);
 }
 
