@@ -621,9 +621,21 @@ input[type="checkbox"]:checked + label:before, input[type="checkbox"]:not(:check
   justify-content: center;
   align-items: center;
 }
+
+.form_checkbox_btn label:hover {
+  border: 2px solid var(--gray-1);
+  transition: .6s;
+  -webkit-transition: .6s;
+  -moz-transition: .6s;
+  -ms-transition: .6s;
+  -o-transition: .6s;
+}
+
+
 .form_checkbox_btn input[type=checkbox] {
 	display: none;
 }
+
 .form_checkbox_btn label {
   display: flex;
   cursor: pointer;
@@ -638,7 +650,7 @@ input[type="checkbox"]:checked + label:before, input[type="checkbox"]:not(:check
   text-transform: uppercase;
   text-align: center;
   color: var(--gray-1);
-  border: 1px solid var(--divider);
+  border: 2px solid var(--divider);
   width: 47px;
   height: 47px;
 }
@@ -691,6 +703,14 @@ label {
 .checkbox-label {
   cursor: pointer;
   border: 2px solid transparent;
+  transition: .5s;
+  box-sizing: border-box;
+  padding: 5px;
+}
+
+.checkbox-label:hover {
+  cursor: pointer;
+  border: 2px solid var(--divider);
   transition: .5s;
   box-sizing: border-box;
   padding: 5px;
