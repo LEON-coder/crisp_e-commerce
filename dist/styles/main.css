@@ -15,6 +15,7 @@
 @import 'partials/catalog.css';
 @import 'partials/productDressItem.css';
 @import 'partials/article-1.css';
+@import 'partials/create_account.css';
 
 
 
@@ -87,6 +88,8 @@ input {
 .content {
   padding: 0 20px;
 }
+
+
 
 
 
