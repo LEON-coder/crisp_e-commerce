@@ -1,0 +1,847 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart</title>
+  <link rel="stylesheet" href="../styles/main.css" >
+    <!-- Подключение плагина OwlCarousel -->
+    <link rel="stylesheet" href="../sliders/Featured Items_slider/Owl Carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="../sliders/Featured Items_slider/Owl Carousel/owl.theme.default.min.css">
+</head>
+<body>
+  <section class="header">
+    <a href="index.html">
+        <img class="Logo" src="../img/Logo.svg" alt="logo" >
+    </a>
+
+    <nav class="navigation">
+      <ul class="navigation__links">
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">home</a>
+          <div class="navigation__link_submenu">
+            <section class="navigation__link_submenu-wrap">
+
+              <article class="submenu-contents-block">
+                <article class="navigation__link_submenu-content">
+                  <ul class="navigation__list_submenu">
+                    <li class="navigation__link_submenu_headline"> Menu Category List </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">Product Page With Sidebar</a>
+                    </li>
+                    <li class="item-menu womens_dress">
+                      <a href="#" class="link-menu link-menu__womens-dress">
+                        Womens Dress
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Horizontal Thumbnails
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Vertical Thumbnails
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Addtocart Sticky
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Vertical Tabs
+                    </a>
+                  </li>
+                  </ul>
+                </article>
+                <article class="navigation__link_submenu-content submenu-content-2-drop">
+                  <ul class="navigation__list_submenu">
+                    <li class="navigation__link_submenu_headline"> Menu Category List </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">Product Page With Sidebar</a>
+                    </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Product Page Without Sidebar
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Horizontal Thumbnails
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Vertical Thumbnails
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Addtocart Sticky
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Vertical Tabs
+                    </a>
+                  </li>
+                  </ul>
+                </article>
+                <article class="navigation__link_submenu-content submenu-content-3-drop">
+                  <ul class="navigation__list_submenu">
+                    <li class="navigation__link_submenu_headline"> Menu Category List </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">Product Page With Sidebar</a>
+                    </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Product Page Without Sidebar
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Horizontal Thumbnails
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Vertical Thumbnails
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Addtocart Sticky
+                    </a>
+                  </li>
+                    <li class="item-menu">
+                      <a href="#" class="link-menu">
+                      Vertical Tabs
+                    </a>
+                  </li>
+                  </ul>
+                </article>
+              </article>
+<section class="sub-menu-block-pic">
+<img class="opacity-picture" src="./dist/img/Header/sub_menu/sub-menu-block-shadow.png" alt="">
+<img class="picture-sub-menu" src="./dist/img/Header/sub_menu/sub_menu-img.png" alt="">
+</section>
+
+            </section>
+          </div>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="dist/pages/catalog.html">shop</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">blog</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">sale</a>
+        </li>
+        <li class="navigation__item">
+          <a class="navigation__link" href="#">contact us</a>
+        </li>
+      </ul>
+
+      <section class="search-block">
+        <svg
+          width="17"
+          height="17"
+          viewBox="0 0 17 17"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <circle
+            cx="6.15385"
+            cy="6.15385"
+            r="4.95385"
+            stroke="white"
+            stroke-width="2.4"
+          />
+          <path
+            d="M11.4872 11.4871L16 15.9999"
+            stroke="white"
+            stroke-width="2.4"
+          />
+        </svg>
+
+        <span class="search-block__text"> search </span>
+
+        <section class="search-block-open">
+          <input
+            type="search"
+            placeholder="Search"
+            class="search-open-input"
+          >
+          <svg
+            class="search-open-icon"
+            width="17"
+            height="17"
+            viewBox="0 0 17 17"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle
+              cx="6.15385"
+              cy="6.15385"
+              r="4.95385"
+              stroke="white"
+              stroke-width="2.4"
+            />
+            <path
+              d="M11.4872 11.4871L16 15.9999"
+              stroke="white"
+              stroke-width="2.4"
+            />
+          </svg>
+        </section>
+      </section>
+    </nav>
+
+    <div class="header__block-autorization">
+      <a class="header__sign-in" href="#"> SIGN IN </a>
+      <a class="header__create-account" href="#"> CREATE AN ACCOUNT </a>
+    </div>
+
+    <div class="header__cart-block">
+      <a href="#" class="icon-like">
+        <svg
+          width="23"
+          height="22"
+          viewBox="0 0 23 22"
+          fill=""
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M10.7096 18.9029L11.5 19.5949L12.2904 18.9029L13.5212 17.8254L13.5229 17.8239L13.561 17.7907C15.7089 15.9176 17.5897 14.2775 18.9222 12.7097C20.2744 11.1187 21.2 9.44687 21.2 7.49591C21.2 4.26214 18.5597 1.8 15.325 1.8C13.9256 1.8 12.5737 2.2769 11.5 3.08132C10.4263 2.2769 9.07441 1.8 7.675 1.8C4.44032 1.8 1.8 4.26214 1.8 7.49591C1.8 9.44687 2.7256 11.1187 4.07783 12.7097C5.41031 14.2774 7.29114 15.9176 9.43903 17.7907L9.47705 17.8239L9.4788 17.8254L10.7096 18.9029Z"
+            stroke="white"
+            stroke-width="2.4"
+          />
+        </svg>
+      </a>
+
+        <svg class="icon-cart"
+          width="18"
+          height="22"
+          viewBox="0 0 18 22"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M1.27266 20.8L2.13149 6.2H15.8685L16.7273 20.8H1.27266Z"
+            stroke="white"
+            stroke-width="2.4"
+          />
+          <path
+            d="M5 5V3C5 2.44772 5.44772 2 6 2H12C12.5523 2 13 2.44772 13 3V5"
+            stroke="white"
+            stroke-width="2.4"
+          />
+        </svg>
+
+      <div class="shopping-cart-total">
+
+        <div class="header__shopping-cart-block">
+          <p class="shopping-cart-text">Shopping Cart</p>
+          <div class="shopping-cart-sum-block">
+            <div class="shopping-cart-summ">0,00</div>
+            <div class="shopping-cart-currency">EUR</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="content">
+
+  <section class="sign-in__pop-up">
+    <form class="sign-in-form">
+        <svg class="pop-up-close" width="23" height="23" viewBox="0 0 23 23" fill="" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.849121 1L21.8491 22M21.8491 1L0.849121 22" stroke="#C4C4C4" stroke-width="2" />
+        </svg>
+<p class="sign-in-form__headline">
+login your account
+</p>
+
+<input type="text" class="input-sign-in mail" placeholder="daisy.watson@example.com">
+<input type="password" class="input-sign-in password" placeholder="Password">
+
+<label for="sign-in-checkbox"> By using this form you agree with the storage and handling of your data by this website.
+<input type="checkbox" id="sign-in-checkbox">
+</label>
+
+<button type="submit" class="button">
+sign in
+</button>
+<button type="submit" class="button create-account-button">
+create an account
+</button>
+    </form>
+  </section>
+
+  <section class="cart-list-pop-up">
+    <section class="cart-list-pop-up-wrap">
+      <section class="cart-list__item_block">
+        <svg class="cart-list-close" width="23" height="23" viewBox="0 0 23 23" fill="" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0.849121 1L21.8491 22M21.8491 1L0.849121 22" stroke="#C4C4C4" stroke-width="2" />
+        </svg>
+        <article class="cart-list__item">
+          <div class="cart-list__img">
+          <img src="../img/Header/cart-list/img-cart-1.png" alt="">
+          </div>
+
+          <div class="cart-list__describe-block">
+          <p class="cart-list__describe">
+            Angels malu zip jeans slim black used
+          </p>
+
+          <div class="cart-list__color-block">
+          <div class="size">
+            Size:
+          </div>
+
+          <div class="size-order">
+            W31/L34
+          </div>
+          </div>
+
+          <div class="cart-list__articul-block">
+            <div class="art_describe">
+              Art.No.:
+            </div>
+            <div class="art_number">
+              434536465
+            </div>
+          </div>
+
+          <div class="cart-list__price">
+            1 x 129,00 EUR
+          </div>
+          </div>
+
+          <div class="cart-list__editing-block">
+            <svg class="cart-list__icon delete" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.849121" width="24" height="24" fill="" />
+              <path d="M9.69214 8.8418L16.8376 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+              <path d="M16.8358 8.8418L9.69031 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+            </svg>
+
+            <svg class="cart-list__icon edit" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.849121" width="24" height="24" fill="" />
+              <path d="M8.81988 18.0001C8.61931 18.0001 8.42183 17.9214 8.2745 17.774C8.05619 17.5557 7.98908 17.2287 8.10324 16.9417L9.64605 13.0847C9.6854 12.9882 9.74325 12.8995 9.81731 12.8262L15.2171 7.42641C15.5188 7.12479 16.0063 7.12479 16.3079 7.42641L18.6221 9.74063C18.9237 10.0422 18.9237 10.5298 18.6221 10.8314L15.5365 13.917C15.2349 14.2186 14.7474 14.2186 14.4457 13.917C14.1441 13.6154 14.1441 13.1279 14.4457 12.8262L16.986 10.286L15.7625 9.06256L11.0207 13.8052L10.2046 15.844L12.2441 15.0286L12.3575 14.9144L12.1315 14.6884C11.8299 14.3868 11.8299 13.8993 12.1315 13.5977C12.4331 13.296 12.9207 13.296 13.2223 13.5977L13.9937 14.3691C14.2953 14.6707 14.2953 15.1582 13.9937 15.4598L13.2223 16.2312C13.1482 16.3053 13.0603 16.3631 12.9631 16.4025L9.10607 17.9453C9.0135 17.9823 8.91631 18.0001 8.81988 18.0001Z" fill="black" />
+            </svg>
+          </div>
+                  </article>
+
+                  <article class="cart-list__item">
+          <div class="cart-list__img">
+          <img src="../img/Header/cart-list/img-cart-2.png" alt="">
+          </div>
+
+          <div class="cart-list__describe-block">
+          <p class="cart-list__describe">
+            Angels malu zip jeans slim black used
+          </p>
+
+          <div class="cart-list__size-block">
+          <div class="size">
+            Size:
+          </div>
+
+          <div class="size-order">
+            W31/L34
+          </div>
+          </div>
+
+          <div class="cart-list__articul-block">
+            <div class="art_describe">
+              Art.No.:
+            </div>
+            <div class="art_number">
+              434536465
+            </div>
+          </div>
+
+          <div class="cart-list__price">
+            1 x 129,00 EUR
+          </div>
+          </div>
+
+          <div class="cart-list__editing-block">
+            <svg class="cart-list__icon delete" width="25" height="24" viewBox="0 0 25 24" fill="" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.849121" width="24" height="24" fill="" />
+              <path d="M9.69214 8.8418L16.8376 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+              <path d="M16.8358 8.8418L9.69031 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+            </svg>
+
+            <svg class="cart-list__icon edit" width="25" height="24" viewBox="0 0 25 24" fill="" xmlns="http://www.w3.org/2000/svg">
+              <rect x="0.849121" width="24" height="24" fill="" />
+              <path d="M8.81988 18.0001C8.61931 18.0001 8.42183 17.9214 8.2745 17.774C8.05619 17.5557 7.98908 17.2287 8.10324 16.9417L9.64605 13.0847C9.6854 12.9882 9.74325 12.8995 9.81731 12.8262L15.2171 7.42641C15.5188 7.12479 16.0063 7.12479 16.3079 7.42641L18.6221 9.74063C18.9237 10.0422 18.9237 10.5298 18.6221 10.8314L15.5365 13.917C15.2349 14.2186 14.7474 14.2186 14.4457 13.917C14.1441 13.6154 14.1441 13.1279 14.4457 12.8262L16.986 10.286L15.7625 9.06256L11.0207 13.8052L10.2046 15.844L12.2441 15.0286L12.3575 14.9144L12.1315 14.6884C11.8299 14.3868 11.8299 13.8993 12.1315 13.5977C12.4331 13.296 12.9207 13.296 13.2223 13.5977L13.9937 14.3691C14.2953 14.6707 14.2953 15.1582 13.9937 15.4598L13.2223 16.2312C13.1482 16.3053 13.0603 16.3631 12.9631 16.4025L9.10607 17.9453C9.0135 17.9823 8.91631 18.0001 8.81988 18.0001Z" fill="black" />
+            </svg>
+          </div>
+        </article>
+      </section>
+
+      <section class="cart-list__total-price-block">
+        <div class="total-price-block">
+
+        <section class="cart_subtotal-text">
+          <p class="cart_subtotal">
+            Cart Subtotal:
+          </p>
+
+          <data class="price-number">
+            139,00 <span class="currency">EUR</span>
+          </data>
+        </section>
+
+
+<button class=" button view-cart" type="button">
+View and edit cart
+</button>
+
+<button class="button checkout" type="button">
+go to checkout
+</button>
+
+
+        </div>
+      </section>
+    </section>
+  </section>
+
+  <section class="article__pagination">
+    <span class="pagination-item">Home</span>/
+    <span class="pagination-item">Womens Dress</span>/
+    <span class="pagination-item">Best Chose</span>
+  </section>
+</section>
+
+<section class="create-account__block">
+
+  <h3 class="create-account__headline">
+    Shopping Cart
+  </h3>
+  
+<section class="shopping-cart__left-block">
+<section class="shopping-cart__left-block-wrap">
+
+  <section class="shopping-cart__product-block">
+<article class="shopping-cart__product">
+  <div class="shopping-cart__headline">Product</div> 
+<article class="shopping-cart__item">
+<img src="../img/shopping-cart/dress-1.png" alt="dress">
+
+<article class="shopping-cart__name-block">
+<p class="shopping-cart__name">
+  Angels malu zip jeans slim black used
+</p>
+
+<article class="shopping-cart__selected-checkbox">
+  <label for="blue" class="checkbox-label color-size">
+    <input type="checkbox" id="blue" class="checkbox">
+    <span class="checkbox-view" id="blue">     
+    </span>
+  </label>
+</article>
+</article>
+</article>
+</article>
+<article class="shopping-cart__product">
+<article class="shopping-cart__item">
+<img src="../img/shopping-cart/dress-1.png" alt="dress">
+
+<article class="shopping-cart__name-block">
+<p class="shopping-cart__name">
+  Angels malu zip jeans slim black used
+</p>
+
+<article class="shopping-cart__selected-checkbox">
+  <label for="blue" class="checkbox-label color-size">
+    <input type="checkbox" id="blue" class="checkbox">
+    <span class="checkbox-view" id="blue">     
+    </span>
+  </label>
+</article>
+</article>
+</article>
+</article>
+  </section>
+
+  <section class="shopping-cart__price-block">
+    <div class="shopping-cart__headline">Price</div> 
+    <section class="shopping-cart__price">
+  <div class="shopping-cart__currency-block">
+    <div class="shopping-cart__price">
+  120,00
+    </div>
+  <span class="currency">UER</span>
+  </div>
+    </section>
+
+    <section class="shopping-cart__price">
+  <div class="shopping-cart__currency-block">
+    <div class="shopping-cart__price">
+  120,00
+    </div>
+  <span class="currency">UER</span>
+  </div>
+  
+    </section>
+  </section>
+
+  <section class="shopping-cart__size-block">
+    <div class="shopping-cart__headline size">Size</div> 
+
+    <article class="shopping-cart__size">
+      W32
+    </article>
+    <article class="shopping-cart__size">
+      W32
+    </article>
+  </section>
+  <section class="shopping-cart__quantity-block">
+    <div class="shopping-cart__headline">Quantity</div> 
+
+    <article class="product__quantity-block">
+
+      <section class="Quantity-count-block">
+      <div class="count-minus-block">
+        <span class="minus"></span>
+      </div>
+      <div class="count-number"></div>
+      <div class="count-plus-block">
+        <svg class="count-plus" width="12" height="12" viewBox="0 0 12 12" fill="" xmlns="http://www.w3.org/2000/svg">
+          <rect y="5" width="12" height="2" fill="#C4C4C4"></rect>
+          <rect x="7" width="12" height="2" transform="rotate(90 7 0)" fill=""></rect>
+        </svg>
+      </div>
+      </section>
+    </article>
+    <article class="product__quantity-block">
+
+      <section class="Quantity-count-block">
+      <div class="count-minus-block">
+        <span class="minus"></span>
+      </div>
+      <div class="count-number"></div>
+      <div class="count-plus-block">
+        <svg class="count-plus" width="12" height="12" viewBox="0 0 12 12" fill="" xmlns="http://www.w3.org/2000/svg">
+          <rect y="5" width="12" height="2" fill="#C4C4C4"></rect>
+          <rect x="7" width="12" height="2" transform="rotate(90 7 0)" fill=""></rect>
+        </svg>
+      </div>
+      </section>
+    </article>
+   
+  </section>
+  <section class="shopping-cart__total-block">
+
+ <div class="shopping-cart__headline total">Total</div>
+ <section class="shopping-cart__total-block-wrap">
+    <span class="shopping-cart__total-block_currency">120,00 EUR</span>
+    <span class="shopping-cart__total-block_currency">120,00 EUR</span>
+    </section>
+  </section>
+
+  <section class="shopping-cart__edit-block">
+    <div class="shopping-cart__headline editing">Editing</div>
+
+    <section class="shopping-cart__editing-block-wrap">
+      <div class="shopping-cart__editing-block">
+        <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
+          
+          <path d="M12.5 18.1347L12.433 18.0743L11.6357 17.355C10.2214 16.0843 9.03929 15.0216 8.21192 14.0187C7.38348 13.0144 6.9 12.0577 6.9 10.9973C6.9 9.25714 8.27676 7.9 10.025 7.9C10.9725 7.9 11.8821 8.31909 12.5 8.98382C13.1179 8.31909 14.0275 7.9 14.975 7.9C16.7232 7.9 18.1 9.25714 18.1 10.9973C18.1 12.0577 17.6165 13.0144 16.7881 14.0187C15.9607 15.0216 14.7787 16.0843 13.3645 17.3549L12.5 18.1347ZM12.5 18.1347L12.567 18.0743L13.3643 17.355L12.5 18.1347ZM12.4973 16.3916C11.1933 15.2193 10.1173 14.251 9.36577 13.3802C8.6115 12.5061 8.2 11.7475 8.2 10.9973C8.2 9.96345 8.97936 9.18992 10.025 9.18992C10.8337 9.18992 11.62 9.71225 11.8954 10.4126L11.9204 10.476H11.9885H13.0115H13.0796L13.1046 10.4126C13.38 9.71225 14.1663 9.18992 14.975 9.18992C16.0206 9.18992 16.8 9.96345 16.8 10.9973C16.8 11.7475 16.3885 12.5061 15.6336 13.3801C14.8814 14.251 13.804 15.2192 12.4973 16.3916Z" fill="" stroke="black" stroke-width="0.2" />
+        </svg>
+
+        <svg class="cart-list__icon delete" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.849121" width="24" height="24" fill=""></rect>
+          <path d="M9.69214 8.8418L16.8376 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round"></path>
+          <path d="M16.8358 8.8418L9.69031 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round"></path>
+        </svg>
+  
+        <svg class="cart-list__icon edit" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.849121" width="24" height="24" fill=""></rect>
+          <path d="M8.81988 18.0001C8.61931 18.0001 8.42183 17.9214 8.2745 17.774C8.05619 17.5557 7.98908 17.2287 8.10324 16.9417L9.64605 13.0847C9.6854 12.9882 9.74325 12.8995 9.81731 12.8262L15.2171 7.42641C15.5188 7.12479 16.0063 7.12479 16.3079 7.42641L18.6221 9.74063C18.9237 10.0422 18.9237 10.5298 18.6221 10.8314L15.5365 13.917C15.2349 14.2186 14.7474 14.2186 14.4457 13.917C14.1441 13.6154 14.1441 13.1279 14.4457 12.8262L16.986 10.286L15.7625 9.06256L11.0207 13.8052L10.2046 15.844L12.2441 15.0286L12.3575 14.9144L12.1315 14.6884C11.8299 14.3868 11.8299 13.8993 12.1315 13.5977C12.4331 13.296 12.9207 13.296 13.2223 13.5977L13.9937 14.3691C14.2953 14.6707 14.2953 15.1582 13.9937 15.4598L13.2223 16.2312C13.1482 16.3053 13.0603 16.3631 12.9631 16.4025L9.10607 17.9453C9.0135 17.9823 8.91631 18.0001 8.81988 18.0001Z" fill="black"></path>
+        </svg>
+      </div>
+      <div class="shopping-cart__editing-block">
+        <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect width="24" height="24" fill="" />
+          <path d="M12.5 18.1347L12.433 18.0743L11.6357 17.355C10.2214 16.0843 9.03929 15.0216 8.21192 14.0187C7.38348 13.0144 6.9 12.0577 6.9 10.9973C6.9 9.25714 8.27676 7.9 10.025 7.9C10.9725 7.9 11.8821 8.31909 12.5 8.98382C13.1179 8.31909 14.0275 7.9 14.975 7.9C16.7232 7.9 18.1 9.25714 18.1 10.9973C18.1 12.0577 17.6165 13.0144 16.7881 14.0187C15.9607 15.0216 14.7787 16.0843 13.3645 17.3549L12.5 18.1347ZM12.5 18.1347L12.567 18.0743L13.3643 17.355L12.5 18.1347ZM12.4973 16.3916C11.1933 15.2193 10.1173 14.251 9.36577 13.3802C8.6115 12.5061 8.2 11.7475 8.2 10.9973C8.2 9.96345 8.97936 9.18992 10.025 9.18992C10.8337 9.18992 11.62 9.71225 11.8954 10.4126L11.9204 10.476H11.9885H13.0115H13.0796L13.1046 10.4126C13.38 9.71225 14.1663 9.18992 14.975 9.18992C16.0206 9.18992 16.8 9.96345 16.8 10.9973C16.8 11.7475 16.3885 12.5061 15.6336 13.3801C14.8814 14.251 13.804 15.2192 12.4973 16.3916Z" fill="black" stroke="black" stroke-width="0.2" />
+        </svg>
+
+        <svg class="cart-list__icon delete" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.849121" width="24" height="24" fill=""></rect>
+          <path d="M9.69214 8.8418L16.8376 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round"></path>
+          <path d="M16.8358 8.8418L9.69031 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round"></path>
+        </svg>
+  
+        <svg class="cart-list__icon edit" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="0.849121" width="24" height="24" fill=""></rect>
+          <path d="M8.81988 18.0001C8.61931 18.0001 8.42183 17.9214 8.2745 17.774C8.05619 17.5557 7.98908 17.2287 8.10324 16.9417L9.64605 13.0847C9.6854 12.9882 9.74325 12.8995 9.81731 12.8262L15.2171 7.42641C15.5188 7.12479 16.0063 7.12479 16.3079 7.42641L18.6221 9.74063C18.9237 10.0422 18.9237 10.5298 18.6221 10.8314L15.5365 13.917C15.2349 14.2186 14.7474 14.2186 14.4457 13.917C14.1441 13.6154 14.1441 13.1279 14.4457 12.8262L16.986 10.286L15.7625 9.06256L11.0207 13.8052L10.2046 15.844L12.2441 15.0286L12.3575 14.9144L12.1315 14.6884C11.8299 14.3868 11.8299 13.8993 12.1315 13.5977C12.4331 13.296 12.9207 13.296 13.2223 13.5977L13.9937 14.3691C14.2953 14.6707 14.2953 15.1582 13.9937 15.4598L13.2223 16.2312C13.1482 16.3053 13.0603 16.3631 12.9631 16.4025L9.10607 17.9453C9.0135 17.9823 8.91631 18.0001 8.81988 18.0001Z" fill="black"></path>
+        </svg>
+      </div>
+    </section>
+  </section>
+
+</section>
+</section>
+
+</section>
+
+
+  <section class="Blog__checkboxes">
+    <section class="Blog__checkbox_topic">
+        <svg class="Blog__topic"
+          width="16"
+          height="12"
+          viewBox="0 0 16 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M1 4.6L6.25 10L15 1" stroke="black" stroke-width="2" />
+        </svg>
+
+      <p class="Blog__topic_headline">Duties and Taxes Guaranteed</p>
+    </section>
+    <section class="Blog__checkbox_topic">
+        <svg  class="Blog__topic"
+          width="16"
+          height="12"
+          viewBox="0 0 16 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M1 4.6L6.25 10L15 1" stroke="black" stroke-width="2" />
+        </svg>
+      <p class="Blog__topic_headline">Duties and Taxes Guaranteed</p>
+    </section>
+    <section class="Blog__checkbox_topic">
+        <svg class="Blog__topic"
+          width="16"
+          height="12"
+          viewBox="0 0 16 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M1 4.6L6.25 10L15 1" stroke="black" stroke-width="2" />
+        </svg>
+      <p class="Blog__topic_headline">Duties and Taxes Guaranteed</p>
+    </section>
+    <section class="Blog__checkbox_topic">
+        <svg class="Blog__topic"
+          width="16"
+          height="12"
+          viewBox="0 0 16 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M1 4.6L6.25 10L15 1" stroke="black" stroke-width="2" />
+        </svg>
+      <p class="Blog__topic_headline">Duties and Taxes Guaranteed</p>
+    </section>
+    <section class="Blog__checkbox_topic">
+        <svg class="Blog__topic"
+          width="16"
+          height="12"
+          viewBox="0 0 16 12"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path d="M1 4.6L6.25 10L15 1" stroke="black" stroke-width="2" />
+        </svg>
+
+      <p class="Blog__topic_headline">Duties and Taxes Guaranteed</p>
+    </section>
+  </section>
+
+  <footer>
+    <section class="content">
+      <section class="footer__wrap">
+        <img class="Logo footer-logo" src="../img/Logo.svg" alt="logo" >
+        <section class="footer__block-list_wrap">
+          <article class="footer__block-list">
+            <h5 class="footer__block-list_headline">features</h5>
+
+            <ul class="footer__block-list_items">
+              <li class="footer__item">
+                <a href="#" class="footer__link"> men </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> Women </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> boys </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> girls </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> new arrivals </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> shoes </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> cothes </a>
+              </li>
+              <li class="">
+                <a href="#" class="footer__link"> accessories </a>
+              </li>
+            </ul>
+          </article>
+
+          <article class="footer__block-list">
+            <h5 class="footer__block-list_headline">Menu</h5>
+            <ul class="footer__block-list_items">
+              <li class="footer__item">
+                <a href="#" class="footer__link"> About us </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> contact us </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> my account </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> orders history </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> MY WISHLIST </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> BLOG </a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link"> LOGIN </a>
+              </li>
+            </ul>
+          </article>
+
+          <article class="footer__block-list">
+            <h5 class="footer__block-list_headline">contact us</h5>
+
+            <article class="contact-us__item">
+              <h5 class="footer__name">Address:</h5>
+
+              <p class="footer__describe">123 STREET NAME, CITY, ENGLAND</p>
+            </article>
+
+            <article class="contact-us__item">
+              <h5 class="footer__name">Phone:</h5>
+
+              <p class="footer__describe">(123) 456-7890</p>
+            </article>
+
+            <article class="contact-us__item">
+              <h5 class="footer__name">email:</h5>
+
+              <p class="footer__describe">MAIL@EXAMPLE.COM</p>
+            </article>
+
+            <article class="contact-us__item">
+              <h5 class="footer__name">working days/hours</h5>
+
+              <p class="footer__describe">MON - SUN / 9:00AM - 8:00PM</p>
+            </article>
+          </article>
+
+          <article class="footer__block-list">
+            <h5 class="footer__block-list_headline">contact us</h5>
+            <article class="network-block">
+                <svg class="social-icon"
+                  width="21"
+                  height="21"
+                  viewBox="0 0 21 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M0 0V21H21V0H0ZM13.8925 5.77925H12.2511C11.926 5.77925 11.5979 6.11525 11.5979 6.36522V8.03894H13.8893C13.797 9.32234 13.6076 10.4959 13.6076 10.4959H11.5861V17.7692H8.57386V10.4952H7.10751V8.04766H8.57386V6.04662C8.57386 5.68071 8.49974 3.23082 11.6603 3.23082H13.8925V5.77925H13.8925Z"
+                    fill="white"
+                  />
+                </svg>
+
+              <p class="social-name">FACEBOOK</p>
+            </article>
+
+            <article class="network-block">
+                <svg class="social-icon"
+                  width="21"
+                  height="21"
+                  viewBox="0 0 21 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_69_3291)">
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M0 0V21H21V0H0ZM16.2808 7.53503C16.2865 7.66302 16.2894 7.79169 16.2894 7.92088C16.2894 11.8626 13.2893 16.4075 7.80295 16.4075C6.11852 16.4075 4.55068 15.9138 3.23072 15.0673C3.46408 15.095 3.70145 15.1092 3.94228 15.1092C5.33972 15.1092 6.6258 14.6323 7.64668 13.8322C6.34145 13.8082 5.23985 12.9458 4.86023 11.7608C5.04245 11.7957 5.22932 11.8145 5.42151 11.8145C5.69354 11.8145 5.95708 11.7778 6.20737 11.7098C4.84292 11.4357 3.81471 10.2302 3.81471 8.78511C3.81471 8.77251 3.81471 8.76 3.81498 8.74754C4.21708 8.97092 4.67695 9.10514 5.16595 9.12065C4.36555 8.58577 3.83912 7.67275 3.83912 6.63803C3.83912 6.09134 3.98622 5.57903 4.24302 5.1384C5.71408 6.94306 7.91192 8.13046 10.3908 8.25498C10.3399 8.03658 10.3134 7.80891 10.3134 7.57518C10.3134 5.92805 11.649 4.59258 13.2962 4.59258C14.1541 4.59258 14.9293 4.95475 15.4734 5.5344C16.1527 5.40078 16.7911 5.15243 17.3675 4.81066C17.1448 5.50722 16.6719 6.09162 16.056 6.46085C16.6594 6.38871 17.2342 6.22832 17.7691 5.99109C17.3694 6.5892 16.8637 7.11457 16.2808 7.53503Z"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_69_3291">
+                      <rect width="21" height="21" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              <p class="social-name">TWITTER</p>
+            </article>
+
+            <article class="network-block">
+                <svg class="social-icon"
+                  width="21"
+                  height="21"
+                  viewBox="0 0 21 21"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g clip-path="url(#clip0_69_3287)">
+                    <path
+                      d="M3.82933 21H17.1723H18.3073H21.0006V18.3063V17.6161V3.38399V2.69324V0H18.3073H17.1723H3.82933H2.69434H0.000823975V2.69324V3.38422V17.616V18.3063V21H2.69407H3.82933V21ZM14.3563 3.28109C14.3563 3.02582 14.4472 2.80538 14.6298 2.61775C14.8119 2.43136 15.035 2.3379 15.2997 2.3379H17.6786C17.9428 2.3379 18.1661 2.43132 18.3485 2.61775C18.5307 2.80511 18.622 3.02582 18.622 3.28109V5.53693C18.622 5.80117 18.5307 6.02493 18.3485 6.20664C18.1661 6.38928 17.9428 6.48012 17.6786 6.48012H15.2995C15.035 6.48012 14.8117 6.38928 14.6296 6.20664C14.4471 6.02497 14.3561 5.80117 14.3561 5.53693V3.28109H14.3563ZM13.5016 8.37238C14.3263 9.16981 14.7388 10.1336 14.7388 11.2636C14.7388 12.3942 14.3263 13.3581 13.5016 14.1551C12.6765 14.953 11.6808 15.3514 10.5143 15.3514C9.35659 15.3514 8.36562 14.953 7.54075 14.1551C6.71561 13.3584 6.30352 12.3944 6.30352 11.2636C6.30352 10.1336 6.71584 9.16957 7.54075 8.37238C8.36562 7.57491 9.35682 7.17608 10.5143 7.17608C11.681 7.17608 12.6765 7.57518 13.5016 8.37238ZM5.64637 3.28109C5.64637 3.02582 5.7372 2.80538 5.91984 2.61775C6.10198 2.43136 6.32532 2.3379 6.58979 2.3379H7.09059C7.35483 2.3379 7.57813 2.43132 7.76054 2.61775C7.94291 2.80511 8.03401 3.02582 8.03401 3.28109V5.53693C8.03401 5.80117 7.94294 6.02493 7.76054 6.20664C7.57813 6.38928 7.35483 6.48012 7.09059 6.48012H6.58979C6.32532 6.48012 6.10198 6.38928 5.91984 6.20664C5.73747 6.02497 5.64637 5.80117 5.64637 5.53693V3.28109ZM2.33876 3.28109C2.33876 3.02582 2.42983 2.80538 2.61224 2.61775C2.79437 2.43136 3.01748 2.3379 3.28218 2.3379H3.78298C4.04722 2.3379 4.27052 2.43132 4.45293 2.61775C4.6353 2.80511 4.72641 3.02582 4.72641 3.28109V5.53693C4.72641 5.80117 4.63534 6.02493 4.45293 6.20664C4.27052 6.38928 4.04722 6.48012 3.78298 6.48012H3.28218C3.01772 6.48012 2.79437 6.38928 2.61224 6.20664C2.42987 6.02497 2.33876 5.80117 2.33876 5.53693V3.28109ZM2.33876 18.2826V9.42318H4.2665C4.0841 9.99731 3.99303 10.5949 3.99303 11.2144C3.99303 12.964 4.63082 14.4572 5.90705 15.6918C7.18305 16.9267 8.7188 17.5438 10.5145 17.5438C11.6992 17.5438 12.7929 17.2619 13.7957 16.6962C14.7982 16.1318 15.5912 15.3632 16.1745 14.3928C16.7577 13.422 17.0494 12.3625 17.0494 11.2142C17.0494 10.5946 16.9583 9.99708 16.7759 9.42295H18.6215V18.2827C18.6215 18.5197 18.5395 18.718 18.3755 18.8771C18.2116 19.0373 18.0155 19.1163 17.7877 19.1163H3.17264C2.93561 19.1163 2.73736 19.0373 2.57791 18.8771C2.41847 18.7179 2.33876 18.5197 2.33876 18.2826Z"
+                      fill="white"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_69_3287">
+                      <rect width="21" height="21" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+
+              <p class="social-name">INSTAGRAM</p>
+            </article>
+          </article>
+
+          <article class="footer__block-list">
+            <h4 class="footer__block-list_headline">join us</h4>
+
+            <p class="footer__join-us_describe">
+              Subscribe to our newsletters
+            </p>
+
+            <input type="text" class="E-mail" placeholder="Email Address" >
+
+            <button type="button" class="subscribe">Subscribe!</button>
+          </article>
+        </section>
+      </section>
+      <p class="copyright">© 2019. Crisp theme Developed by Belvg</p>
+    </section>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+  <script src="../sliders/Featured Items_slider/Owl Carousel/owl.carousel.min.js"></script>
+  <script src="../sliders/Featured Items_slider/Owl Carousel/initialize_slider.js"></script>
+  <script src="../scripts/sign-in.js"></script>
+  <script src="../scripts/cart.js"></script>
+</body>
+</html>

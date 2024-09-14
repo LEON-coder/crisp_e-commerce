@@ -117,8 +117,8 @@ color: var(--gray-1);
 
 .form-button-submit {
   width: 270px;
-height: 50px;
-background: var(--black);
+  height: 50px;
+  background: var(--black);
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 14px;
@@ -126,6 +126,17 @@ background: var(--black);
   text-transform: uppercase;
   text-align: center;
   color: var(--white);
+  border: none;
+  transition: .6s ;
+  -webkit-transition: .6s ;
+  -moz-transition: .6s ;
+  -ms-transition: .6s ;
+  -o-transition: .6s ;
+}
+
+.form-button-submit:hover {
+  background: var(--main-color-2);
+
 }
 
 .link-back {
