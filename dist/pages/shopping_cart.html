@@ -419,7 +419,7 @@ go to checkout
   </section>
 </section>
 
-<section class="create-account__block">
+<section class="create-account__block shopping-cart__block">
 
   <h3 class="create-account__headline">
     Shopping Cart
@@ -428,168 +428,177 @@ go to checkout
 <section class="shopping-cart__left-block">
 <section class="shopping-cart__left-block-wrap">
 
-  <section class="shopping-cart__product-block">
-<article class="shopping-cart__product">
-  <div class="shopping-cart__headline">Product</div> 
-<article class="shopping-cart__item">
-<img src="../img/shopping-cart/dress-1.png" alt="dress">
-
-<article class="shopping-cart__name-block">
-<p class="shopping-cart__name">
-  Angels malu zip jeans slim black used
-</p>
-
-<article class="shopping-cart__selected-checkbox">
-  <label for="blue" class="checkbox-label color-size">
-    <input type="checkbox" id="blue" class="checkbox">
-    <span class="checkbox-view" id="blue">     
-    </span>
-  </label>
-</article>
-</article>
-</article>
-</article>
-<article class="shopping-cart__product">
-<article class="shopping-cart__item">
-<img src="../img/shopping-cart/dress-1.png" alt="dress">
-
-<article class="shopping-cart__name-block">
-<p class="shopping-cart__name">
-  Angels malu zip jeans slim black used
-</p>
-
-<article class="shopping-cart__selected-checkbox">
-  <label for="blue" class="checkbox-label color-size">
-    <input type="checkbox" id="blue" class="checkbox">
-    <span class="checkbox-view" id="blue">     
-    </span>
-  </label>
-</article>
-</article>
-</article>
-</article>
-  </section>
-
-  <section class="shopping-cart__price-block">
-    <div class="shopping-cart__headline">Price</div> 
-    <section class="shopping-cart__price">
-  <div class="shopping-cart__currency-block">
-    <div class="shopping-cart__price">
-  120,00
-    </div>
-  <span class="currency">UER</span>
-  </div>
-    </section>
-
-    <section class="shopping-cart__price">
-  <div class="shopping-cart__currency-block">
-    <div class="shopping-cart__price">
-  120,00
-    </div>
-  <span class="currency">UER</span>
-  </div>
+  <table class="shopping-cart__table">
+    <tr class="shopping-cart__headlines-block">
+      <td> <div class="shopping-cart__headline product">Product</div> </td>
+      <td><div class="shopping-cart__headline price">Price</div> </td>
+      <td> <div class="shopping-cart__headline shopping-cart__headline-size">Size</div></td>
+      <td> <div class="shopping-cart__headline quantity">Quantity</div> </td>
+      <td><div class="shopping-cart__headline total">Total</div></td>
+      <td><div class="shopping-cart__headline editing">editing</div></td>
+    </tr>
+    <tr class="shopping-cart__item-block">
+      <td><article class="shopping-cart__item">
+        <img src="../img/shopping-cart/dress-1.png" alt="dress">
+        
+        <article class="shopping-cart__name-block">
+        <p class="shopping-cart__name">
+          Angels malu zip jeans slim black used
+        </p>
+        
+        <article class="shopping-cart__selected-checkbox">
+          <label for="blue" class="checkbox-label color-size">
+            <input type="checkbox" id="blue" class="checkbox">
+            <span class="checkbox-view" id="blue">     
+            </span>
+          </label>
+        </article>
+      </td>
+      <td>
+        <div class="shopping-cart__currency-block">
+          <div class="shopping-cart__price">
+        120,00
+          </div>
+        <span class="shopping-cart__currency">UER</span>
+        </div>
+      </td>
+      <td>
+        <article class="shopping-cart__size">
+          W32
+        </article>
+      </td>
+      <td>
+        <section class="Quantity-count-block">
+          <div class="count-minus-block">
+            <span class="minus"></span>
+          </div>
+          <div class="count-number"></div>
+          <div class="count-plus-block">
+            <svg class="count-plus" width="12" height="12" viewBox="0 0 12 12" fill="" xmlns="http://www.w3.org/2000/svg">
+              <rect y="5" width="12" height="2" fill="#C4C4C4"></rect>
+              <rect x="7" width="12" height="2" transform="rotate(90 7 0)" fill=""></rect>
+            </svg>
+          </div>
+          </section>
+      </td>
+      <td>
+        <div class="shopping-cart__currency-block">
+          <div class="shopping-cart__price">
+        120,00
+          </div>
+        <span class="shopping-cart__currency">UER</span>
+        </div>
+      </td>
+      <td>
+        <td>
+          <article class="shopping-cart__edit-block">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="24" height="24" fill="#E6F1FA" />
+              <path d="M12.5 18.1347L12.433 18.0743L11.6357 17.355C10.2214 16.0843 9.03929 15.0216 8.21192 14.0187C7.38348 13.0144 6.9 12.0577 6.9 10.9973C6.9 9.25714 8.27676 7.9 10.025 7.9C10.9725 7.9 11.8821 8.31909 12.5 8.98382C13.1179 8.31909 14.0275 7.9 14.975 7.9C16.7232 7.9 18.1 9.25714 18.1 10.9973C18.1 12.0577 17.6165 13.0144 16.7881 14.0187C15.9607 15.0216 14.7787 16.0843 13.3645 17.3549L12.5 18.1347ZM12.5 18.1347L12.567 18.0743L13.3643 17.355L12.5 18.1347ZM12.4973 16.3916C11.1933 15.2193 10.1173 14.251 9.36577 13.3802C8.6115 12.5061 8.2 11.7475 8.2 10.9973C8.2 9.96345 8.97936 9.18992 10.025 9.18992C10.8337 9.18992 11.62 9.71225 11.8954 10.4126L11.9204 10.476H11.9885H13.0115H13.0796L13.1046 10.4126C13.38 9.71225 14.1663 9.18992 14.975 9.18992C16.0206 9.18992 16.8 9.96345 16.8 10.9973C16.8 11.7475 16.3885 12.5061 15.6336 13.3801C14.8814 14.251 13.804 15.2192 12.4973 16.3916Z" fill="black" stroke="black" stroke-width="0.2" />
+            </svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="24" height="24" fill="#E6F1FA" />
+              <path d="M7.97076 18.0001C7.77019 18.0001 7.57271 17.9214 7.42538 17.774C7.20707 17.5557 7.13996 17.2287 7.25412 16.9417L8.79693 13.0847C8.83628 12.9882 8.89413 12.8995 8.96819 12.8262L14.368 7.42641C14.6696 7.12479 15.1572 7.12479 15.4588 7.42641L17.773 9.74063C18.0746 10.0422 18.0746 10.5298 17.773 10.8314L14.6874 13.917C14.3858 14.2186 13.8982 14.2186 13.5966 13.917C13.295 13.6154 13.295 13.1279 13.5966 12.8262L16.1369 10.286L14.9134 9.06256L10.1716 13.8052L9.35543 15.844L11.395 15.0286L11.5084 14.9144L11.2824 14.6884C10.9808 14.3868 10.9808 13.8993 11.2824 13.5977C11.584 13.296 12.0715 13.296 12.3732 13.5977L13.1446 14.3691C13.4462 14.6707 13.4462 15.1582 13.1446 15.4598L12.3732 16.2312C12.2991 16.3053 12.2112 16.3631 12.114 16.4025L8.25695 17.9453C8.16438 17.9823 8.06718 18.0001 7.97076 18.0001Z" fill="black" />
+            </svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect width="24" height="24" fill="#E6F1FA" />
+              <path d="M8.84277 8.8418L15.9883 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+              <path d="M15.9863 8.8418L8.84083 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+            </svg>
   
+            </article>
+        </td>
+      </td>
+    </tr>
+    <tr class="shopping-cart__item-block">
+      <td>
+        <article class="shopping-cart__item">
+        <img src="../img/shopping-cart/dress-2.png" alt="dress">
+        
+        <article class="shopping-cart__name-block">
+        <p class="shopping-cart__name">
+          Angels malu zip jeans slim black used
+        </p>
+        
+        <article class="shopping-cart__selected-checkbox">
+          <label for="blue" class="checkbox-label color-size">
+            <input type="checkbox" id="blue" class="checkbox">
+            <span class="checkbox-view" id="blue">     
+            </span>
+          </label>
+        </article>
+      </td>
+      <td>
+        <div class="shopping-cart__currency-block">
+          <div class="shopping-cart__price">
+        120,00
+          </div>
+        <span class="shopping-cart__currency">UER</span>
+        </div>
+      </td>
+      <td>
+        <article class="shopping-cart__size">
+          W32
+        </article>
+      </td>
+      <td>
+        <section class="Quantity-count-block">
+          <div class="count-minus-block">
+            <span class="minus"></span>
+          </div>
+          <div class="count-number"></div>
+          <div class="count-plus-block">
+            <svg class="count-plus" width="12" height="12" viewBox="0 0 12 12" fill="" xmlns="http://www.w3.org/2000/svg">
+              <rect y="5" width="12" height="2" fill="#C4C4C4"></rect>
+              <rect x="7" width="12" height="2" transform="rotate(90 7 0)" fill=""></rect>
+            </svg>
+          </div>
+          </section>
+      </td>
+      <td>
+        <div class="shopping-cart__currency-block">
+          <div class="shopping-cart__price">
+        120,00
+          </div>
+        <span class="shopping-cart__currency">UER</span>
+        </div>
+      </td>
+      <td>
+        <article class="shopping-cart__edit-block">
+          <svg class="like" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="24" height="24" fill="#E6F1FA"/>
+            <path d="M12.5 18.1347L12.433 18.0743L11.6357 17.355C10.2214 16.0843 9.03929 15.0216 8.21192 14.0187C7.38348 13.0144 6.9 12.0577 6.9 10.9973C6.9 9.25714 8.27676 7.9 10.025 7.9C10.9725 7.9 11.8821 8.31909 12.5 8.98382C13.1179 8.31909 14.0275 7.9 14.975 7.9C16.7232 7.9 18.1 9.25714 18.1 10.9973C18.1 12.0577 17.6165 13.0144 16.7881 14.0187C15.9607 15.0216 14.7787 16.0843 13.3645 17.3549L12.5 18.1347ZM12.5 18.1347L12.567 18.0743L13.3643 17.355L12.5 18.1347ZM12.4973 16.3916C11.1933 15.2193 10.1173 14.251 9.36577 13.3802C8.6115 12.5061 8.2 11.7475 8.2 10.9973C8.2 9.96345 8.97936 9.18992 10.025 9.18992C10.8337 9.18992 11.62 9.71225 11.8954 10.4126L11.9204 10.476H11.9885H13.0115H13.0796L13.1046 10.4126C13.38 9.71225 14.1663 9.18992 14.975 9.18992C16.0206 9.18992 16.8 9.96345 16.8 10.9973C16.8 11.7475 16.3885 12.5061 15.6336 13.3801C14.8814 14.251 13.804 15.2192 12.4973 16.3916Z" fill="black" stroke="black" stroke-width="0.2"/>
+            </svg>
+            
+          <svg class="pencil" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="24" height="24" fill="#E6F1FA" />
+            <path d="M7.97076 18.0001C7.77019 18.0001 7.57271 17.9214 7.42538 17.774C7.20707 17.5557 7.13996 17.2287 7.25412 16.9417L8.79693 13.0847C8.83628 12.9882 8.89413 12.8995 8.96819 12.8262L14.368 7.42641C14.6696 7.12479 15.1572 7.12479 15.4588 7.42641L17.773 9.74063C18.0746 10.0422 18.0746 10.5298 17.773 10.8314L14.6874 13.917C14.3858 14.2186 13.8982 14.2186 13.5966 13.917C13.295 13.6154 13.295 13.1279 13.5966 12.8262L16.1369 10.286L14.9134 9.06256L10.1716 13.8052L9.35543 15.844L11.395 15.0286L11.5084 14.9144L11.2824 14.6884C10.9808 14.3868 10.9808 13.8993 11.2824 13.5977C11.584 13.296 12.0715 13.296 12.3732 13.5977L13.1446 14.3691C13.4462 14.6707 13.4462 15.1582 13.1446 15.4598L12.3732 16.2312C12.2991 16.3053 12.2112 16.3631 12.114 16.4025L8.25695 17.9453C8.16438 17.9823 8.06718 18.0001 7.97076 18.0001Z" fill="black" />
+          </svg>
+          <svg class="close" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <rect width="24" height="24" fill="#E6F1FA" />
+            <path d="M8.84277 8.8418L15.9883 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+            <path d="M15.9863 8.8418L8.84083 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round" />
+          </svg>
+
+          </article>
+      </td>
+    </tr>
+    </table>
+
+    <section class="shopping-cart__buttons-block">
+<button class="shopping-cart__button" id="continue_shopping">
+  continue shopping
+</button>
+<button class="shopping-cart__button" id="clear_shopping">
+  clear shopping cart
+</button>
     </section>
-  </section>
-
-  <section class="shopping-cart__size-block">
-    <div class="shopping-cart__headline size">Size</div> 
-
-    <article class="shopping-cart__size">
-      W32
-    </article>
-    <article class="shopping-cart__size">
-      W32
-    </article>
-  </section>
-  <section class="shopping-cart__quantity-block">
-    <div class="shopping-cart__headline">Quantity</div> 
-
-    <article class="product__quantity-block">
-
-      <section class="Quantity-count-block">
-      <div class="count-minus-block">
-        <span class="minus"></span>
-      </div>
-      <div class="count-number"></div>
-      <div class="count-plus-block">
-        <svg class="count-plus" width="12" height="12" viewBox="0 0 12 12" fill="" xmlns="http://www.w3.org/2000/svg">
-          <rect y="5" width="12" height="2" fill="#C4C4C4"></rect>
-          <rect x="7" width="12" height="2" transform="rotate(90 7 0)" fill=""></rect>
-        </svg>
-      </div>
-      </section>
-    </article>
-    <article class="product__quantity-block">
-
-      <section class="Quantity-count-block">
-      <div class="count-minus-block">
-        <span class="minus"></span>
-      </div>
-      <div class="count-number"></div>
-      <div class="count-plus-block">
-        <svg class="count-plus" width="12" height="12" viewBox="0 0 12 12" fill="" xmlns="http://www.w3.org/2000/svg">
-          <rect y="5" width="12" height="2" fill="#C4C4C4"></rect>
-          <rect x="7" width="12" height="2" transform="rotate(90 7 0)" fill=""></rect>
-        </svg>
-      </div>
-      </section>
-    </article>
-   
-  </section>
-  <section class="shopping-cart__total-block">
-
- <div class="shopping-cart__headline total">Total</div>
- <section class="shopping-cart__total-block-wrap">
-    <span class="shopping-cart__total-block_currency">120,00 EUR</span>
-    <span class="shopping-cart__total-block_currency">120,00 EUR</span>
-    </section>
-  </section>
-
-  <section class="shopping-cart__edit-block">
-    <div class="shopping-cart__headline editing">Editing</div>
-
-    <section class="shopping-cart__editing-block-wrap">
-      <div class="shopping-cart__editing-block">
-        <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="" xmlns="http://www.w3.org/2000/svg">
-          
-          <path d="M12.5 18.1347L12.433 18.0743L11.6357 17.355C10.2214 16.0843 9.03929 15.0216 8.21192 14.0187C7.38348 13.0144 6.9 12.0577 6.9 10.9973C6.9 9.25714 8.27676 7.9 10.025 7.9C10.9725 7.9 11.8821 8.31909 12.5 8.98382C13.1179 8.31909 14.0275 7.9 14.975 7.9C16.7232 7.9 18.1 9.25714 18.1 10.9973C18.1 12.0577 17.6165 13.0144 16.7881 14.0187C15.9607 15.0216 14.7787 16.0843 13.3645 17.3549L12.5 18.1347ZM12.5 18.1347L12.567 18.0743L13.3643 17.355L12.5 18.1347ZM12.4973 16.3916C11.1933 15.2193 10.1173 14.251 9.36577 13.3802C8.6115 12.5061 8.2 11.7475 8.2 10.9973C8.2 9.96345 8.97936 9.18992 10.025 9.18992C10.8337 9.18992 11.62 9.71225 11.8954 10.4126L11.9204 10.476H11.9885H13.0115H13.0796L13.1046 10.4126C13.38 9.71225 14.1663 9.18992 14.975 9.18992C16.0206 9.18992 16.8 9.96345 16.8 10.9973C16.8 11.7475 16.3885 12.5061 15.6336 13.3801C14.8814 14.251 13.804 15.2192 12.4973 16.3916Z" fill="" stroke="black" stroke-width="0.2" />
-        </svg>
-
-        <svg class="cart-list__icon delete" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="0.849121" width="24" height="24" fill=""></rect>
-          <path d="M9.69214 8.8418L16.8376 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round"></path>
-          <path d="M16.8358 8.8418L9.69031 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round"></path>
-        </svg>
-  
-        <svg class="cart-list__icon edit" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="0.849121" width="24" height="24" fill=""></rect>
-          <path d="M8.81988 18.0001C8.61931 18.0001 8.42183 17.9214 8.2745 17.774C8.05619 17.5557 7.98908 17.2287 8.10324 16.9417L9.64605 13.0847C9.6854 12.9882 9.74325 12.8995 9.81731 12.8262L15.2171 7.42641C15.5188 7.12479 16.0063 7.12479 16.3079 7.42641L18.6221 9.74063C18.9237 10.0422 18.9237 10.5298 18.6221 10.8314L15.5365 13.917C15.2349 14.2186 14.7474 14.2186 14.4457 13.917C14.1441 13.6154 14.1441 13.1279 14.4457 12.8262L16.986 10.286L15.7625 9.06256L11.0207 13.8052L10.2046 15.844L12.2441 15.0286L12.3575 14.9144L12.1315 14.6884C11.8299 14.3868 11.8299 13.8993 12.1315 13.5977C12.4331 13.296 12.9207 13.296 13.2223 13.5977L13.9937 14.3691C14.2953 14.6707 14.2953 15.1582 13.9937 15.4598L13.2223 16.2312C13.1482 16.3053 13.0603 16.3631 12.9631 16.4025L9.10607 17.9453C9.0135 17.9823 8.91631 18.0001 8.81988 18.0001Z" fill="black"></path>
-        </svg>
-      </div>
-      <div class="shopping-cart__editing-block">
-        <svg class="heart" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect width="24" height="24" fill="" />
-          <path d="M12.5 18.1347L12.433 18.0743L11.6357 17.355C10.2214 16.0843 9.03929 15.0216 8.21192 14.0187C7.38348 13.0144 6.9 12.0577 6.9 10.9973C6.9 9.25714 8.27676 7.9 10.025 7.9C10.9725 7.9 11.8821 8.31909 12.5 8.98382C13.1179 8.31909 14.0275 7.9 14.975 7.9C16.7232 7.9 18.1 9.25714 18.1 10.9973C18.1 12.0577 17.6165 13.0144 16.7881 14.0187C15.9607 15.0216 14.7787 16.0843 13.3645 17.3549L12.5 18.1347ZM12.5 18.1347L12.567 18.0743L13.3643 17.355L12.5 18.1347ZM12.4973 16.3916C11.1933 15.2193 10.1173 14.251 9.36577 13.3802C8.6115 12.5061 8.2 11.7475 8.2 10.9973C8.2 9.96345 8.97936 9.18992 10.025 9.18992C10.8337 9.18992 11.62 9.71225 11.8954 10.4126L11.9204 10.476H11.9885H13.0115H13.0796L13.1046 10.4126C13.38 9.71225 14.1663 9.18992 14.975 9.18992C16.0206 9.18992 16.8 9.96345 16.8 10.9973C16.8 11.7475 16.3885 12.5061 15.6336 13.3801C14.8814 14.251 13.804 15.2192 12.4973 16.3916Z" fill="black" stroke="black" stroke-width="0.2" />
-        </svg>
-
-        <svg class="cart-list__icon delete" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="0.849121" width="24" height="24" fill=""></rect>
-          <path d="M9.69214 8.8418L16.8376 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round"></path>
-          <path d="M16.8358 8.8418L9.69031 15.9873" stroke="black" stroke-width="1.6" stroke-linecap="round"></path>
-        </svg>
-  
-        <svg class="cart-list__icon edit" width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <rect x="0.849121" width="24" height="24" fill=""></rect>
-          <path d="M8.81988 18.0001C8.61931 18.0001 8.42183 17.9214 8.2745 17.774C8.05619 17.5557 7.98908 17.2287 8.10324 16.9417L9.64605 13.0847C9.6854 12.9882 9.74325 12.8995 9.81731 12.8262L15.2171 7.42641C15.5188 7.12479 16.0063 7.12479 16.3079 7.42641L18.6221 9.74063C18.9237 10.0422 18.9237 10.5298 18.6221 10.8314L15.5365 13.917C15.2349 14.2186 14.7474 14.2186 14.4457 13.917C14.1441 13.6154 14.1441 13.1279 14.4457 12.8262L16.986 10.286L15.7625 9.06256L11.0207 13.8052L10.2046 15.844L12.2441 15.0286L12.3575 14.9144L12.1315 14.6884C11.8299 14.3868 11.8299 13.8993 12.1315 13.5977C12.4331 13.296 12.9207 13.296 13.2223 13.5977L13.9937 14.3691C14.2953 14.6707 14.2953 15.1582 13.9937 15.4598L13.2223 16.2312C13.1482 16.3053 13.0603 16.3631 12.9631 16.4025L9.10607 17.9453C9.0135 17.9823 8.91631 18.0001 8.81988 18.0001Z" fill="black"></path>
-        </svg>
-      </div>
-    </section>
-  </section>
-
 </section>
 </section>
 
+<section class="shopping-cart__right-block">
+
+</section>
 </section>
 
 
