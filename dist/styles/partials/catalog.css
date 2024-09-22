@@ -30,24 +30,14 @@
 }
 
 .submenu-content-2-drop {
-  display: flex;
-  opacity: 0;
-  flex-direction: column;
-  position: absolute;
-  right: 1000px;
+    display: flex;
+    flex-direction: column;
 }
 
 .submenu-content-3-drop {
-  display: flex;
-  opacity: 0;
+  display: flex;  
 }
 
-.link-menu__womens-dress:hover .submenu-content-2-drop {
-  position: absolute;
-  display: flex;
-  opacity: 1;
-  right: 0;
-}
 
 .filter-block {
   width: 355px;
