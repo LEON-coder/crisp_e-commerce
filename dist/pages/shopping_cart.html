@@ -425,17 +425,19 @@ go to checkout
     Shopping Cart
   </h3>
   
-<section class="shopping-cart__left-block">
+
+  <section class="shopping-cart__blocks-wrap">
+    <section class="shopping-cart__left-block">
 <section class="shopping-cart__left-block-wrap">
 
   <table class="shopping-cart__table">
     <tr class="shopping-cart__headlines-block">
-      <td> <div class="shopping-cart__headline product">Product</div> </td>
-      <td><div class="shopping-cart__headline price">Price</div> </td>
-      <td> <div class="shopping-cart__headline shopping-cart__headline-size">Size</div></td>
-      <td> <div class="shopping-cart__headline quantity">Quantity</div> </td>
-      <td><div class="shopping-cart__headline total">Total</div></td>
-      <td><div class="shopping-cart__headline editing">editing</div></td>
+      <td> <div class="shopping-cart__table-headline product">Product</div> </td>
+      <td><div class="shopping-cart__table-headline price">Price</div> </td>
+      <td> <div class="shopping-cart__table-headline shopping-cart__headline-size">Size</div></td>
+      <td> <div class="shopping-cart__table-headline quantity">Quantity</div> </td>
+      <td><div class="shopping-cart__table-headline total">Total</div></td>
+      <td><div class="shopping-cart__table-headline editing">editing</div></td>
     </tr>
     <tr class="shopping-cart__item-block">
       <td><article class="shopping-cart__item">
@@ -468,11 +470,11 @@ go to checkout
         </article>
       </td>
       <td>
-        <section class="Quantity-count-block">
+        <section class="shopping-cart__quantity-count-block">
           <div class="count-minus-block">
             <span class="minus"></span>
           </div>
-          <div class="count-number"></div>
+          <div class="count-number">1</div>
           <div class="count-plus-block">
             <svg class="count-plus" width="12" height="12" viewBox="0 0 12 12" fill="" xmlns="http://www.w3.org/2000/svg">
               <rect y="5" width="12" height="2" fill="#C4C4C4"></rect>
@@ -521,9 +523,9 @@ go to checkout
         </p>
         
         <article class="shopping-cart__selected-checkbox">
-          <label for="blue" class="checkbox-label color-size">
-            <input type="checkbox" id="blue" class="checkbox">
-            <span class="checkbox-view" id="blue">     
+          <label for="Darkgrey" class="checkbox-label color-size">
+            <input type="checkbox" id="Darkgrey" class="checkbox">
+            <span class="checkbox-view" id="Darkgrey">     
             </span>
           </label>
         </article>
@@ -542,11 +544,11 @@ go to checkout
         </article>
       </td>
       <td>
-        <section class="Quantity-count-block">
+        <section class="shopping-cart__quantity-count-block">
           <div class="count-minus-block">
             <span class="minus"></span>
           </div>
-          <div class="count-number"></div>
+          <div class="count-number">1</div>
           <div class="count-plus-block">
             <svg class="count-plus" width="12" height="12" viewBox="0 0 12 12" fill="" xmlns="http://www.w3.org/2000/svg">
               <rect y="5" width="12" height="2" fill="#C4C4C4"></rect>
@@ -598,8 +600,170 @@ go to checkout
 
 <section class="shopping-cart__right-block">
 
+<article class="shopping-cart__cart-data-wrap">
+  <p class="shopping-cart__headline">
+  Apply Discount Code
+  </p>
+ 
+<section class="shopping-cart__discount-code-block">
+<input type="text" placeholder="Enter discount code" class="shopping-cart__discount-code">
+<span class="shopping-cart__discount-code_apply">
+  Apply Discount
+</span>
+</section>
+
+<details class="shopping-cart__estimate-shipping">
+
+  <summary class="shopping-cart__details">
+    <p class="shopping-cart__headline">
+      Estimate Shipping and Tax
+    </p>
+    <section class="shopping-cart__form-wrap">
+      <form class="shopping-cart__form" method="post">
+       
+
+        <p class="shopping-cart__describe">
+          Enter your destination to get a shipping estimate.
+        </p>
+
+        <section class="shopping-cart__labels">
+          <section class="create-account__label">
+            <label for="country" class="create-account__name-input">Country <span class="required">*</span>
+            </label>
+            <select name="" id="country">
+              <option class="shopping-cart__option" value="">United States</option>
+              <option class="shopping-cart__option" value="">United States</option>
+              <option class="shopping-cart__option" value="">United States</option>
+              <option class="shopping-cart__option" value="">United States</option>
+            </select>
+          </section>
+
+          <section class="create-account__label">
+            <label for="State" class="create-account__name-input">State/Province <span class="required">*</span> </label>
+            <section class="create-account__label">
+             
+              <select name="" id="country">
+                <option class="shopping-cart__option" value="">Password</option>
+                <option class="shopping-cart__option" value="">Password</option>
+                <option class="shopping-cart__option" value="">Password</option>
+                <option class="shopping-cart__option" value="">Password</option>
+              </select>
+            </section>
+          </section>
+
+          <section class="create-account__label">
+            <label for="State" class="create-account__name-input">Zip/Postal Code<span class="required">*</span> </label>
+            <section class="create-account__label">
+             
+              <select name="" id="country" aria-placeholder="Password">
+                <option class="shopping-cart__option" value="" checked="">Password</option>
+                <option class="shopping-cart__option" value="">345</option>
+                <option class="shopping-cart__option" value="">567</option>
+                <option class="shopping-cart__option" value="">789</option>
+              </select>
+            </section>
+          </section>
+        </section>
+
+        <section class="shopping-cart__flat-rate-block">
+          <p class="shopping-cart__headline">
+            Estimate Shipping and Tax
+          </p>
+
+          <article class="shopping-cart__flat-rate">
+<p class="shopping-cart__headline">
+  Flat Rate
+</p>
+
+<section class="flat-rate-block">
+<svg class="flat-rate-img" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="5" cy="5" r="3.5" fill="white" stroke="black" stroke-width="3" />
+</svg>
+
+<p class="flat-rate-desrcibe">Fixed 5.00 EUR</p>
+</section>
+
+            </article>
+
+          <article class="shopping-cart__flat-rate">
+
+            <p class="shopping-cart__headline">
+              Best Way
+            </p>
+
+            <section class="flat-rate-block">
+            
+            <svg class="flat-rate-img-no-active" width="10" height="10" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="5" cy="5" r="4.5" fill="white" stroke="#828282" />
+            </svg>
+
+            <p class="flat-rate-desrcibe table-rate">Table Rate 10.00 EUR</p>
+
+            </section>
+           
+            </article>
+        </section>
+
+      </form>
+    </section>
+   
+  </summary>
+</details>
+</article>
+
+<section class="shopping-cart__order-total">
+<article class="shopping-cart__order-total--wrap">
+
+  <section class="shopping-cart__order-total_subtotal">
+    <p class="shopping-cart__subtotal--headline">
+      Subtotal
+    </p>
+
+    <section class="shopping-cart__subtotal_currency">
+      120.00 EUR
+    </section>
+
+  </section>
+
+  <section class="shopping-cart__order-total_subtotal">
+    <p class="shopping-cart__tax--headline">
+      Tax
+    </p>
+
+    <section class="shopping-cart__tax_currency">
+      0.00 EUR
+    </section>
+
+  </section>
+
+  <section class="shopping-cart__order-total_subtotal">
+    <p class="shopping-cart__order-total--headline">
+      Order Total
+    </p>
+
+    <section class="shopping-cart__order-total_currency">
+      120.00 EUR
+    </section>
+  </section>
+    <p class="shopping-cart__order-total--check">
+      Check Out with Multiple Addresses
+    </p>
+</article>
+
+<section class="shopping-cart__order-total_check-block">
+  <button type="button" class="shopping-cart__order-total_button">
+    proceed to checkout
+  </button>
 </section>
 </section>
+  </section>
+
+
+  </section>
+</article>
+</section>
+  </section>
+
 
 
   <section class="Blog__checkboxes">
