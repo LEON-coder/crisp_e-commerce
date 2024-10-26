@@ -35,10 +35,11 @@
 
 
 .slider-first__central-block {
-display: flex;
-width: 1458px;
-justify-content: space-between;
-align-items: center;    
+    display: flex;
+    max-width: 1458px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
 }
 
 .slider-first__block-advertisements {
