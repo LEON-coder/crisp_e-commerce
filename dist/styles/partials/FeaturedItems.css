@@ -94,15 +94,6 @@ justify-content: space-between;
     padding-left: 30px;
 }
 
-.catalog-clothes-block {
-    display: flex;
-    flex-direction: column;
-    max-width: 344px;
-    max-height: 548px;
-    margin-bottom: 48px;
-    cursor: pointer;
-}
-
 .catalog-clothes-text {
   margin-top: 14px;
 }

@@ -51,8 +51,7 @@ color: #bdbdbd;
     letter-spacing: 0.01em;
     color: var(--black);
     margin-top: 32px;
-    padding-bottom: 99px;
-    max-height: 223px;
+    padding-bottom: 99px;   
     height: 100%;
 }
 
