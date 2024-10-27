@@ -1,9 +1,4 @@
 
-.Blog {
-    margin-top: 82px;
-    background: #f8f9fb;
-}
-
  .Blog__headline {
   font-family: var(--font-family);
 font-weight: 400;
@@ -11,20 +6,6 @@ font-size: 24px;
 line-height: 283%;
 color: var(--black);
  }
-
- .Blog__posts {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 46px;
-}
-
- .Blog__post {
-    display: flex;
-    flex-direction: column;
-    width: 447px;
-    height: 420px;    
-}
 
  .Blog__post_name {
   font-family: var(--font-family);
@@ -51,10 +32,6 @@ line-height: 285%;
 color: #4f4f4f;
 }
 
-.Blog__post_wrap {
-    padding: 24px 17px 0px 24px;
-    background: #fff;
-}
 
 .Blog__checkboxes {
     display: flex;

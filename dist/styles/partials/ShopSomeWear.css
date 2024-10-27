@@ -9,17 +9,6 @@
   flex-direction: column;
 }
 
-.Bannershoping-text-describe {
-    font-family: var(--font3);
-    font-weight: 400;
-    font-size: 20px;
-    line-height: 148%;
-    letter-spacing: 0.01em;
-    color: var(--black);
-    max-width: 639px;
-    text-transform: none;
-    margin-top: 20px;
-}
 
 .ShopSomeWear__select-panel_headline {
     font-family: var(--font-family);

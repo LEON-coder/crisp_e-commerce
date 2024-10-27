@@ -2,6 +2,7 @@
 .Blog {
     margin-top: 82px;
     background: #f8f9fb;
+    padding-bottom: 46px;
 }
 
  .Blog__headline {
@@ -15,15 +16,14 @@ color: var(--black);
  .Blog__posts {
     display: flex;
     width: 100%;
-    justify-content: space-between;
-    margin-bottom: 46px;
+    justify-content: space-between;    
 }
 
- .Blog__post {
+.Blog__post {
     display: flex;
     flex-direction: column;
-    width: 447px;
-    height: 420px;    
+    max-width: 447px;
+    background: #f8f9fb;
 }
 
  .Blog__post_name {
@@ -51,8 +51,8 @@ color: #bdbdbd;
     letter-spacing: 0.01em;
     color: var(--black);
     margin-top: 32px;
-    padding-bottom: 99px;   
-    height: 100%;
+    padding-bottom: 20px;   
+    
 }
 
 
@@ -67,6 +67,7 @@ color: #4f4f4f;
 .Blog__post_wrap {
     padding: 24px 17px 0px 24px;
     background: #fff;
+    height: 100%;
 }
 
 .Blog__checkboxes {
