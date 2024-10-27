@@ -1,5 +1,13 @@
 
 
+
+
+
+
+
+
+
+
 @media (max-width: 1440px) {
     .BlockProposing__left-block {
         display: flex;
@@ -452,6 +460,8 @@
     }
 }
 
+
+
 @media (max-width: 425px) {
 
      .navigation {
@@ -508,12 +518,14 @@
     justify-content: unset;
 }
 
-    .navigation__links {
-        height: auto;
-        flex-direction: column;
-        justify-content: left;
-        align-items: flex-start;
-    }
+  .navigation__links {
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 0;
+    max-width: 317px;
+    height: 60px;
+}
 
      .header__block-autorization {
         margin-right: 31px;
@@ -847,12 +859,3 @@
     }
 
 }
-
-
-
-
-
-
-
-
-

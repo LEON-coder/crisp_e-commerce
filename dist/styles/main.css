@@ -17,7 +17,7 @@
 @import 'partials/article-1.css';
 @import 'partials/create_account.css';
 @import 'partials/shopping-cart.css';
-@import url('/dist/styles/media.css');
+@import url('./media.css');
 
 
 
