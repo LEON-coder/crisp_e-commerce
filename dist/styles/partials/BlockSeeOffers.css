@@ -14,9 +14,10 @@
 }
 
 .woman-1 {
-  position: absolute;
-  top: 0;
-  left: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
 }
 
 .your-look__block-text {
@@ -114,10 +115,11 @@ color: var(--black);
 }
 
 .woman-3 {
-position: absolute;
-top: 0;
-right: 0;
-padding: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    height: 100%;
 }
 
 .block-info-3 {

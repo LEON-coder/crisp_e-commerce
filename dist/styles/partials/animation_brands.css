@@ -68,6 +68,7 @@
 
 .item_brand:before {
   content: counter(item);
+  display: none;
 }
 
 .marquee {

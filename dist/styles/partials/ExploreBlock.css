@@ -1,13 +1,5 @@
 
 
-.slider-first__block-advertisements {
-   display: flex;
-   flex-direction: column;
-   justify-content: space-between;
-   position: relative;
-   width: 545px;
-   z-index: 2;
-}
 
 .block-advertisements__frame{
    position: absolute;

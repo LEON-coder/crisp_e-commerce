@@ -18,14 +18,6 @@
 .Bannershoping__img {
     z-index: 0;   
 }
-.slider-first__block-advertisements {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    position: relative;
-    width: 545px;
-    z-index: 2;
-}
 
 
 .Bannershoping-block-text {
