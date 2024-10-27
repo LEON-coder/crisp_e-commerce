@@ -84,16 +84,6 @@ width: 100%;
 justify-content: space-between;
 }
 
-.ShopSomeWear__catalog-clothes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1484px;
-    border-left: 1px solid var(--divider);
-    padding-left: 30px;
-}
-
 .catalog-clothes-text {
   margin-top: 14px;
 }

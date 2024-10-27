@@ -758,6 +758,32 @@
         width: 80vw;
     }
 
+    .your-look {
+        width: 100%;
+        height: auto;
+    }
+
+    .woman-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.woman-1-img,
+.woman-3-img,
+.woman-2-img {
+    width: 100%;
+}
+
+    .brand-new-style {
+        width: 100%;
+        overflow-x: clip;
+    }
+
+
+
     .your-look__block-info {
         width: auto;
         margin-top: 20px;
@@ -786,11 +812,6 @@
     width: 3000px;
 }
 
-    .brand-new-style__block-info {
-        padding-left: 30px;
-        padding-top: 30px;
-    }
-
     .checkbox-wrapper {
         display: flex;
         position: relative;
@@ -800,6 +821,21 @@
         height: 22px;
         text-wrap: auto;
         word-wrap: break-word;
+    }
+
+    .ShopSomeWear__catalog-clothes {
+    border-left: transparent;
+    padding-left: 0;
+}
+
+    .owl-carousel.owl-drag .owl-item {
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-left: 330px;
     }
 
     .ShopSomeWear__select-panel_checkbox {
