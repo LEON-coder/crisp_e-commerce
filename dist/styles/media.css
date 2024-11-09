@@ -176,14 +176,14 @@
 
     .Explore-img {
         width: 100%;
+        height: 100%;
     }
 
    .Blog__post_describe {
         height: 53%;
     }
 
-    .BlockProposing__right-block {
-        margin-top: 30px;
+    .BlockProposing__right-block {       
         max-width: 1024px;
     }
 
@@ -236,7 +236,7 @@
      .Explore-block__img {
         width: 50vw;
         margin-right: 0;
-        height: 100%;        
+        max-height: 700px;
     }
 
     .Explore-block__describe-block {
@@ -257,16 +257,8 @@
         width: -webkit-fill-available;
         max-width: fit-content;
     }
+ 
 
-    .Bannershoping-block-text {
-        display: flex;
-        flex-direction: column;
-        max-width: 639px;
-        min-height: 312px;
-        margin-top: 77px;
-        margin-left: 0;
-        position: relative;
-    }
 
     .Explore-block__describe-block_wrap {
         width: auto;
@@ -311,8 +303,9 @@
         flex-wrap: wrap;
     }
 
-    .Blog__checkboxes {
+      .Blog__checkboxes {
         padding: 0 20px 0 20px;
+        flex-wrap: wrap;
     }
 
     .footer__wrap {
@@ -328,21 +321,131 @@
 
 @media (max-width: 768px) {
 
+     .navigation {
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+        margin-top: 40px;
+        margin-bottom: 0px;
+    }
+
     .header {
         flex-wrap: wrap;
+        padding: 20px;        
+        justify-content: flex-start;
+        align-items: baseline;
     }
 
-     .header__wrap {
-        flex-direction: row;
-        justify-content: center;
-        align-items: center;
+    .header_open {
         display: flex;
+        height: 100vh;
     }
 
-    .header__block-autorization {
-    margin-right: 31px;
+    .header__sign-in, .header__create-account {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 14px;
+        text-transform: uppercase;
+        color: var(--white);
+        text-decoration: none;
+        margin-top: 35px;
+    }
+
+    .search-block {
     display: flex;
+    margin-left: 0;
+    max-width: 69px;
+    justify-content: space-around;
+    width: 100%;
+    cursor: pointer;
 }
+
+    .header__cart-block {
+        display: none;
+        align-items: center;
+    }
+
+    .navigation__item {   
+    padding-top: 10px;
+    margin-bottom: 20px;
+}
+
+    .navigation__link {
+    justify-content: unset;
+}
+
+  .navigation__links {
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 0;
+    max-width: 317px;
+    height: 60px;
+}
+
+     .header__block-autorization {
+        margin-right: 31px;
+        display: none;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: baseline;
+    }
+
+    .header__create-account {
+    margin-left: 0;
+}
+
+    .header__wrap {        
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start;
+    }
+
+    .navigation__mobile-menu {
+        display: flex;
+        position: absolute;
+        width: 30px;
+        right: 30px;
+        top: 28px;
+        height: 30px;
+        background-color: black;
+    }
+
+    .logo {
+        display: flex;
+        position: absolute;
+        top: 8px;
+        left: 20px;
+    }
+
+    .mobile-menu-stripe {
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .mobile-menu-stripe:after {
+        content: '';
+        position: absolute;
+        top: 10px;
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        border-radius: 15px;
+    }
+
+    .mobile-menu-stripe:before {
+        content: '';
+        top: -10px;
+        position: absolute;
+        width: 30px;
+        height: 3px;
+        background-color: white;
+        border-radius: 15px;
+    }
 
     .block-advertisements__text {
         font-weight: 600;
@@ -351,41 +454,14 @@
     }
 
     .BlockProposing__left-block {
-        flex-direction: row;
-        width: 100vw;
+        max-width: 924px;
+        width: 100%;
+        margin-bottom: 30px;
     }
 
-    .your-look {
-    background: linear-gradient(270deg, rgba(241, 239, 240, 0) 0%, #f1f0f0 10.94%, #f3f0ef 100%);
-    justify-content: end;
-    align-items: center;
-    width: 50%;
-    height: 100%;
-}
-
-.block-info-3 {
-    margin-top: 430px;
-    margin-left: 86px;
-    padding: 0;
-}
-
     .selecting-brand-block__headline {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 13px;
-        left: 25%;
-        background: #fff;
-        width: 370px;
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 24px;
-        text-transform: uppercase;
-        text-align: center;
-        color: var(--black);
-        margin-left: auto;
-        margin-right: auto;
+        left: 0;
+        width: 100%;
     }
 
     .item_brand {
@@ -405,50 +481,162 @@
         transition: all 0.1s ease-in-out;
     }
 
-
     .item_brand:before {
         display: none;
         content: counter(item);
     }
 
     .slider-first__block-photo-models {
+        width: 100%;
+        order: -1;
+        max-width: 320px;
+        height: 250px;
+        align-items: flex-start;
+        margin-top: 0;
+        top: 0;
+    }
+
+    .slider-first {
+        width: 100%;
+        height: auto;
         display: flex;
-        max-width: 804px;
-        box-sizing: border-box;
-        position: relative;
+        justify-content: center;
         align-items: center;
-        width: 40vw;
-    }
-
-    .slick-slide img {
-        width: 40vw;
-    }
-
-  
-    .your-look__block-info {
-        margin-right: 0px;
-        width: auto;
-        padding-bottom: 103px;
-    }
-
-    .catalog-clothes-block {
-        display: flex;
         flex-direction: column;
-        max-width: 344px;
-        max-height: 548px;
-        margin-bottom: 48px;
-        cursor: pointer;
+        position: relative;
+    }
+
+    .slider-first__block-advertisements {
+        max-width: 295px;
         width: auto;
+        margin-top: 60px;
+        margin-bottom: 130px;
+    }
+
+    .model-1 {
+        display: flex;
+        align-items: center;
+        width: 416px;
+        height: 623px;
+        margin-left: -290px;
+        position: absolute;
+        z-index: 1;
+    }
+    .model-2 {
+        display: flex;
+        align-items: center;
+        width: 416px;
+        height: 623px;
+        margin-left: -190px;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .block-advertisements__frame {
+    position: absolute;
+    top: -50px;
+    right: 0;
+    width: 100%;
+}
+
+    .slider-first__central-block {
+        flex-wrap: wrap;
+        height: auto;
+        margin-top: 50px;
     }
 
     .brand-new-style__block-info {
-        z-index: 2;
-        max-width: 369px;
+        padding-top: 0px;
+        margin-top: 80px;
+        padding-left: 0;
+        margin-left: 30px;
+    }
+
+        .BlockProposing__right-block {
+        max-width: 1024px;
+    }
+
+    .BlockSeeOffers {
+        width: 100%;
+    }
+
+    .slick-slide img {
+        width: 45vw;
+        height: auto;
+        left: 266px;
+    }
+    .your-look {
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .woman-1 {
+        width: 100%;
+    }
+
+    .woman-1-img, .woman-3-img, .woman-2-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .catalog-clothes-block {
+        max-width: 700px;
+        cursor: pointer;
+        width: 45%;
+    }
+
+    .brand-new-style {
+        width: 100%;
+        overflow-x: clip;
+        height: 100%;
+    }
+
+
+    .button-see-offers {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black);
+    max-width: 175px;
+    min-height: 56px;
+    border: 2px solid var(--black);
+    margin-top: 20px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+    .your-look__block-info {
+        width: auto;
+        margin-top: 60px;
+        margin-left: 30px;
+        padding-bottom: 0px;
+        margin-right: auto;
+    }
+
+    .ShopSomeWear__select-panel {
+        max-width: 220px;
+    }
+
+    .BlockProposing__headline-3 {
+        font-size: 30pt;
+    }
+
+    .Bannershoping__wrap {
+    margin-top: 70px;
+}
+
+    .Bannershoping-block-text {
+        min-height: 270px;
         margin-top: 0;
         margin-left: 0;
-        padding-left: 30px;
-        padding-top: 80px;
     }
+    
+
+.owl-stage {
+    width: 3000px;
+}
 
     .checkbox-wrapper {
         display: flex;
@@ -461,59 +649,76 @@
         word-wrap: break-word;
     }
 
+    .ShopSomeWear__catalog-clothes {
+    border-left: transparent;
+    padding-left: 0;
+}
+
+    .owl-carousel.owl-drag .owl-item {
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+        margin-left: 330px;
+    }
+
     .ShopSomeWear__select-panel_checkbox {
         display: flex;
         flex-direction: column;
         padding-right: 10px;
     }
 
-    .Explore-img {
-        width: 100%;
+
+    .ShopSomeWear__wrap {
+        flex-wrap: wrap;
     }
 
-  
+
     .Explore-block__img {
-        max-width: 1060px;
-        width: 50vw;
-        margin-right: 0;
-        height: auto;
+        width: 100%;
+        margin-bottom: 50px;
     }
 
     .Explore-block__describe-block {
         margin-right: 0px;
-        width: 40vw;
+        width: 100%;
     }
 
     .Explore-block__figure {
-        max-width: 626px;
-        position: absolute;
-        top: -20px;
-        right: 0;
-        width: 100%;
+        max-width: 726px;
     }
 
     .woman-2 {
         height: -webkit-fill-available;
     }
 
-    .Bannershoping-block-text {
-        display: flex;
-        flex-direction: column;
-        max-width: 639px;
-        min-height: 312px;
-        margin-top: 77px;
-        margin-left: 0;
-        position: relative;
+     .Bannershoping-frame {
+        position: absolute;
+        top: -30px;
+        right: 0;
+        left: 0;
+        width: 100%;
     }
 
-    .Bannershoping-text {
-        width: 100%;
-        font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 2.5em;
-        line-height: 129%;
-        text-transform: uppercase;
-        color: var(--black);
+    .Bannershoping {
+        height: auto;
+
+    }
+
+     .Bannershoping-text {
+        font-size: 2em;
+    }
+
+    .Bannershoping-text-describe {
+        font-size: 20px;
+        width: 90%;
+    }
+
+    .shop-button {
+        margin-top: 48px;
+
     }
 
     .Explore-block__describe-block_wrap {
@@ -521,18 +726,12 @@
     }
 
     .Explore-block-wrap {
-        max-width: 620px;
-        width: auto;
-        padding-top: 21px;
-        position: relative;
-        flex-wrap: wrap;
-        display: flex;
+        max-width: 768px;
     }
 
     .Explore-block__text {
         font-weight: 500;
-        font-size: 5vw;
-        line-height: 129%;
+        font-size: 2em;
     }
 
     .Blog__wrap {
@@ -540,42 +739,65 @@
         flex-wrap: wrap;
     }
 
+     .Blog__post {
+        width: 100%;
+    }
+
     .Blog__post {
         width: 45vw;
+        min-width: 35vw;
+    }
+
+    .Blog__post_describe {
         height: auto;
-        margin-bottom: 30px;
-    }
-
-        .Blog__post_describe {
-        height: 53%;
-    }
-
-    .Blog__posts {
-        display: flex;
-        width: 100%;
-        justify-content: space-between;
-        margin-bottom: 46px;
-        flex-wrap: wrap;
+        padding-bottom: 10px;
     }
 
     .Blog__checkboxes {
-        padding: 0 20px 0 20px;
+        padding: 30px 50px 30px 50px;
+        flex-wrap: wrap;
+        min-height: 250px;
     }
 
+    .E-mail {
+    width: 100%;
+    border: 1px solid var(--white);
+    max-width: 280px;
+    height: 40px;
+    background: var(--black);
+    margin-top: 10px;
+    padding-left: 15px;
+}
+
+.subscribe {
+    display: flex;
+    max-width: 280px;
+    height: 40px;
+    background: var(--white);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black-2);
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+    border: none;
+    width: 100%;
+}
+
     .footer__wrap {
-        padding: 20px 20px 30px 21px;
-        flex-wrap: wrap;
+        padding: 64px 0px 20px 0px;
+        width: 100%;
     }
 
     .footer__block-list_wrap {
-        display: flex;
-        align-items: baseline;
         margin-left: 0;
-        width: 100%;
-        max-width: 1589px;
-        justify-content: space-between;
         flex-wrap: wrap;
+        margin-top: 50px;
     }
+
 }
 
 
@@ -743,8 +965,6 @@
         transition: all 0.1s ease-in-out;
     }
 
-
-
     .item_brand:before {
         display: none;
         content: counter(item);
@@ -809,6 +1029,19 @@
         margin-top: 50px;
     }
 
+        .brand-new-style__block-info {
+        padding-top: 0px;
+        margin-top: 20px;
+    }
+
+        .BlockProposing__right-block {
+        max-width: 1024px;
+    }
+
+    .BlockSeeOffers {
+        width: 100%;
+    }
+
     .slick-slide img {
         width: 45vw;
         height: auto;
@@ -816,22 +1049,23 @@
     }
     .your-look {
         width: 100%;
-        height: auto;
+        margin-bottom: 30px;
     }
 
     .woman-1 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 100%;
-}
+        width: 100%;
+    }
 
-.woman-1-img,
-.woman-3-img,
-.woman-2-img {
-    width: 100%;
-}
+    .woman-1-img, .woman-3-img, .woman-2-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .catalog-clothes-block {
+        max-width: 700px;
+        cursor: pointer;
+        width: 45%;
+    }
 
     .brand-new-style {
         width: 100%;
@@ -857,9 +1091,10 @@
 }
     .your-look__block-info {
         width: auto;
-        margin-top: 20px;
+        margin-top: 60px;
         margin-left: 30px;
-        padding-bottom: 30px;
+        padding-bottom: 0px;
+        margin-right: auto;
     }
 
     .ShopSomeWear__select-panel {
@@ -920,13 +1155,6 @@
         flex-wrap: wrap;
     }
 
-    .woman-3 {
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 0;
-        height: 100%;
-    }
 
       .Explore-block__img {
         margin-right: 0;
@@ -972,15 +1200,13 @@
 
     }
 
-    .Bannershoping-text {
-        width: 100%;
-        font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 2.5em;
-        line-height: 129%;
-        text-transform: uppercase;
-        color: var(--black);
+     .Bannershoping-text {
+        font-size: 2em;
     }
+
+    .Bannershoping-text-describe {   
+    font-size: 20px;
+}
 
     .shop-button {
         margin-top: 48px;
