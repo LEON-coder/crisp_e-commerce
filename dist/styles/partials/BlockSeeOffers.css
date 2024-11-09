@@ -45,7 +45,7 @@
 .BlockProposing__left-block {
     display: flex;
     flex-direction: column;
-    max-width: 924px;
+    max-width: 884px;
     width: 100%;
     justify-content: space-between;
     max-height: 898px;

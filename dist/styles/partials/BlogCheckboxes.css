@@ -24,15 +24,6 @@ color: #bdbdbd;
 }
 
 
-.Blog__post_date {
-  font-family: var(--font-family);
-font-weight: 300;
-font-size: 13px;
-line-height: 285%;
-color: #4f4f4f;
-}
-
-
 .Blog__checkboxes {
     display: flex;
     width: 100%;

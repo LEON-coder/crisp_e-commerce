@@ -47,16 +47,40 @@
     }
 
  
-    .Explore-block__img {
+     .Explore-block__img {
         max-width: 1060px;
         max-height: 363px;
-        width: 50vw;
-        margin-right: 100px;
+        width: 46%;
+        margin-right: 40px;
+    }
+
+    .Blog__post {
+        flex-direction: row;
+        min-width: 200px;
+        justify-content: space-between;
+        margin-right: 30px;
+        width: 100%;
+    }
+
+    .Explore-img {
+        width: 100%;
     }
 
     .Explore-block__describe-block {
         margin-right: 0px;
     }
+    
+
+    .ShopSomeWear__catalog-clothes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1484px;
+    border-left: 1px solid var(--divider);
+    padding-left: 30px;
+    overflow-x: hidden;
+}
 
     .owl-carousel.owl-drag .owl-item {
     -ms-touch-action: pan-y;
@@ -66,13 +90,6 @@
     -ms-user-select: none;
     user-select: none;
     margin-left: 100px;
-}
-
-.Blog__posts {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .footer__wrap {
@@ -295,6 +312,18 @@
         margin-bottom: 30px;
     }
 
+
+    .Explore-img {
+width: 100%;
+    }
+
+    .FeaturedItems__slider, .FeaturedItems__slider-2 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    background: transparent;
+}
+
     .Blog__posts {
         display: flex;
         width: 100%;
@@ -341,6 +370,21 @@
         display: flex;
         height: 100vh;
     }
+
+    .slick-dotted.slick-slider {    
+    min-height: 600px;
+}
+
+    .slick-dotted.slick-slider {
+        min-height: 700px;
+    }
+
+.slick-initialized .slick-slide {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    min-height: 600px;
+}
 
     .header__sign-in, .header__create-account {
         font-family: var(--font-family);
@@ -490,23 +534,13 @@
         width: 100%;
         order: -1;
         max-width: 320px;
-        height: 250px;
+        height: 600px;
         align-items: flex-start;
         margin-top: 0;
         top: 0;
     }
 
-    .slider-first {
-        width: 100%;
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        position: relative;
-    }
-
-    .slider-first__block-advertisements {
+     .slider-first__block-advertisements {
         max-width: 295px;
         width: auto;
         margin-top: 60px;
@@ -540,9 +574,8 @@
 }
 
     .slider-first__central-block {
-        flex-wrap: wrap;
-        height: auto;
-        margin-top: 50px;
+        align-items: center;
+        flex-direction: row;
     }
 
     .brand-new-style__block-info {
@@ -661,7 +694,7 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        margin-left: 330px;
+        margin-left: 250px;
     }
 
     .ShopSomeWear__select-panel_checkbox {
