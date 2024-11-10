@@ -537,10 +537,12 @@ details[open] > .brand-list {
 }
 
 .pagination-item {
-  font-family: var(--second-family);
-font-weight: 400;
-font-size: 14px;
-color: var(--gray-1);
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--gray-1);
+    cursor: pointer;
+    text-decoration: none;
 }
 
 .color_dress {

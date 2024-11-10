@@ -149,3 +149,62 @@ color: var(--gray-1);
   color: var(--gray-1);
   text-decoration: none;
 }
+
+
+@media screen and (max-width: 768px) {
+
+  .create-account__form {
+    display: flex;
+    flex-direction: column;
+    max-width: 606px;
+    width: 100%;
+    margin-bottom: 124px;
+    padding: 0 10px;
+}
+  .create-account__block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 10px 10px 10px;
+}
+
+#first-name, #last-name, #email, #Password, #confirm_password {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--black-2);
+    background: var(--white);
+    border: 1px solid var(--divider);
+    max-width: 443px;
+    height: 44px;
+    padding-left: 16px;
+    width: 100%;
+}
+
+.create-account__name-input {
+    font-size: 16px;
+    color: var(--black-2);
+    padding-left: 0;
+    width: 180px;
+}
+
+#sign_up {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 143%;
+    width: auto;
+}
+
+.create-account__headline {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 2em;
+    height: auto;
+    text-align: center;
+    color: var(--black);
+    padding-bottom: 20px;
+}
+}

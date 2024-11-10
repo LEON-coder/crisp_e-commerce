@@ -1,0 +1,159 @@
+
+.Dashboard__tabs-block {
+  display: flex;
+  justify-content: center;
+}
+
+
+.Dashboard__tabs-block-wrap {
+    margin-bottom: 64px;
+}
+
+.Dashboard__headline {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 48px;
+line-height: 142%;
+text-align: center;
+color: var(--black);
+}
+
+.Dashboard__tabs-block_center-block {
+    display: flex;
+    border: 1px solid var(--divider);
+    width: 1454px;
+    height: 716px;
+    background: var(--white);
+    margin-top: 17px;
+    padding: 73px 0px 0px 212px;
+}
+
+.Dashboard__tabs_list {
+ list-style: none;
+}
+
+.Dashboard__tabs_item {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 128%;
+    color: var(--gray-1);
+    width: 288px;
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+.Dashboard__tabs-block_central-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.Dashboard__tabs-block_headline {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--black-2);
+    margin-bottom: 16px;
+    margin-top: 25px;
+}
+
+.Dashboard__tabs_account-headline {
+  font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: var(--black);
+}
+
+.Dashboard__contact_information_address {
+    display: flex;
+    flex-direction: column;
+}
+
+.Dashboard__link {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: var(--gray-1);
+text-decoration: none;
+cursor: pointer;
+}
+
+.Dashboard__tabs-block_central-block-wrap {
+    display: flex;
+    margin-top: 29px;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 662px;
+    max-height: 366px;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.Dashboard__contact_information_buttons-block {
+    display: flex;
+    max-width: 182px;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+}
+
+.Dashboard_button {
+    text-transform: capitalize;
+    height: auto;
+    padding: 5px 8px;
+    width: fit-content;
+    margin-top: 9px;
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color: var(--black);
+}
+
+
+.Dashboard__width {
+    max-width: 316px;    
+}
+
+.Dashboard__contact_information, .Dashboard__address-book, .Dashboard__Newsletters, .Dashboard__Default-Shipping-Address {
+    max-width: 316px;
+    max-height: 140px;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+}
+
+.Dashboard__describe {
+font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: var(--gray-1);
+}
+
+.Address_Book {
+    text-transform: capitalize;
+    font-size: 24px;
+    color: var(--black);
+    margin-bottom: 0;
+    margin-top: 0;
+}
+.address_book-img {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+}
+
+.Dashboard__address-book_headline-block {
+    display: flex;
+    align-items: center;
+}
+
+.shipping_address {
+    padding-top: 30px;
+}
