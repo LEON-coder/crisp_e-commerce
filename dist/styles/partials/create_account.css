@@ -43,27 +43,27 @@ color: var(--black);
 }
 
 .create-account__label {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin-bottom: 15px;
+    display: flex;    
+    justify-content: space-between;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
 }
 .create-account__label:last-child {
   margin-bottom: 0;
 }
 
-#first-name, #last-name,
-#email, #Password, #confirm_password {
-  font-family: var(--second-family);
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 125%;
-  color: var(--black-2);
-  background: var(--white);
-  border: 1px solid var(--divider);
-  width: 443px;
-  height: 44px;
-  padding-left: 16px;
+#first-name, #last-name, #email, #Password, #confirm_password {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--black-2);
+    background: var(--white);
+    border: 1px solid var(--divider);
+    height: 44px;
+    padding-left: 16px;
+    width: 100%;
+    max-width: 392px;
 }
 
 .required {
@@ -113,6 +113,7 @@ color: var(--gray-1);
   align-items: center;
   justify-content: space-between;
   margin-top: 61px;
+  cursor: pointer;
 }
 
 .form-button-submit {
