@@ -1115,8 +1115,9 @@ width: 100%;
         margin-top: 20px;
     }
 
-        .BlockProposing__right-block {
+    .BlockProposing__right-block {
         max-width: 1024px;
+        width: 100%;
     }
 
     .BlockSeeOffers {
@@ -1319,8 +1320,7 @@ width: 100%;
 
      .Blog__post {
         width: 100%;
-        margin-right: 0;
-        height: 100%;
+        margin-right: 0;        
         max-height: 550px;
     }
 
