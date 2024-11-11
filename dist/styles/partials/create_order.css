@@ -1,0 +1,117 @@
+.create-order__shipping-block {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.create-order__shipping-one, .create-order__shipping-two {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    width: 194px;
+}
+
+.stripe-complete {
+    border: 6px solid var(--advanced);
+    width: 194px;
+    height: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+}
+
+.icon-complete {
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    position: absolute;
+    align-items: center;
+}
+
+.complete-arrow {
+    position: absolute;
+}
+
+.create-order__shipping-steps {
+    display: flex;
+    justify-content: center;
+}
+
+.create-order__shipping-text {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: var(--black);
+    position: absolute;
+    bottom: -30px;
+}
+
+.stripe-no-active {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: absolute;
+    border: 6px solid var(--divider);
+    width: 194px;
+    height: 0px;
+}
+
+.no-active {
+z-index: 2;
+}
+
+.create-order__shipping-address-block {
+  margin-top: 57px;
+}
+
+.create-account__sign-or-continue-text {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+color: var(--gray-1);
+height: 40px;
+margin-bottom: 14px;
+}
+
+.create-account__login-block {
+    display: flex;
+    max-width: 294px;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login-button {
+  width: 120px;
+height: 50px;
+background: var(--black);
+  font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: center;
+color: var(--white);
+}
+
+.forgot-password {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 143%;
+color: var(--link);
+width: 150px;
+}
+
+.create-account-2 {
+  margin-top: 39px;
+}
+
+.mt {
+  margin-top: 13px;
+}

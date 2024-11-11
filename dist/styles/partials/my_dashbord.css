@@ -218,7 +218,7 @@ height: 44px;
     background: var(--black);
     position: absolute;
     right: -80px;
-    top: 80px;
+    top: 274px;
 }
 
 .Dashboard__tabs-block_aside {
@@ -274,15 +274,20 @@ height: 44px;
 
 .My-Wishlist__wrap {
     display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.My-Wishlist__dress-item {
+  width: 200px;
+}
+
+.My-Wishlist__dress-collection {
+    display: flex;
     max-width: 660px;
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
-}
-.My-Wishlist__dress-item {
-  width: 200px;
-height: 353px;
 }
 
 .My-Wishlist__dress-item-block {
@@ -312,6 +317,17 @@ height: 353px;
 
 .wishlist-remove {
   margin-bottom: 6px;
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+}
+
+.wishlist-remove:hover,
+.wishlist-edit:hover
+ {   
+    background: #d0e4f2;    
 }
 
 .My-Wishlist__name-dress {
@@ -370,4 +386,45 @@ align-items: center;
     text-align: center;
     color: var(--white);
     cursor: pointer;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.My-Wishlist__add-button:hover {
+    background: var(--main-color-2);
+}
+
+.wishlist-button {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--gray-1);
+    border: 2px solid var(--divider);
+    width: 170px;
+    height: 40px;
+    background: var(--light-blue-hover);
+    cursor: pointer;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.My-Wishlist__actions {
+    display: flex;
+    max-width: 525px;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 58px;
+}
+
+.wishlist-button:hover {
+background: var(--light-blue-hover);
 }

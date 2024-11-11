@@ -64,6 +64,7 @@ color: var(--black);
     padding-left: 16px;
     width: 100%;
     max-width: 392px;
+    margin-left: auto;
 }
 
 .required {
@@ -79,9 +80,11 @@ color: var(--gray-1);
 }
 
 .create-account__labels {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 36px;
+    border-bottom: 1px solid var(--divider);
 }
 
 .create-account__name-input {
