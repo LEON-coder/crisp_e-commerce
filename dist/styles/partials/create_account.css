@@ -83,8 +83,7 @@ color: var(--gray-1);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding-bottom: 0;
-    margin-bottom: 80px;
+    padding-bottom: 0;    
 }
 
 .create-account__name-input {

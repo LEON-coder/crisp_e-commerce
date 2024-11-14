@@ -82,10 +82,11 @@ color: var(--black);
 }
 
 .Dashboard__tabs_account-headline {
-  font-family: var(--font-family);
-font-weight: 400;
-font-size: 24px;
-color: var(--black);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--black);
+    margin-bottom: 34px;
 }
 
 .Dashboard__contact_information_address {
@@ -105,11 +106,11 @@ cursor: pointer;
 
 .Dashboard__tabs-block_central-block-wrap {
     display: flex;
-    margin-top: 29px;
-    flex-wrap: wrap;
     width: 100%;
-    max-width: 662px;    
-    justify-content: space-between;    
+    max-width: 606px;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 80px;
 }
 
 .Dashboard__contact_information_buttons-block {
@@ -183,7 +184,8 @@ color: var(--gray-1);
 }
 
 .Dashboard__labels {
-  width: 528px;
+    max-width: 528px;
+    width: 100%;
 }
 
 .Dashboard__input {

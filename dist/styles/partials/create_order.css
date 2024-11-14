@@ -65,9 +65,11 @@ z-index: 2;
 }
 
 .create-order__shipping-address-block {
-  margin-top: 57px;
+    margin-top: 87px;
+    display: flex;
+    max-width: 1242px;
+    width: 100%;
 }
-
 .create-account__sign-or-continue-text {
   font-family: var(--second-family);
 font-weight: 400;
@@ -266,4 +268,91 @@ text-transform: uppercase;
 text-align: right;
 color: var(--gray-1);
 text-decoration: none;
+}
+
+.create-order__order-summary-block {
+    display: flex;
+    border: 2px solid var(--divider);
+    max-width: 530px;
+    height: 408px;
+    background: var(--light-blue-hover);
+    width: 100%;
+    margin-left: 106px;
+}
+
+.create-order__order-summary-block-wrap {
+    padding: 34px 30px 50px 30px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.create-order__common-block {
+    display: flex;
+    max-width: 1242px;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.order-summary_item {
+  font-family: var(--second-family);
+font-weight: 400;
+font-size: 16px;
+line-height: 125%;
+color: var(--black-2);
+margin-top: 22px;
+}
+
+.create-account__labels-block {
+    max-width: 606px;
+    width: 100%;
+}
+
+.create-order__shipping-block-wrap {
+    max-width: 1242px;
+    width: 100%;
+}
+
+.create-order__order-summary_item-block {
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--black-2);
+}
+
+.create-order__order-summary_item {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+details {
+  width: 100%;
+}
+
+.create-order__order-summary_item > .order-summary_item {
+    transition: 1s;
+    padding: 5px;
+    cursor: pointer;
+    border: none;
+}
+
+      .create-order__order-summary_item > div {
+        border: 1px #ccc solid;
+        padding: 10px;
+    }
+
+.create-order__order-summary_item[open] > .order-summary_item {
+    color: currentColor;
+    border-bottom: 1px solid var(--divider);
+    width: 470px;
+    height: 30px;
+    overflow: hidden;
+    padding-right: 20px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
