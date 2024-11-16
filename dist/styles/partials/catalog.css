@@ -90,15 +90,8 @@
   height: auto;
   padding: 28px 22px 28px 23px;
 }
-.Brand_dress {
-  display: flex;
-  width: 100%;
-  cursor: pointer;
-  position: relative;
-  transition: 1s;
-}
 
-.Dress_length {
+.drop-down {
   display: flex;
   width: 100%;
   cursor: pointer;
@@ -107,14 +100,6 @@
   margin-top: 60px;
 }
 
-.Size {
-  display: flex;
-  width: 100%;
-  cursor: pointer;
-  position: relative;
-  transition: 1s;
-  margin-top: 60px;
-}
 
 .Size-list {
   display: flex;
@@ -395,11 +380,11 @@ details[open] > .Color-list {
 }
 
 .brand-list {
-  display: flex;
-  flex-direction: column;
-  left: -1000px;
+    display: flex;
+    flex-direction: column;
+    left: -1000px;
+    margin-top: 31px;
 }
-
 .form_checkbox_btn.color-size {
   width: 17px;
 height: 17px;
@@ -424,27 +409,10 @@ height: 17px;
   height: 17px;
 }
 
-summary {
-  display: block;
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 24px;
-  color: var(--black);
-  transition: 1s;
-}
-
 ::-webkit-details-marker {display: none;}
 
-summary::before {
-  content: "+";
-  width: 12px;
-  height: 2px; 
-  position: absolute;
-  right: 20px;
-  top: 0;
-}
 
-details[open] > summary::before {
+.Price_Range[open] > summary::before {
   content: "-";
   width: 12px;
   height: 2px;
@@ -458,7 +426,7 @@ details[open] > summary::before {
   -o-transition: 1s;
 }
 
-details[open] > .brand-list {
+.Price_Range[open] > .brand-list {
   transition: 1s;
   opacity: 1;
   justify-content: space-between;

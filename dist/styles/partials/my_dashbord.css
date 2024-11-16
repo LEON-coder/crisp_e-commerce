@@ -220,7 +220,7 @@ height: 44px;
     background: var(--black);
     position: absolute;
     right: -80px;
-    top: 274px;
+    top: 80px;
 }
 
 .Dashboard__tabs-block_aside {
@@ -346,8 +346,8 @@ height: 44px;
     font-family: var(--third-family);
     font-weight: 400;
     font-size: 14px;
-    line-height: 143%;
     color: var(--gray-1);
+    line-height: normal;
 }
 
 .My-Wishlist__add-to-cart-block {
