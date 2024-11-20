@@ -454,9 +454,25 @@
             <article class="create-order__shipping-block-wrap">
                 <section class="create-order__shipping-steps">
                     <section class="create-order__shipping-one">
-                        <article class="stripe-complete"></article>
+                        <article class="stripe-complete-no-active"></article>
                         <svg
-                            class="icon-complete"
+                            class="shipping-no-active"
+                            viewbox="0 0 40 40"
+                            fill=""
+                            xmlns="http://www.w3.org/2000/svg"
+                        >
+                            <circle
+                                cx="20"
+                                cy="20"
+                                r="17"
+                                transform="rotate(-180 20 20)"
+                                fill=""
+                                stroke=""
+                                stroke-width="6"
+                            />
+                        </svg>
+                        <!-- <svg
+                            class="shipping-no-active" 
                             viewbox="0 0 40 40"
                             fill=""
                             xmlns="http://www.w3.org/2000/svg"
@@ -470,14 +486,14 @@
                                 stroke="#57A4EB"
                                 stroke-width="6"
                             />
-                        </svg>
+                        </svg> -->
                         <img class="complete-arrow" src="/dist/img/Create_order/complete-arrow.png">
                         <span class="create-order__shipping-text">Shipping</span>
                     </section>
                     <section class="create-order__shipping-two">
-                        <article class="stripe-no-active"></article>
+                        <article class="review_payments-stripe"></article>
                         <svg
-                            class="no-active"
+                            class="review_payments-name"
                             width="40"
                             height="40"
                             viewbox="0 0 40 40"
@@ -490,7 +506,7 @@
                                 r="17"
                                 transform="rotate(-180 20 20)"
                                 fill="white"
-                                stroke="#C4C4C4"
+                                stroke=""
                                 stroke-width="6"
                             />
                         </svg>
@@ -499,386 +515,161 @@
                     </section>
                 </section>
                 <section class="create-order__shipping-address-block">
- <section class="create-order__shipping-address-block-wrap">
-                    <section class="create-order__common-block">
-                        <article class="Dashboard__tabs-block_central-block-wrap">
-                            <h3 class="Dashboard__tabs_account-headline">
-                                Shipping Address
-                            </h3>
-                            <section class="create-account__labels-block">
-                                <section class="create-account__labels Dashboard__labels">
-                                    <section class="create-account__label">
-                                        <label for="first-name" class="create-account__name-input">
-                                            Email Address
-                                            <span class="required">*</span>
-                                        </label>
-                                        <input
-                                            type="text"
-                                            name="first-name"
-                                            class="Dashboard__input"
-                                            id="first-name"
-                                            placeholder="roni_cost@example.com"
-                                        >
-                                    </section>
-                                    <section class="create-account__label">
-                                        <label for="last-name" class="create-account__name-input">
-                                            Password
-                                            <span class="required">*</span>
-                                        </label>
-                                        <input
-                                            type="password"
-                                            name="last-name"
-                                            class="Dashboard__input"
-                                            id="last-name"
-                                            placeholder="Driver"
-                                        >
-                                    </section>
-                                    <section class="create-account__label">
-                                        <label for="last-name" class="create-account__name-input">
-                                            Zip/Postal Code
-                                            <span class="required">*</span>
-                                        </label>
-                                        <input
-                                            type="text"
-                                            name="last-name"
-                                            class="Dashboard__input"
-                                            id="last-name"
-                                            placeholder=""
-                                        >
-                                    </section>
-                                    <span class="create-account__sign-or-continue-text">
-                                        You already have an account with us. Sign in or continue as guest.
-                                    </span>
-                                    <section class="create-account__login-block">
-                                        <button type="submit" class="login-button">
-                                            login
-                                        </button>
-                                        <a class="forgot-password" href="#">
-                                            Forgot Your Password?
-                                        </a>
-                                    </section>
-                                </section>
-                            </section>
-                            <section class="create-account__labels create-account-2 Dashboard__labels">
-                                <section class="create-account__label ">
-                                    <label for="first-name" class="create-account__name-input ">
-                                        First Name
-                                        <span class="required">*</span>
-                                    </label>
-                                    <input
-                                        type="text"
-                                        name="first-name"
-                                        class="Dashboard__input"
-                                        id="first-name"
-                                        placeholder=""
-                                    >
-                                </section>
-                                <section class="create-account__label">
-                                    <label for="last-name" class="create-account__name-input">
-                                        Last Name
-                                        <span class="required">*</span>
-                                    </label>
-                                    <input
-                                        type="text"
-                                        name="first-name"
-                                        class="Dashboard__input address-input-float"
-                                        id="first-name"
-                                        placeholder=""
-                                    >
-                                </section>
-                                <section class="create-account__label">
-                                    <label for="last-name" class="create-account__name-input">
-                                        Company
-                                        <span class="required">*</span>
-                                    </label>
-                                    <input
-                                        type="text"
-                                        name="last-name"
-                                        class="Dashboard__input"
-                                        id="last-name"
-                                        placeholder=""
-                                    >
-                                </section>
-                                <section class="create-account__label">
-                                    <label for="last-name" class="create-account__name-input">
-                                        Street Address
-                                        <span class="required">*</span>
-                                    </label>
-                                    <input
-                                        type="text"
-                                        name="last-name"
-                                        class="Dashboard__input mt"
-                                        id="last-name"
-                                        placeholder=""
-                                    >
-                                    <input
-                                        type="text"
-                                        name="last-name"
-                                        class="Dashboard__input mt"
-                                        id="last-name"
-                                        placeholder=""
-                                    >
-                                    <input
-                                        type="text"
-                                        name="last-name"
-                                        class="Dashboard__input mt"
-                                        id="last-name"
-                                        placeholder=""
-                                    >
-                                </section>
-                                <section class="create-account__label">
-                                    <label for="last-name" class="create-account__name-input">
-                                        Country
-                                        <span class="required">*</span>
-                                    </label>
-                                    <input
-                                        type="text"
-                                        name="last-name"
-                                        class="Dashboard__input"
-                                        id="last-name"
-                                        placeholder=""
-                                    >
-                                </section>
-                                <section class="create-account__label">
-                                    <label for="last-name" class="create-account__name-input">
-                                        State/Province
-                                        <span class="required">*</span>
-                                    </label>
-                                    <select class="Dashboard__tabs_select-list">
-                                        <option class="Dashboard__tabs_select-item" checked>Please select a region, state or province.</option>
-                                        <option class="Dashboard__tabs_select-item">Russia</option>
-                                        <option class="Dashboard__tabs_select-item">USA</option>
-                                        <option class="Dashboard__tabs_select-item">Romania</option>
-                                        <option class="Dashboard__tabs_select-item">Italia</option>
-                                        <option class="Dashboard__tabs_select-item">Spain</option>
-                                        <option class="Dashboard__tabs_select-item">Germany</option>
-                                    </select>
-                                </section>
-                            </section>
-                            <section class="create-order__shipping-methods-block">
-                                <h3 class="Dashboard__tabs_account-headline">
-                                    Shipping Address
-                                </h3>
-                                <article class="create-order__shipping-methods-sections">
-                                    <section class="create-order__shipping-methods_checkboxes">
-                                        <article class="create-order__shipping-methods_checkbox border-none">
-                                            <input
-                                                type="checkbox"
-                                                name="fixed"
-                                                id="fixed"
-                                                value="Fixed"
-                                                class="create-order__checkbox"
-                                            >
-                                            <label for="fixed">$5.00</label>
-                                            <span class="create-order__text">
-                                                Fixed
-                                            </span>
-                                            <span class="create-order__text">
-                                                Flat Rate
-                                            </span>
-                                        </article>
-                                        <article class="create-order__shipping-methods_checkbox ">
-                                            <input
-                                                type="checkbox"
-                                                name="Table_Rate"
-                                                id="Table_Rate"
-                                                value="Table-Rate"
-                                                class="create-order__checkbox"
-                                            >
-                                            <label for="Table_Rate">$10.00</label>
-                                            <span class="create-order__text text-2">
-                                                Table Rate
-                                            </span>
-                                            <span class="create-order__text text-3">
-                                                Best Way
-                                            </span>
-                                        </article>
-                                    </section>
-                                    <section class="create-order__shipping-methods_routes">
-                                        <button class="next-button">
-                                            NEXT
-                                        </button>
-                                        <a href="#" class="back-link">
-                                            Back
-                                        </a>
+                    <section class="create-order__shipping-address-block-wrap">
+                        <section class="create-order__common-block">
+                            <article class="Dashboard__tabs-block_central-block-wrap">
+                                <section class="Payment-Method-block">
+                                    <h3 class="Dashboard__tabs_account-headline">
+                                        Payment Method:
+                                    </h3>
+
+                                    <section class="payment-method__check-money-order">
+<span class="payment-method__check-money-order_headline">
+    Check / Money order
+</span>
+
+<article class="checkbox-billing-block">
+<input type="checkbox" id="billing">
+<label for="billing">
+    My billing and shipping address are the same
+</label>
+</article>
+
+<article class="info-customer-block">
+<p class="payment-method__info-customer">
+Vyacheslav Kulbitskii 
+Moskovski prospect 39/1, Apt. 147
+Vitebsk, Vitebsk region 210038
+Belarus
+</p>
+
+<span class="payment-method__tel">
+    +375292169179 
+</span>
+</article>
+
+
+
+
+<section class="payment-method__buttons">
+<button type="button" class="place-order">
+    Place Order
+</button>
+
+<a href="/dist/pages/create_order.html" class="back payment-method-back">
+    Back
+</a>
+</section>
+
+
+<section class="payment-method__discount-code_block">
+<h3 class="payment-method__discount-code-headline">
+Apply Discount Code
+</h3>
+
+
+<section class="discount-code-area-block">
+<input type="text" class="discount-code-area" placeholder="Enter discount code">
+<button type="button" class="button-apply-discount">
+    Apply Discount
+</button>
+</section>
+
+</section>
+
+
                                     </section>
                                 </section>
                             </article>
-                            <section class="create-order__order-summary-block">
-                                <section class="create-order__order-summary-block-wrap">
-                                    <h3 class="Dashboard__tabs_account-headline">
-                                        Order Summary
-                                    </h3>
-                                    <article class="create-order__order-summary_item-block">
-                                        <details class="create-order__order-summary_item">
-                                            <summary class="order-summary_items">
-                                                <p class="order-summary__drop-menu-headline">1 Item in Cart</p>
-                                                <section class="order-summary__item">
-                                                    <article class="order-summary__describe-block">
-                                                        <article class="My-Wishlist__dress-item order-summary__dress-item">
-                                                            <section class="order-summary__item-block">
-                                                                <picture class="order-summary__dress">
-                                                                    <source src="/dist/img/Create_order/dress-img-mobile.png" media="(max-width: 425px)">
-                                                                    <img class="wishlist-dress-img" src="/dist/img/ShopSomeWear/catalog-clothes-block/dress-1.jpg" alt="Wishlist-dress">
-                                                                </picture>
-                                                            </section>
-                                                            <section class="order-summary__text-block">
-                                                                <h3 class="My-Wishlist__name-dress order-summary__name-dress">
-                                                                    Angels malu zip jeans slim black used
-                                                                </h3>
-                                                                <article class="QTY">
-                                                                    <span class="quantity-name">QTY:</span>
-                                                                    <span class="count_quantity">
-                                                                        1
+                            <section class="Review_Payments-block">
+                                <section class="Review_Payments-block__wrap">
+                                    <article class="payment_method-block"></article>
+                                    <section class="create-order__order-summary-block">
+                                        <section class="create-order__order-summary-block-wrap">
+                                            <h3 class="Dashboard__tabs_account-headline">
+                                                Order Summary
+                                            </h3>
+                                            <article class="create-order__order-summary_item-block">
+                                                <details class="create-order__order-summary_item">
+                                                    <summary class="order-summary_items">
+                                                        <p class="order-summary__drop-menu-headline">1 Item in Cart</p>
+                                                        <section class="order-summary__item">
+                                                            <article class="order-summary__describe-block">
+                                                                <article class="My-Wishlist__dress-item order-summary__dress-item">
+                                                                    <section class="order-summary__item-block">
+                                                                        <picture class="order-summary__dress">
+                                                                            <source src="/dist/img/Create_order/dress-img-mobile.png" media="(max-width: 425px)">
+                                                                            <img class="wishlist-dress-img" src="/dist/img/ShopSomeWear/catalog-clothes-block/dress-1.jpg" alt="Wishlist-dress">
+                                                                        </picture>
+                                                                    </section>
+                                                                    <section class="order-summary__text-block">
+                                                                        <h3 class="My-Wishlist__name-dress order-summary__name-dress">
+                                                                            Angels malu zip jeans slim black used
+                                                                        </h3>
+                                                                        <article class="QTY">
+                                                                            <span class="quantity-name">QTY:</span>
+                                                                            <span class="count_quantity">
+                                                                                1
+                                                                            </span>
+                                                                        </article>
+                                                                        <details class="view-details">
+                                                                            <summary class="view-summary">
+                                                                                <p class="view-details__name">
+                                                                                    View Details
+                                                                                </p>
+                                                                            </summary>
+                                                                        </details>
+                                                                    </section>
+                                                                    <span class="My-Wishlist__price">
+                                                                        129,00 EUR
                                                                     </span>
                                                                 </article>
-                                                                <details class="view-details">
-                                                                    <summary class="view-summary">
-                                                                        <p class="view-details__name">
-                                                                            View Details
-                                                                        </p>
-                                                                    </summary>
-                                                                </details>
-                                                            </section>
-                                                            <span class="My-Wishlist__price">
-                                                                129,00 EUR
-                                                            </span>
-                                                        </article>
-                                                        <article class="My-Wishlist__dress-item order-summary__dress-item">
-                                                            <section class="order-summary__item-block">
-                                                                <picture class="order-summary__dress">
-                                                                    <source src="/dist/img/Create_order/dress-img-mobile.png" media="(max-width: 425px)">
-                                                                    <img class="wishlist-dress-img" src="/dist/img/ShopSomeWear/catalog-clothes-block/dress-2.jpg" alt="Wishlist-dress">
-                                                                </picture>
-                                                            </section>
-                                                            <section class="order-summary__text-block">
-                                                                <h3 class="My-Wishlist__name-dress order-summary__name-dress">
-                                                                    Angels malu zip jeans slim black used
-                                                                </h3>
-                                                                <article class="QTY">
-                                                                    <span class="quantity-name">QTY:</span>
-                                                                    <span class="count_quantity">1</span>
+                                                                <article class="My-Wishlist__dress-item order-summary__dress-item">
+                                                                    <section class="order-summary__item-block">
+                                                                        <picture class="order-summary__dress">
+                                                                            <source src="/dist/img/Create_order/dress-img-mobile.png" media="(max-width: 425px)">
+                                                                            <img class="wishlist-dress-img" src="/dist/img/ShopSomeWear/catalog-clothes-block/dress-2.jpg" alt="Wishlist-dress">
+                                                                        </picture>
+                                                                    </section>
+                                                                    <section class="order-summary__text-block">
+                                                                        <h3 class="My-Wishlist__name-dress order-summary__name-dress">
+                                                                            Angels malu zip jeans slim black used
+                                                                        </h3>
+                                                                        <article class="QTY">
+                                                                            <span class="quantity-name">QTY:</span>
+                                                                            <span class="count_quantity">1</span>
+                                                                        </article>
+                                                                        <details class="view-details">
+                                                                            <summary class="view-summary">
+                                                                                <p class="view-details__name">
+                                                                                    View Details
+                                                                                </p>
+                                                                            </summary>
+                                                                        </details>
+                                                                    </section>
+                                                                    <span class="My-Wishlist__price">
+                                                                        129,00 EUR
+                                                                    </span>
                                                                 </article>
-                                                                <details class="view-details">
-                                                                    <summary class="view-summary">
-                                                                        <p class="view-details__name">
-                                                                            View Details
-                                                                        </p>
-                                                                    </summary>
-                                                                </details>
-                                                            </section>
-                                                            <span class="My-Wishlist__price">
-                                                                129,00 EUR
-                                                            </span>
-                                                        </article>
-                                                    </article>
-                                                </section>
-                                            </summary>
-                                        </details>
-                                    </article>
+                                                            </article>
+                                                        </section>
+                                                    </summary>
+                                                </details>
+                                            </article>
+                                        </section>
+                                    </section>
                                 </section>
                             </section>
-                        </section>                         
-                   
-                    </section>
-                    <a href="#" class="Contact-US-label">
-                                    Contact US
-                                </a>
+                        </section>
+                        <a href="#" class="Contact-US-label">
+                            Contact US
+                        </a>
                     </section>
                 </section>
             </article>
         </section>
-    </section>    
-</article>
-
-
-
-<section class="Review_Payments-block">
-    <section class="Review_Payments-block__wrap">
-<article class="payment_method-block">
-
-</article>
-
-<section class="create-order__order-summary-block">
-                                <section class="create-order__order-summary-block-wrap">
-                                    <h3 class="Dashboard__tabs_account-headline">
-                                        Order Summary
-                                    </h3>
-                                    <article class="create-order__order-summary_item-block">
-                                        <details class="create-order__order-summary_item">
-                                            <summary class="order-summary_items">
-                                                <p class="order-summary__drop-menu-headline">1 Item in Cart</p>
-                                                <section class="order-summary__item">
-                                                    <article class="order-summary__describe-block">
-                                                        <article class="My-Wishlist__dress-item order-summary__dress-item">
-                                                            <section class="order-summary__item-block">
-                                                                <picture class="order-summary__dress">
-                                                                    <source src="/dist/img/Create_order/dress-img-mobile.png" media="(max-width: 425px)">
-                                                                    <img class="wishlist-dress-img" src="/dist/img/ShopSomeWear/catalog-clothes-block/dress-1.jpg" alt="Wishlist-dress">
-                                                                </picture>
-                                                            </section>
-                                                            <section class="order-summary__text-block">
-                                                                <h3 class="My-Wishlist__name-dress order-summary__name-dress">
-                                                                    Angels malu zip jeans slim black used
-                                                                </h3>
-                                                                <article class="QTY">
-                                                                    <span class="quantity-name">QTY:</span>
-                                                                    <span class="count_quantity">
-                                                                        1
-                                                                    </span>
-                                                                </article>
-                                                                <details class="view-details">
-                                                                    <summary class="view-summary">
-                                                                        <p class="view-details__name">
-                                                                            View Details
-                                                                        </p>
-                                                                    </summary>
-                                                                </details>
-                                                            </section>
-                                                            <span class="My-Wishlist__price">
-                                                                129,00 EUR
-                                                            </span>
-                                                        </article>
-                                                        <article class="My-Wishlist__dress-item order-summary__dress-item">
-                                                            <section class="order-summary__item-block">
-                                                                <picture class="order-summary__dress">
-                                                                    <source src="/dist/img/Create_order/dress-img-mobile.png" media="(max-width: 425px)">
-                                                                    <img class="wishlist-dress-img" src="/dist/img/ShopSomeWear/catalog-clothes-block/dress-2.jpg" alt="Wishlist-dress">
-                                                                </picture>
-                                                            </section>
-                                                            <section class="order-summary__text-block">
-                                                                <h3 class="My-Wishlist__name-dress order-summary__name-dress">
-                                                                    Angels malu zip jeans slim black used
-                                                                </h3>
-                                                                <article class="QTY">
-                                                                    <span class="quantity-name">QTY:</span>
-                                                                    <span class="count_quantity">1</span>
-                                                                </article>
-                                                                <details class="view-details">
-                                                                    <summary class="view-summary">
-                                                                        <p class="view-details__name">
-                                                                            View Details
-                                                                        </p>
-                                                                    </summary>
-                                                                </details>
-                                                            </section>
-                                                            <span class="My-Wishlist__price">
-                                                                129,00 EUR
-                                                            </span>
-                                                        </article>
-                                                    </article>
-                                                </section>
-                                            </summary>
-                                        </details>
-                                    </article>
-                                </section>
-                            </section>
-
-
     </section>
-
-</section>
-
+</article>
 </section>
 <section class="Blog__checkboxes">
     <section class="Blog__checkbox_topic">

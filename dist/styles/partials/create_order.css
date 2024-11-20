@@ -28,6 +28,7 @@
     justify-content: center;
     position: absolute;
     align-items: center;
+    fill: white;
 }
 
 .complete-arrow {
@@ -47,7 +48,7 @@
     text-align: center;
     color: var(--black);
     position: absolute;
-    bottom: -30px;
+    bottom: -45px;
 }
 
 .stripe-no-active {
@@ -242,9 +243,10 @@ width: 150px;
     width: 100%;
     justify-content: space-between;
     margin-top: 24px;
+    align-items: center;
 }
 
-.next-button {
+.next {
   font-family: var(--font-family);
 font-weight: 500;
 font-size: 14px;
@@ -255,9 +257,13 @@ color: var(--white);
   width: 120px;
 height: 50px;
 background: var(--black);
+text-decoration: none;
+align-items: center;
+display: flex;
+justify-content: center;
 }
 
-.next-button:hover {
+.next:hover {
   background: var(--main-color-2);
   transition: 1s;
   -webkit-transition: 1s;
@@ -266,7 +272,7 @@ background: var(--black);
   -o-transition: 1s;
 }
 
-.back-link {
+.back {
   font-family: var(--font-family);
 font-weight: 500;
 font-size: 14px;
@@ -498,4 +504,150 @@ color: #bdbdbd;
 
 .view-summary::marker {
 content: '';
+}
+
+
+.stripe-complete-no-active {
+    border: 6px solid var(--divider);
+width: 194px;
+height: 0px;
+}
+
+
+.shipping-no-active {
+    fill: var(--white);
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    stroke: var(--divider);
+}
+
+.review_payments-stripe {
+    border: 6px solid var(--advanced);
+width: 194px;
+height: 0px;
+}
+
+.review_payments-name {
+    position: absolute;
+    border-radius: 100%;
+    fill: var(--white);
+    stroke-width: 6px;
+    stroke: var(--advanced);
+}
+
+.Payment-Method-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-method__check-money-order_headline {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 18px;
+line-height: 133%;
+color: var(--gray-1);
+}
+
+.payment-method__info-customer {
+    font-family: var(--second-family);
+font-weight: 400;
+font-size: 14px;
+line-height: 164%;
+color: var(--gray-1);
+}
+.payment-method__tel {
+    color: var(--link);
+}
+
+.payment-method__buttons {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 32px;
+}
+
+.checkbox-billing-block {
+    margin-top: 19px;
+    padding-left: 17px;
+    max-width: 308px;
+    width: 100%;
+}
+
+.place-order {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: center;
+color: var(--white);
+    width: 150px;
+height: 50px;
+background: var(--black);
+}
+
+.back {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: right;
+color: var(--gray-1);
+}
+
+.payment-method__discount-code-headline {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--black);
+}
+
+.discount-code-area {
+    border: none;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--divider);
+}
+
+.discount-code-area-block {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 606px;
+    height: 44px;
+    border: 1px solid var(--divider);
+    padding: 0 17px;
+    margin-top: 27px;
+}
+
+.button-apply-discount {
+    background: none;
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 14px;
+letter-spacing: 0.04em;
+text-transform: uppercase;
+text-align: right;
+color: var(--black-2);
+}
+
+.info-customer-block {
+    display: flex;
+    max-width: 229px;
+    margin-left: 39px;
+    margin-top: 14px;
+    flex-direction: column;
+}
+
+.payment-method__discount-code_block {
+    margin-top: 57px;
+}
+
+.payment-method-back {
+    background: transparent;
+    text-decoration: none;
 }
