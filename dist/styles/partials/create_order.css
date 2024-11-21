@@ -506,6 +506,34 @@ color: #bdbdbd;
 content: '';
 }
 
+.Review-Payments-block__order-summary-block {
+    display: flex;
+    flex-direction: column;
+}
+
+.Review_Payments-block {
+    max-width: 530px;
+    width: 100%;
+    margin-bottom: 161px;
+}
+
+.review-payments__info-customer-block,
+.review-payments__shipping-block_describe {
+    margin-left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.payment-method__info-customer_describe {
+    display: flex;
+    flex-direction: column;
+}
+
+
+.review-payments__rate {
+    margin-top: 26px;
+}
+
 
 .stripe-complete-no-active {
     border: 6px solid var(--divider);
@@ -551,10 +579,11 @@ color: var(--gray-1);
 
 .payment-method__info-customer {
     font-family: var(--second-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 164%;
-color: var(--gray-1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 164%;
+    color: var(--gray-1);
+    max-width: 229px;
 }
 .payment-method__tel {
     color: var(--link);
@@ -565,6 +594,7 @@ color: var(--gray-1);
     width: 100%;
     justify-content: space-between;
     margin-top: 32px;
+    align-items: center;
 }
 
 .checkbox-billing-block {
@@ -643,6 +673,10 @@ color: var(--black-2);
     flex-direction: column;
 }
 
+.checkbox:checked {
+    background: black;
+}
+
 .payment-method__discount-code_block {
     margin-top: 57px;
 }
@@ -650,4 +684,15 @@ color: var(--black-2);
 .payment-method-back {
     background: transparent;
     text-decoration: none;
+}
+
+.billing-checkbox-text {
+    padding-left: 12px;
+}
+
+.review-payments__shipping-method-wrap {
+    display: flex
+;
+    flex-direction: column;
+    margin-top: 41px;
 }
