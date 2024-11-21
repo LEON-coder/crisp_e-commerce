@@ -507,8 +507,16 @@ content: '';
 }
 
 .Review-Payments-block__order-summary-block {
-    display: flex;
+    display: flex
+;
     flex-direction: column;
+    border: 2px solid var(--divider);
+    width: 530px;
+    background: var(--light-blue-hover);
+}
+
+.payment_method-block {
+    margin-top: 35px;
 }
 
 .Review_Payments-block {
@@ -534,6 +542,35 @@ content: '';
     margin-top: 26px;
 }
 
+.Cart_Subtotal, .Shipping, .Flat_Rate {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--gray-1);
+    margin-bottom: 13px;
+}
+
+.Flat_Rate {
+    margin-bottom: 0;
+}
+
+.Review-Payments-block__3-points {
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid var(--divider);
+    padding-bottom: 25px;
+}
+
+.Review-Payments-block-headline {
+    margin-top: 23px;
+    margin-bottom: 19px;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--black);
+}
 
 .stripe-complete-no-active {
     border: 6px solid var(--divider);
