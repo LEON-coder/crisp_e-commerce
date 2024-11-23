@@ -58,12 +58,6 @@
         margin-left: 50px;
     }
 
-    .brand-new-style__block-info {
-        z-index: 2;
-        max-width: 369px;
-        margin-top: 0;
-        margin-left: 0;
-    }
 
     .load_more {
         font-family: var(--font-family);
