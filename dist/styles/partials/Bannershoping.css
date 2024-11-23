@@ -1,12 +1,15 @@
-
-
 .Bannershoping {
     background: url('../../img/Bannershoping/Bannershoping__background.png') no-repeat center center;
     display: flex;
     width: 100%;
     height: 467px;
-    margin-top: 21px;
+    margin-top: 62px;
+    object-fit: cover;
+    background-origin: border-box;
+    background-size: cover;
+
 }
+
 .Bannershoping__wrap {
     display: flex;
     width: 100%;
@@ -16,7 +19,7 @@
 }
 
 .Bannershoping__img {
-    z-index: 0;   
+    z-index: 0;
 }
 
 
@@ -90,4 +93,3 @@
     height: 56px;
     margin-top: 48px;
 }
-

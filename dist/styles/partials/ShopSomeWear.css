@@ -1,8 +1,6 @@
-
-
 .ShopSomeWear__select-panel {
   max-width: 191px;
-  width: 100%;  
+  width: 100%;
   justify-content: space-between;
   height: 100%;
   display: flex;
@@ -11,29 +9,30 @@
 
 
 .ShopSomeWear__select-panel_headline {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 24px;
-    color: var(--black);
-    margin-top: 18px;
-    margin-bottom: 31px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  color: var(--black);
+  margin-top: 18px;
+  margin-bottom: 31px;
 }
 
 .ShopSomeWear__select-panel_checkbox {
-    display: flex;
-    flex-direction: column;    
+  display: flex;
+  flex-direction: column;
 }
 
 .ShopSomeWear__checkbox {
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 486%;
-text-transform: uppercase;
-color: var(--black-2);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 486%;
+  text-transform: uppercase;
+  color: var(--black-2);
 }
+
 .ShopSomeWear__checkbox:checked {
-background: url('../assets/img/ShopSomeWear/checkbox_checked.png');
+  background: url('../assets/img/ShopSomeWear/checkbox_checked.png');
 }
 
 
@@ -51,27 +50,27 @@ background: url('../assets/img/ShopSomeWear/checkbox_checked.png');
 }
 
 .checkbox-wrapper label {
-    display: flex;
-    background: transparent;
-    cursor: pointer;   
-    z-index: 10;
-    margin-left: 20px;
-    align-items: center;
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: var(--black-2);
+  display: flex;
+  background: transparent;
+  cursor: pointer;
+  z-index: 10;
+  margin-left: 20px;
+  align-items: center;
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--black-2);
 }
 
 .checkbox-wrapper span {
-    width: 10px;
-    height: 10px;
-    display: inline-block;
-    background: transparent;
-    border: 1px solid #828282;
-    border-radius: 0px;
-    position: absolute;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background: transparent;
+  border: 1px solid #828282;
+  border-radius: 0px;
+  position: absolute;
 }
 
 .checkbox-wrapper #best_sellers:checked+span,
@@ -79,36 +78,43 @@ background: url('../assets/img/ShopSomeWear/checkbox_checked.png');
 .checkbox-wrapper #top_women:checked+span,
 .checkbox-wrapper #new_arival:checked+span,
 .checkbox-wrapper #collection_summer:checked+span,
-.checkbox-wrapper #collection_spring:checked+span
- {
+.checkbox-wrapper #collection_spring:checked+span {
   transition: 1s all;
-  background: url('../assets/img/ShopSomeWear/checkbox_checked.png') no-repeat 50% 50%; 
+  background: url('../assets/img/ShopSomeWear/checkbox_checked.png') no-repeat 50% 50%;
 }
 
 
-.left-arrow ,
+.left-arrow,
 .right-arrow {
   cursor: pointer;
 }
 
 .ShopSomeWear__catalog-clothes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    width: 100%;
-    max-width: 1484px;
-    border-left: 1px solid var(--divider);
-    padding-left: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1484px;
+  border-left: 1px solid var(--divider);
+  padding-left: 30px;
+}
+
+.catalog-clothes-block-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1484px;
 }
 
 .catalog-clothes-block {
-    display: flex;
-    flex-direction: column;
-    max-width: 344px;
-    max-height: 548px;
-    margin-bottom: 48px;
-    cursor: pointer;
-    width: 45%;
+  display: flex;
+  flex-direction: column;
+  max-width: 344px;
+  max-height: 548px;
+  margin-bottom: 48px;
+  cursor: pointer;
+  width: 45%;
 }
 
 .catalog-clothes-text {
@@ -122,17 +128,17 @@ background: url('../assets/img/ShopSomeWear/checkbox_checked.png');
 
 .catalog-clothes-text__name {
   font-family: var(--font-family);
-font-weight: 600;
-font-size: 12px;
-text-transform: uppercase;
-color: #bdbdbd;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: #bdbdbd;
 }
 
 .catalog-clothes-text__describe {
   font-family: var(--font-family);
-font-weight: 300;
-font-size: 18px;
-color: var(--black);
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--black);
 }
 
 .catalog-clothes-text__price-block {
@@ -140,20 +146,20 @@ color: var(--black);
 }
 
 .catalog-clothes-text__price {
-    font-family: var(--font-family-medium);
-    font-weight: 700;
-    font-size: 22px;
-    text-transform: uppercase;
-    color: var(--black);
-    transition: 1s;
+  font-family: var(--font-family-medium);
+  font-weight: 700;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--black);
+  transition: 1s;
 }
 
 .catalog-clothes-text__price:hover {
   font-family: var(--font-family);
-font-weight: 500;
-font-size: 22px;
-text-transform: uppercase;
-color: var(--main-color-2);
+  font-weight: 500;
+  font-size: 22px;
+  text-transform: uppercase;
+  color: var(--main-color-2);
 }
 
 .catalog-clothes-text__price-block:hover .catalog-clothes-text__old-price {
@@ -163,29 +169,28 @@ color: var(--main-color-2);
 }
 
 .catalog-clothes-text__old-price {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 14px;
-    text-transform: uppercase;
-    color: var(--gray-1);
-    text-decoration: line-through;
-    align-items: center;
-    opacity: 0;
-    display: flex;
-    transition: 2s;   
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--gray-1);
+  text-decoration: line-through;
+  align-items: center;
+  opacity: 0;
+  display: flex;
+  transition: 2s;
 }
 
 .load_more {
-    font-family: var(--font-family);
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--gray-1);
-    border: 2px solid var(--divider);
-    width: 140px;
-    height: 50px;
-    margin: 0 auto;
+  font-family: var(--font-family);
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--gray-1);
+  border: 2px solid var(--divider);
+  width: 140px;
+  height: 50px;
+  margin: 0 auto 38px;
 }
-  
