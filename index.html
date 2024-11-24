@@ -139,10 +139,10 @@
                             <a class="navigation__link" href="#">blog</a>
                         </li>
                         <li class="navigation__item">
-                            <a class="navigation__link" href="#">sale</a>
+                            <a class="navigation__link" href="/dist/pages/product.html">sale</a>
                         </li>
                         <li class="navigation__item">
-                            <a class="navigation__link" href="#">contact us</a>
+                            <a class="navigation__link" href="#footer__describe">contact us</a>
                         </li>
                     </ul>
                     <section class="search-block">
@@ -224,6 +224,8 @@
                 </div>
             </section>
             <section class="navigation__mobile-menu">
+                <stripe class="mobile-menu-stripe"></stripe>
+                <stripe class="mobile-menu-stripe"></stripe>
                 <stripe class="mobile-menu-stripe"></stripe>
             </section>
         </section>
@@ -1732,7 +1734,7 @@
                             </article>
                             <article class="contact-us__item">
                                 <h5 class="footer__name">Phone:</h5>
-                                <p class="footer__describe">(123) 456-7890</p>
+                                <a href="tel:(123) 456-7890" class="footer__describe" >(123) 456-7890</a>
                             </article>
                             <article class="contact-us__item">
                                 <h5 class="footer__name">email:</h5>
@@ -1840,5 +1842,6 @@
         </script>
         <script src="dist/scripts/sign-in.js"></script>
         <script src="dist/scripts/cart.js"></script>
+        <script src="dist/scripts/burger-menu.js"></script>
     </body>
 </html>
