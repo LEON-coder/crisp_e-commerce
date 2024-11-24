@@ -1,4 +1,3 @@
-
 /* Шапка */
 .header {
   display: flex;
@@ -11,20 +10,21 @@
   padding: 0 21px;
   box-sizing: border-box;
   position: relative;
+  flex-wrap: wrap;
 }
 
-    .header__wrap {
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        display: flex;
-        width: 100%;
-        flex-wrap: wrap;
-    }
+.header__wrap {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+}
 
 .Logo {
   width: 92px;
-height: 42px;
+  height: 42px;
 }
 
 .navigation {
@@ -51,8 +51,9 @@ height: 42px;
 }
 
 .navigation__link:hover {
-  border-bottom: 2px solid var(--main-color-2);  
+  border-bottom: 2px solid var(--main-color-2);
 }
+
 .navigation__item:hover .navigation__link_submenu {
   display: flex;
   opacity: 1;
@@ -127,7 +128,7 @@ height: 42px;
 }
 
 .sign-in__pop-up {
-  display: none; 
+  display: none;
   width: 100%;
   height: 100%;
   justify-content: center;
@@ -153,11 +154,11 @@ height: 42px;
 
 .active {
   display: flex;
-  transition: 1s ;
-  -webkit-transition: 1s ;
-  -moz-transition: 1s ;
-  -ms-transition: 1s ;
-  -o-transition: 1s ;  
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
 }
 
 .input-sign-in {
@@ -266,9 +267,7 @@ label {
 }
 
 @keyframes pulse {
-  from {
-
-  }
+  from {}
 }
 
 .header__create-account {
@@ -377,21 +376,23 @@ label {
   margin-bottom: 5px;
 }
 
-.size, .art_describe {
+.size,
+.art_describe {
   font-family: var(--second-family);
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
-  color: #bdbdbd; 
+  color: #bdbdbd;
 }
 
-.size-order, .art_number {
+.size-order,
+.art_number {
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 14px;
-text-transform: uppercase;
-color: #bdbdbd;
-color: var(--black-2);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #bdbdbd;
+  color: var(--black-2);
 }
 
 .cart-list__articul-block {
@@ -400,15 +401,15 @@ color: var(--black-2);
 
 .cart-list__price {
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 14px;
-text-transform: uppercase;
-color: var(--black-2);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--black-2);
 }
 
 .cart-list__editing-block {
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 .cart-list__icon {
@@ -417,7 +418,7 @@ color: var(--black-2);
 }
 
 .delete {
-  margin-bottom: 5px; 
+  margin-bottom: 5px;
 }
 
 .cart-list__icon:hover {
@@ -557,7 +558,7 @@ color: var(--black-2);
 
 .navigation__list_submenu {
   display: flex;
-   flex-direction: column;
+  flex-direction: column;
 }
 
 .picture-sub-menu {
@@ -578,11 +579,11 @@ color: var(--black-2);
 .cart_subtotal,
 .price-number {
   font-family: var(--font-family);
-font-weight: 400;
-font-size: 20px;
-line-height: 340%;
-text-align: right;
-color: var(--black);
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 340%;
+  text-align: right;
+  color: var(--black);
 }
 
 .view-cart {
@@ -595,7 +596,7 @@ color: var(--black);
   background: var(--black);
   border: none;
   margin-top: 0;
- 
+
 }
 
 .checkout:hover {
@@ -605,7 +606,8 @@ color: var(--black);
 
 @keyframes pulse {
   0% {
-    color: var(--white);;
+    color: var(--white);
+    ;
     transition: 1s;
     -webkit-transition: 1s;
     -moz-transition: 1s;
@@ -616,7 +618,7 @@ color: var(--black);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-}
+  }
 
   20% {
     color: gold;
@@ -630,7 +632,8 @@ color: var(--black);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-}
+  }
+
   40% {
     color: gold;
     transition: 1s;
@@ -643,7 +646,8 @@ color: var(--black);
     -moz-transform: scale(.8);
     -ms-transform: scale(.8);
     -o-transform: scale(.8);
-}
+  }
+
   60% {
     color: var(--white);
     transition: 1s;
@@ -656,5 +660,5 @@ color: var(--black);
     -moz-transform: scale(1);
     -ms-transform: scale(1);
     -o-transform: scale(1);
-}
+  }
 }
