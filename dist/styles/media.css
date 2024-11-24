@@ -1,205 +1,3 @@
-@media (max-width: 2560px) {
-    .footer__block-list_wrap {
-        margin-left: 0;
-        margin-top: 50px;
-        flex-wrap: wrap;
-    }
-
-    .BlockSeeOffers__wrap {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: center;
-        width: 100%;
-        gap: 30px;
-    }
-
-    .BlockProposing__left-block {
-        width: 50%;
-    }
-
-    .woman-2 {
-        position: absolute;
-        top: 0;
-        right: 0;
-        width: 100%;
-        height: 100%;
-    }
-
-    .BlockProposing__right-block {
-        width: 100%;
-    }
-
-    .ShopSomeWear {
-        display: flex;
-        justify-content: center;
-    }
-
-    .woman-2-img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .woman-3 {
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: 0;
-        height: 100%;
-        width: 100%;
-    }
-
-    .woman-3-img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .your-look__block-info {
-        margin-right: 0px;
-        margin-left: 50px;
-    }
-
-
-    .load_more {
-        font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 14px;
-        letter-spacing: 0.04em;
-        text-transform: uppercase;
-        text-align: center;
-        color: var(--gray-1);
-        border: 2px solid var(--divider);
-        width: 140px;
-        height: 50px;
-        margin: 0;
-    }
-
-
-    .catalog-clothes-block-wrap {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        width: 100%;
-        max-width: 1484px;
-        overflow-x: hidden;
-    }
-
-
-    .checkbox-wrapper {
-        display: flex;
-        position: relative;
-        align-items: center;
-        margin-bottom: 20px;
-        width: auto;
-        height: 22px;
-        text-wrap: auto;
-        word-wrap: break-word;
-    }
-
-    .ShopSomeWear__select-panel_checkbox {
-        display: flex;
-        flex-direction: column;
-        padding-right: 10px;
-    }
-
-    .Explore-block__text {
-        font-size: 42px;
-    }
-
-    .Explore-block__img {
-        max-width: 1060px;
-        max-height: 363px;
-        width: 46%;
-        margin-right: 40px;
-    }
-
-    .Explore-block__figure {
-        max-width: 626px;
-        position: absolute;
-        top: -5px;
-        right: 0;
-        width: 100%;
-    }
-
-    .Blog__posts {
-        flex-wrap: wrap;
-        gap: 30px;
-        justify-content: space-between;
-    }
-
-    .Blog__post {
-        min-width: 200px;
-        justify-content: space-between;
-        width: 30%;
-    }
-
-    .Explore-img {
-        width: 100%;
-    }
-
-    .ShopSomeWear__catalog-clothes {
-        justify-content: space-between;
-        width: 100%;
-    }
-
-    .Explore-block {
-        display: flex;
-        justify-content: center;
-    }
-
-    .Explore-block__describe-block {
-        margin-right: 0;
-    }
-
-    .Explore-block__wrap {
-        max-width: 1484px;
-    }
-
-    .owl-carousel.owl-drag .owl-item {
-        -ms-touch-action: pan-y;
-        touch-action: pan-y;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        margin-left: 0px;
-    }
-
-    .owl-carousel .owl-stage-outer {
-        position: relative;
-        overflow: hidden;
-        transform: translate3d(0, 0, 0);
-        -webkit-transform: translate3d(0, 0, 0);
-    }
-
-    .Blog__checkboxes {
-        display: flex;
-        width: 100%;
-        height: 100px;
-        background: var(--main-color);
-        justify-content: space-between;
-        align-items: center;
-        padding: 0 50px 0 50px;
-    }
-
-    .footer__wrap {
-        padding: 64px 20px 117px 21px;
-        border-bottom: 1px solid #4f4f4f;
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .footer__block-list_wrap {
-        display: flex;
-        align-items: baseline;
-        margin-left: 0;
-        width: 100%;
-        max-width: 1589px;
-        justify-content: space-between;
-        margin-top: 50px;
-    }
-}
-
 @media (max-width: 1440px) {
     .footer__block-list_wrap {
         margin-left: 0;
@@ -1312,8 +1110,11 @@
     }
 
     .selecting-brand-block__headline {
-        left: 0;
-        width: 100%;
+        left: 15%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+        height: auto;
     }
 
     .item_brand {
@@ -1503,8 +1304,7 @@
     }
 
     .ShopSomeWear__catalog-clothes {
-        border-left: transparent;
-        padding-left: 0;
+        max-width: 410px;
     }
 
     .owl-carousel.owl-drag .owl-item {
@@ -1521,10 +1321,6 @@
         display: flex;
         flex-direction: column;
         padding-right: 10px;
-    }
-
-    .ShopSomeWear__wrap {
-        flex-wrap: wrap;
     }
 
     .Explore-block__img {

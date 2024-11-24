@@ -94,6 +94,13 @@
   color: #bdbdbd;
 }
 
+.catalog-clothes-text__describe {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--black);
+}
+
 .catalog-clothes-text__price-block {
   display: flex;
 }
@@ -154,8 +161,9 @@
   font-size: 24px;
   line-height: 283%;
   color: var(--black);
+  margin-top: 77px;
+  padding-left: 20px;
 }
-
 
 .catalog-clothes-text__name {
   font-family: var(--font-family);
@@ -165,6 +173,12 @@
   color: #bdbdbd;
 }
 
+.catalog-clothes-text__describe {
+  font-family: var(--font-family);
+  font-weight: 300;
+  font-size: 18px;
+  color: var(--black);
+}
 
 .catalog-clothes-text__price-block {
   display: flex;

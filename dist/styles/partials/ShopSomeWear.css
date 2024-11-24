@@ -1,12 +1,12 @@
 .ShopSomeWear__select-panel {
-  max-width: 191px;
+  max-width: 394px;
   width: 100%;
   justify-content: space-between;
   height: 100%;
   display: flex;
   flex-direction: column;
+  margin-right: auto;
 }
-
 
 .ShopSomeWear__select-panel_headline {
   font-family: var(--font-family);
@@ -35,6 +35,9 @@
   background: url('../assets/img/ShopSomeWear/checkbox_checked.png');
 }
 
+.FeaturedItems__wrap {
+  width: 100%;
+}
 
 .checkbox-wrapper {
   display: flex;
@@ -94,7 +97,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  max-width: 1484px;
   border-left: 1px solid var(--divider);
   padding-left: 30px;
 }
@@ -104,7 +106,6 @@
   flex-wrap: wrap;
   justify-content: space-between;
   width: 100%;
-  max-width: 1484px;
 }
 
 .catalog-clothes-block {
@@ -192,5 +193,6 @@
   border: 2px solid var(--divider);
   width: 140px;
   height: 50px;
-  margin: 0 auto 38px;
+  margin: 0 auto;
+  margin-bottom: 38px;
 }
