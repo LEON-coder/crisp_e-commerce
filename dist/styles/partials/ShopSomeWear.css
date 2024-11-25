@@ -115,7 +115,6 @@
   max-height: 548px;
   margin-bottom: 48px;
   cursor: pointer;
-  width: 45%;
 }
 
 .catalog-clothes-text {
@@ -167,19 +166,6 @@
   opacity: 1;
   margin-left: 30px;
   transition: 1s;
-}
-
-.catalog-clothes-text__old-price {
-  font-family: var(--font-family);
-  font-weight: 400;
-  font-size: 14px;
-  text-transform: uppercase;
-  color: var(--gray-1);
-  text-decoration: line-through;
-  align-items: center;
-  opacity: 0;
-  display: flex;
-  transition: 2s;
 }
 
 .load_more {

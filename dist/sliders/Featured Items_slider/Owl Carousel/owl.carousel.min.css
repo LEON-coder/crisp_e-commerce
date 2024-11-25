@@ -9,9 +9,6 @@
   position: relative
 }
 
-.item {
-  padding: 20px 0px 10px 20px;
-}
 
 .owl-carousel {
   display: none;
@@ -63,6 +60,8 @@
 
 .owl-carousel .owl-item img {
   display: block;
+  width: 100%;
+  max-width: 353px;
 }
 
 .owl-dots.disabled {

@@ -165,15 +165,8 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        margin-left: 200px;
     }
 
-    .owl-carousel .owl-stage-outer {
-        position: relative;
-        overflow: hidden;
-        transform: translate3d(0, 0, 0);
-        -webkit-transform: translate3d(0, 0, 0);
-    }
 
     .Blog__checkboxes {
         display: flex;
@@ -308,11 +301,334 @@
     .ShopSomeWear__catalog-clothes {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-between;
-        width: 100%;
-        max-width: 1484px;
         border-left: none;
+        padding-left: 0;
+        overflow-x: hidden;
+    }
+
+    .selecting-brand-block__headline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 13px;
+        left: 31%;
+        background: #fff;
+        width: 370px;
+        font-family: var(--font-family);
+        font-weight: 400;
+        font-size: 24px;
+        text-transform: uppercase;
+        text-align: center;
+        color: var(--black);
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .slider-first__block-photo-models {
+        display: flex;
+        max-width: 804px;
+        box-sizing: border-box;
+        position: relative;
+        align-items: center;
+        width: 30vw;
+    }
+
+    .filter-block {
+        width: 30%;
+    }
+
+    .slick-slide img {
+        width: 30vw;
+        height: 100%;
+        left: 130px;
+    }
+
+    .Explore-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .catalog-clothes-block {
+        width: 100%;
+    }
+
+    .BlockSeeOffers__wrap {
+        gap: 30px;
+    }
+
+    .Blog__post_describe {
+        height: 53%;
+    }
+
+    .Bannershoping-block-text {
+        display: flex;
+        flex-direction: column;
+        max-width: 639px;
+        min-height: 312px;
+        margin-top: 77px;
+        margin-left: 60px;
+        position: relative;
+        margin-right: auto;
+    }
+
+    .slider-first__block-advertisements {
+        max-width: 295px;
+        width: 50%;
+    }
+
+    .persent-30 {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 26px;
+        line-height: 112%;
+        text-transform: uppercase;
+        color: var(--black);
+    }
+
+    .your-look__block-info {
+        margin-right: auto;
+        padding-bottom: 103px;
+        margin-left: 30px;
+    }
+
+    .brand-new-style__block-info {
+        z-index: 2;
+        max-width: 369px;
+        margin-top: 0;
+        margin-left: 0;
         padding-left: 30px;
+        padding-top: 30px;
+    }
+
+    .checkbox-wrapper {
+        display: flex;
+        position: relative;
+        align-items: center;
+        margin-bottom: 20px;
+        width: auto;
+        height: 22px;
+        text-wrap: auto;
+        word-wrap: break-word;
+    }
+
+    .ShopSomeWear__select-panel_checkbox {
+        display: flex;
+        flex-direction: column;
+        padding-right: 10px;
+    }
+
+    .Explore-block__img {
+        width: 50vw;
+        margin-right: 0;
+        max-height: 700px;
+    }
+
+    .Explore-block__describe-block {
+        margin-right: 0px;
+        width: 40vw;
+    }
+
+    .Explore-block__figure {
+        max-width: 626px;
+        position: absolute;
+        top: -20px;
+        right: 0;
+        width: 100%;
+    }
+
+    .woman-2 {
+        height: -webkit-fill-available;
+        width: -webkit-fill-available;
+        max-width: fit-content;
+    }
+
+    .Explore-block__describe-block_wrap {
+        width: auto;
+    }
+
+    .catalog-clothes-text__describe {
+        font-size: 16px;
+    }
+
+    .owl-carousel.owl-drag .owl-item {
+        -ms-touch-action: pan-y;
+        touch-action: pan-y;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+    }
+
+    .Explore-block-wrap {
+        max-width: 620px;
+        width: auto;
+        padding-top: 21px;
+        position: relative;
+        flex-wrap: wrap;
+        display: flex;
+    }
+
+    .Explore-block__text {
+        font-weight: 500;
+        font-size: 5vw;
+        line-height: 129%;
+    }
+
+    .Blog__post {
+        width: 45%;
+        height: auto;
+        margin-bottom: 30px;
+    }
+
+    .Explore-img {
+        width: 100%;
+    }
+
+    .FeaturedItems__slider,
+    .FeaturedItems__slider-2 {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        background: transparent;
+    }
+
+    .Blog__posts {
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        margin-bottom: 46px;
+        flex-wrap: wrap;
+    }
+
+    .Blog__checkboxes {
+        padding: 20px 20px 20px 20px;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        height: auto;
+    }
+
+    .footer__wrap {
+        padding: 20px 20px 30px 21px;
+        flex-wrap: wrap;
+    }
+
+    .footer__block-list {
+        width: 33%;
+    }
+
+    .footer__block-list_wrap {
+        margin-left: 0;
+        flex-wrap: wrap;
+    }
+
+
+
+    /* catalog */
+
+    .catalog__block-cloth {
+        max-width: 344px;
+        width: 14vw;
+        position: relative;
+    }
+
+    .catalog__goods-block-wrap {
+        width: 70%;
+        max-width: 550px;
+    }
+
+    .Bannershoping-block-text {
+        max-width: 360px;
+        margin-top: 35px;
+        margin-left: 40px;
+        margin-right: auto;
+    }
+
+    .catalog-bannershoping-frame {
+        width: 100%;
+        top: -20px;
+    }
+
+    .catalog__bannershoping-text {
+        color: var(--white);
+        font-size: 22px;
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .header__wrap {
+        justify-content: end;
+        flex-wrap: wrap;
+    }
+
+    .header__cart-block {
+        display: flex;
+        align-items: center;
+        margin-bottom: 20px;
+        margin-left: auto;
+        margin-right: 40px;
+    }
+
+    .header__block-autorization {
+        margin-right: 31px;
+        display: flex;
+    }
+
+    .block-advertisements__text {
+        font-family: var(--font-family);
+        font-weight: 600;
+        font-size: 2em;
+        line-height: 112%;
+        text-transform: uppercase;
+        width: 100%;
+    }
+
+    .BlockProposing__left-block {
+        flex-direction: row;
+        width: 100%;
+        max-width: 1200px;
+    }
+
+    .your-look {
+        background: linear-gradient(270deg,
+                rgba(241, 239, 240, 0) 0%,
+                #f1f0f0 10.94%,
+                #f3f0ef 100%);
+        justify-content: end;
+        align-items: center;
+        display: flex;
+        width: 50%;
+        height: 100%;
+    }
+
+    .brand-new-style {
+        background: linear-gradient(90deg,
+                #f7e0d5 0%,
+                #f3dcd2 83.85%,
+                rgba(243, 220, 210, 0.14) 100%);
+        width: 50%;
+        overflow-x: clip;
+    }
+
+    .woman-1-img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .BlockProposing__right-block {
+        max-width: 1024px;
+        width: 100%;
+    }
+
+
+    .ShopSomeWear__catalog-clothes {
+        display: flex;
+        flex-wrap: wrap;
+        border-left: none;
+        padding-left: 0;
         overflow-x: hidden;
     }
 
@@ -464,7 +780,6 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        margin-left: 200px;
     }
 
     .Explore-block-wrap {
@@ -561,449 +876,6 @@
         color: var(--white);
         font-size: 22px;
     }
-}
-
-@media (max-width: 768px) {
-    .navigation {
-        display: none;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: baseline;
-        margin-top: 40px;
-        margin-bottom: 0px;
-    }
-
-    .slick-dotted.slick-slider {
-        min-height: 600px;
-    }
-
-    .slick-dotted.slick-slider {
-        min-height: 700px;
-    }
-
-    .slick-initialized .slick-slide {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        min-height: 600px;
-    }
-
-    .header__sign-in,
-    .header__create-account {
-        font-family: var(--font-family);
-        font-weight: 600;
-        font-size: 14px;
-        text-transform: uppercase;
-        color: var(--white);
-        text-decoration: none;
-        margin-top: 35px;
-    }
-
-    .search-block {
-        display: flex;
-        margin-left: 0;
-        max-width: 69px;
-        justify-content: space-around;
-        width: 100%;
-        cursor: pointer;
-    }
-
-    .header__cart-block {
-        display: none;
-        align-items: center;
-    }
-
-
-    .navigation__links {
-        display: none;
-        justify-content: space-between;
-        width: 100%;
-        padding-left: 0;
-        max-width: 317px;
-        height: 60px;
-    }
-
-    .header__block-autorization {
-        margin-right: 31px;
-        display: none;
-        flex-direction: column;
-        justify-content: flex-start;
-        align-items: baseline;
-    }
-
-    .header__create-account {
-        margin-left: 0;
-    }
-
-
-    .block-advertisements__text {
-        font-weight: 600;
-        font-size: 1.5em;
-        line-height: 112%;
-    }
-
-    .BlockProposing__left-block {
-        max-width: 768px;
-        width: 100%;
-        margin-bottom: 30px;
-        flex-direction: column;
-    }
-
-    .selecting-brand-block__headline {
-        left: 0;
-        width: 100%;
-    }
-
-    .item_brand {
-        background: #ccc;
-        flex: 0 0 auto;
-        width: auto;
-        height: 100px;
-        counter-increment: item;
-        border-radius: 6px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        font-size: 25px;
-        font-weight: bold;
-        color: #fff;
-        margin: 10px 0;
-        transition: all 0.1s ease-in-out;
-    }
-
-    .item_brand:before {
-        display: none;
-        content: counter(item);
-    }
-
-    .slider-first__block-photo-models {
-        width: 100%;
-        order: -1;
-        max-width: 320px;
-        height: 600px;
-        align-items: flex-start;
-        margin-top: 0;
-        top: 0;
-    }
-
-    .slider-first__block-advertisements {
-        max-width: 295px;
-        width: auto;
-        margin-top: 60px;
-        margin-bottom: 130px;
-    }
-
-    .model-1 {
-        display: flex;
-        align-items: center;
-        width: 416px;
-        height: 623px;
-        margin-left: -290px;
-        position: absolute;
-        z-index: 1;
-    }
-
-    .model-2 {
-        display: flex;
-        align-items: center;
-        width: 416px;
-        height: 623px;
-        margin-left: -190px;
-        position: absolute;
-        z-index: 1;
-    }
-
-    .block-advertisements__frame {
-        position: absolute;
-        top: -50px;
-        right: 0;
-        width: 100%;
-    }
-
-    .slider-first__central-block {
-        align-items: center;
-        flex-direction: row;
-    }
-
-    .brand-new-style__block-info {
-        padding-top: 0px;
-        margin-top: 80px;
-        padding-left: 0;
-        margin-left: 30px;
-    }
-
-    .BlockProposing__right-block {
-        width: 100%;
-    }
-
-    .BlockSeeOffers {
-        width: 100%;
-    }
-
-    .slick-slide img {
-        width: 45vw;
-        height: auto;
-        left: 266px;
-    }
-
-    .your-look {
-        width: 100%;
-        margin-bottom: 30px;
-    }
-
-    .woman-1 {
-        width: 100%;
-    }
-
-    .woman-1-img,
-    .woman-3-img,
-    .woman-2-img {
-        width: 100%;
-        height: 100%;
-    }
-
-    .catalog-clothes-block {
-        max-width: 700px;
-        cursor: pointer;
-        width: 45%;
-    }
-
-    .brand-new-style {
-        width: 100%;
-        overflow-x: clip;
-        height: 100%;
-    }
-
-    .button-see-offers {
-        font-family: var(--font-family);
-        font-weight: 500;
-        font-size: 18px;
-        letter-spacing: 0.03em;
-        text-transform: uppercase;
-        text-align: center;
-        color: var(--black);
-        max-width: 175px;
-        min-height: 56px;
-        border: 2px solid var(--black);
-        margin-top: 20px;
-        width: 100%;
-        margin-bottom: 30px;
-    }
-
-    .your-look__block-info {
-        width: auto;
-        margin-top: 60px;
-        margin-left: 30px;
-        padding-bottom: 0px;
-        margin-right: auto;
-    }
-
-    .ShopSomeWear__select-panel {
-        max-width: 220px;
-    }
-
-    .BlockProposing__headline-3 {
-        font-size: 30pt;
-    }
-
-    .Bannershoping__wrap {
-        margin-top: 40px;
-        height: auto;
-    }
-
-    .Bannershoping-block-text {
-        margin-top: 30px;
-        margin-left: 0;
-    }
-
-    .owl-stage {
-        width: 3000px;
-    }
-
-    .checkbox-wrapper {
-        display: flex;
-        position: relative;
-        align-items: center;
-        margin-bottom: 20px;
-        width: auto;
-        height: 22px;
-        text-wrap: auto;
-        word-wrap: break-word;
-    }
-
-    .ShopSomeWear__catalog-clothes {
-        border-left: transparent;
-        padding-left: 0;
-    }
-
-    .owl-carousel.owl-drag .owl-item {
-        -ms-touch-action: pan-y;
-        touch-action: pan-y;
-        -webkit-user-select: none;
-        -moz-user-select: none;
-        -ms-user-select: none;
-        user-select: none;
-        margin-left: 300px;
-    }
-
-    .ShopSomeWear__select-panel_checkbox {
-        display: flex;
-        flex-direction: column;
-        padding-right: 10px;
-    }
-
-    .ShopSomeWear__wrap {
-        flex-wrap: wrap;
-    }
-
-    .Explore-block__img {
-        width: 100%;
-        margin-bottom: 50px;
-    }
-
-    .Explore-block__describe-block {
-        margin-right: 0px;
-        width: 100%;
-    }
-
-    .Explore-block__figure {
-        max-width: 726px;
-    }
-
-    .woman-2 {
-        height: -webkit-fill-available;
-    }
-
-    .Bannershoping-frame {
-        position: absolute;
-        top: -30px;
-        right: 0;
-        left: 0;
-        width: 100%;
-    }
-
-    .Bannershoping {
-        height: fit-content;
-    }
-
-    .Bannershoping-text {
-        font-size: 2em;
-    }
-
-    .Bannershoping-text-describe {
-        font-size: 20px;
-        width: 90%;
-    }
-
-    .shop-button {
-        margin-top: 48px;
-    }
-
-    .Explore-block__describe-block_wrap {
-        width: auto;
-    }
-
-    .Explore-block-wrap {
-        max-width: 768px;
-    }
-
-    .Explore-block__text {
-        font-weight: 500;
-        font-size: 2em;
-    }
-
-    .Blog__wrap {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .Blog__posts {
-        display: flex;
-        width: 100%;
-        justify-content: center;
-        margin-bottom: 46px;
-        flex-wrap: wrap;
-    }
-
-    .Blog__post {
-        width: 100%;
-        margin-right: 0;
-    }
-
-    .Blog__post_describe {
-        height: auto;
-        padding-bottom: 10px;
-    }
-
-    .Blog__checkboxes {
-        padding: 30px 50px 30px 50px;
-        flex-wrap: wrap;
-        min-height: 250px;
-        justify-content: center;
-    }
-
-    .E-mail {
-        width: 100%;
-        border: 1px solid var(--white);
-        max-width: 280px;
-        height: 40px;
-        background: var(--black);
-        margin-top: 10px;
-        padding-left: 15px;
-    }
-
-    .subscribe {
-        display: flex;
-        max-width: 280px;
-        height: 40px;
-        background: var(--white);
-        font-family: var(--font-family);
-        font-weight: 400;
-        font-size: 14px;
-        text-transform: uppercase;
-        text-align: center;
-        color: var(--black-2);
-        justify-content: center;
-        align-items: center;
-        margin-top: 7px;
-        border: none;
-        width: 100%;
-    }
-
-    .footer__wrap {
-        padding: 64px 0px 20px 0px;
-        width: 100%;
-    }
-
-    .footer__block-list_wrap {
-        margin-left: 0;
-        flex-wrap: wrap;
-        margin-top: 50px;
-    }
-
-    /* catalog */
-    .filter-block {
-        max-width: 220px;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-    }
-
-    .catalog__goods-block-wrap {
-        width: 55%;
-        max-width: 400px;
-    }
-
-    .Blog__checkboxes {
-        padding: 30px 50px 30px 50px;
-        min-height: 150px;
-    }
-
-    .footer__block-list {
-        width: 45%;
-        margin-bottom: 30px;
-    }
-
 }
 
 @media (max-width: 640px) {
@@ -1280,7 +1152,6 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        margin-left: 330px;
     }
 
     .ShopSomeWear__select-panel_checkbox {
@@ -1796,9 +1667,8 @@
     }
 
     .catalog-clothes-block {
-        max-width: 700px;
         cursor: pointer;
-        width: 45%;
+        width: auto;
     }
 
     .brand-new-style {
@@ -1874,7 +1744,6 @@
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
-        margin-left: 330px;
     }
 
     .ShopSomeWear__select-panel_checkbox {

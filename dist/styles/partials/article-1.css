@@ -38,6 +38,12 @@
   display: flex;
 }
 
+.article__block-info-advertisements-common {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
 .article__block-info_dress-block {
   display: flex;
   flex-direction: column;
@@ -58,6 +64,7 @@
   max-width: 1224px;
   justify-content: space-between;
   width: 100%;
+  flex-direction: column;
 }
 
 .article__dress-describe {
@@ -82,9 +89,9 @@
 
 .article__dress-describe_text {
   font-family: var(--second-family);
-font-size: 18px;
-line-height: 278%;
-color: var(--black-2);
+  font-size: 18px;
+  line-height: 278%;
+  color: var(--black-2);
 }
 
 .paragraph-3,
@@ -96,5 +103,163 @@ color: var(--black-2);
 
 .dress-describe-2 {
   margin-top: 40px;
+  max-width: 818px;
+  width: 100%;
 }
 
+.dress-img img {
+  width: 100%;
+}
+
+.item {
+  padding: 20px 0px 10px 20px;
+  display: flex;
+}
+
+
+@media (max-width: 1024px) {
+  .article__dress-img {
+    width: 100%;
+  }
+
+
+  .article__block-info_dress-block {
+    display: flex;
+    flex-direction: column;
+    max-width: 818px;
+    width: 65%;
+  }
+
+  .FeaturedItems__headline {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 283%;
+    color: var(--black);
+    margin-top: 77px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .article__dress-img {
+    width: 100%;
+  }
+
+
+  .article__block-info_dress-block {
+    width: 100%;
+  }
+
+  .article__banner_text {
+    font-size: 2rem;
+  }
+
+  .article__block-info-advertisements-common {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .article__advertisements-block {
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+    width: 100%;
+    max-width: 760px;
+  }
+
+  .advertisements {
+    width: 100%;
+  }
+
+  .advertisements img {
+    width: 100%;
+  }
+
+  .catalog-clothes-text__price {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .article__dress-img {
+    width: 100%;
+  }
+
+
+  .article__block-info_dress-block {
+    width: 100%;
+  }
+
+  .FeaturedItems__headline {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 283%;
+    color: var(--black);
+    margin-top: 77px;
+  }
+
+  .article__banner_text {
+    font-size: 2rem;
+  }
+
+  .article__block-info-advertisements-common {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .article__advertisements-block {
+    display: flex;
+    flex-direction: row;
+    padding-top: 32px;
+    width: 100%;
+    max-width: 760px;
+  }
+
+  .advertisements {
+    width: 100%;
+  }
+
+  .advertisements img {
+    width: 100%;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .article__banner_text {
+    font-size: 25px;
+    width: 100%;
+    height: auto;
+  }
+
+  .article__dress-img {
+    width: 100%;
+  }
+
+
+  .article__block-info_dress-block {
+    width: 100%;
+  }
+
+  .FeaturedItems__headline {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 283%;
+    color: var(--black);
+    margin-top: 77px;
+  }
+
+  .article__block-info-advertisements-common {
+    justify-content: center;
+  }
+
+  .advertisements {
+    width: 100%;
+  }
+
+  .advertisements img {
+    width: 100%;
+  }
+}
