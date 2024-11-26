@@ -94,6 +94,11 @@ tbody {
   max-width: 187px;
 }
 
+.shopping-cart__item img {
+  width: 83px;
+  height: 103px;
+}
+
 .shopping-cart__name {
   font-family: var(--font-family);
   font-weight: 500;
