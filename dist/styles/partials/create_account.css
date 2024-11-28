@@ -183,17 +183,8 @@
   #email,
   #Password,
   #confirm_password {
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 125%;
-    color: var(--black-2);
-    background: var(--white);
-    border: 1px solid var(--divider);
-    max-width: 443px;
-    height: 44px;
-    padding-left: 16px;
     width: 100%;
+    max-width: 760px;
   }
 
   .create-account__name-input {
@@ -219,5 +210,17 @@
     text-align: center;
     color: var(--black);
     padding-bottom: 20px;
+  }
+
+  .link-back {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    text-align: right;
+    color: var(--gray-1);
+    text-decoration: none;
+    margin-right: 30px;
   }
 }
