@@ -27,6 +27,10 @@
   display: flex;
 }
 
+.shopping-cart__details {
+  width: 100%;
+}
+
 .shopping-cart__blocks {
   display: flex;
 }
@@ -75,6 +79,8 @@ tbody {
   width: 100%;
   justify-content: space-between;
   flex-direction: column;
+  max-height: 376px;
+  height: 100%;
 }
 
 .shopping-cart__product {

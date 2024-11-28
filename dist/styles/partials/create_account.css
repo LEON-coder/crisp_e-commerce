@@ -1,20 +1,20 @@
-
 .create-account__block {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
+  padding: 0 20px;
 }
 
 
 
 .create-account__headline {
   font-family: var(--font-family);
-font-weight: 400;
-font-size: 48px;
-height: 90px;
-text-align: center;
-color: var(--black);
+  font-weight: 400;
+  font-size: 48px;
+  height: 90px;
+  text-align: center;
+  color: var(--black);
 }
 
 .create-account__form-wrap {
@@ -36,35 +36,40 @@ color: var(--black);
 
 .create-account__form_headline {
   font-family: var(--font-family);
-font-weight: 400;
-font-size: 24px;
-line-height: 283%;
-color: var(--black);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 283%;
+  color: var(--black);
 }
 
 .create-account__label {
-    display: flex;    
-    justify-content: space-between;
-    margin-bottom: 15px;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+  flex-wrap: wrap;
 }
+
 .create-account__label:last-child {
   margin-bottom: 0;
 }
 
-#first-name, #last-name, #email, #Password, #confirm_password {
-    font-family: var(--second-family);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 125%;
-    color: var(--black-2);
-    background: var(--white);
-    border: 1px solid var(--divider);
-    height: 44px;
-    padding-left: 16px;
-    width: 100%;
-    max-width: 392px;
-    margin-left: auto;
+#first-name,
+#last-name,
+#email,
+#Password,
+#confirm_password {
+  font-family: var(--second-family);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: var(--black-2);
+  background: var(--white);
+  border: 1px solid var(--divider);
+  height: 44px;
+  padding-left: 16px;
+  width: 100%;
+  max-width: 392px;
+  margin-left: auto;
 }
 
 .required {
@@ -73,17 +78,17 @@ color: var(--black);
 
 #sign_up {
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 143%;
-color: var(--gray-1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--gray-1);
 }
 
 .create-account__labels {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding-bottom: 0;    
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-bottom: 0;
 }
 
 .create-account__name-input {
@@ -99,10 +104,10 @@ color: var(--gray-1);
 
 .create-account__sign_up {
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 14px;
-line-height: 143%;
-color: var(--gray-1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  color: var(--gray-1);
 }
 
 .form_headline-sign-up {
@@ -130,11 +135,11 @@ color: var(--gray-1);
   text-align: center;
   color: var(--white);
   border: none;
-  transition: .6s ;
-  -webkit-transition: .6s ;
-  -moz-transition: .6s ;
-  -ms-transition: .6s ;
-  -o-transition: .6s ;
+  transition: .6s;
+  -webkit-transition: .6s;
+  -moz-transition: .6s;
+  -ms-transition: .6s;
+  -o-transition: .6s;
 }
 
 .form-button-submit:hover {
@@ -163,16 +168,21 @@ color: var(--gray-1);
     width: 100%;
     margin-bottom: 124px;
     padding: 0 10px;
-}
+  }
+
   .create-account__block {
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     padding: 0 10px 10px 10px;
-}
+  }
 
-#first-name, #last-name, #email, #Password, #confirm_password {
+  #first-name,
+  #last-name,
+  #email,
+  #Password,
+  #confirm_password {
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 16px;
@@ -184,24 +194,24 @@ color: var(--gray-1);
     height: 44px;
     padding-left: 16px;
     width: 100%;
-}
+  }
 
-.create-account__name-input {
+  .create-account__name-input {
     font-size: 16px;
     color: var(--black-2);
     padding-left: 0;
     width: 180px;
-}
+  }
 
-#sign_up {
+  #sign_up {
     font-family: var(--second-family);
     font-weight: 400;
     font-size: 14px;
     line-height: 143%;
     width: auto;
-}
+  }
 
-.create-account__headline {
+  .create-account__headline {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 2em;
@@ -209,5 +219,5 @@ color: var(--gray-1);
     text-align: center;
     color: var(--black);
     padding-bottom: 20px;
-}
+  }
 }

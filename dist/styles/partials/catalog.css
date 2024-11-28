@@ -786,7 +786,7 @@ label {
   border: 2px solid transparent;
   transition: .5s;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 4px;
 }
 
 .checkbox-label:hover {
@@ -794,12 +794,12 @@ label {
   border: 2px solid var(--divider);
   transition: .5s;
   box-sizing: border-box;
-  padding: 5px;
+  padding: 4px;
 }
 
 .checkbox-view {
-  width: 27px;
-  height: 27px;
+  width: 23px;
+  height: 23px;
   border: 2px solid white;
   background: transparent;
   transition: .3s;
@@ -814,8 +814,8 @@ label {
   border: 2px solid black;
   padding: 5px;
   box-sizing: border-box;
-  width: 27px;
-  height: 27px;
+  width: 23px;
+  height: 23px;
 }
 
 .checkbox:checked+.checkbox-view .checkbox-icon {
