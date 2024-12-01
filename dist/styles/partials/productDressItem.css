@@ -1,13 +1,14 @@
-
 .product__dress-item-wrap {
   display: flex;
-  flex-direction: column;
-  padding: 0 339px 0 238px;
   margin-top: 38px;
+  max-width: 1242px;
 }
 
-.product__dress-item {  
+.product__dress-item {
   margin-top: 52px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .product__drop-menu-block {
@@ -28,14 +29,32 @@
 
 .product__drop-menu-headline {
   position: relative;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 283%;
+  color: var(--black);
+  width: 100%;
 }
+
+.product__drop-menu-headline::marker {
+  content: '';
+}
+
 .product__drop-menu-headline::before {
   content: url(../../img/product-drop-plus.svg);
   width: 17px;
+  position: absolute;
+  right: 0;
 }
 
-details[open] > .product__drop-menu-headline::before {
-  content: url("../../img/product-drop-minus.svg"); 
+.product__drop-menu[open] {
+  display: flex;
+  flex-direction: column;
+}
+
+.product__drop-menu-headline[open]>.product__drop-menu-headline::before {
+  content: url("../../img/product-drop-minus.svg");
   width: 17px;
   height: 2px;
   position: absolute;
@@ -50,8 +69,8 @@ details[open] > .product__drop-menu-headline::before {
 
 .product__drop-menu-describe {
   font-family: var(--second-family);
-line-height: 214%;
-color: var(--black-2);
+  line-height: 214%;
+  color: var(--black-2);
 }
 
 .about-product-block {
@@ -64,12 +83,12 @@ color: var(--black-2);
   transition: 1s;
 }
 
-details[open]  {  
+details[open] {
   position: relative;
 }
 
 .about-product-block__wrap {
-  max-width: 645px;
+  max-width: 567px;
   width: 100%;
 }
 
@@ -89,7 +108,7 @@ details[open]  {
   background: var(--light-blue-hover);
 }
 
-.product__drop-menu:last-child { 
+.product__drop-menu:last-child {
   margin-bottom: 0;
 }
 
@@ -107,16 +126,16 @@ details[open]  {
 
 .advantages__item {
   font-family: var(--second-family);
-line-height: 200%;
-color: var(--black-2);
+  line-height: 200%;
+  color: var(--black-2);
 }
 
 .product__wrap {
   display: flex;
   margin-top: 56px;
-    justify-content: space-between;
-    width: 100%;
-    position: relative;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
 }
 
 .shipping-block {
@@ -128,14 +147,15 @@ color: var(--black-2);
 
 .product__drop-menu-describe-2 {
   font-family: var(--second-family);
-    line-height: 214%;
-    color: var(--black-2);
+  line-height: 214%;
+  color: var(--black-2);
   margin-top: 20px;
 }
+
 .product__drop-menu-describe-3 {
   font-family: var(--second-family);
-    line-height: 214%;
-    color: var(--black-2);
+  line-height: 214%;
+  color: var(--black-2);
   margin-top: 20px;
 }
 
@@ -160,6 +180,12 @@ color: var(--black-2);
   display: flex;
   position: relative;
   flex-direction: column;
+}
+
+.product__gallery-main-photo--wrap {
+  display: flex;
+  flex-direction: column;
+  position: relative;
 }
 
 .photo {
@@ -190,7 +216,7 @@ color: var(--black-2);
 }
 
 .product__dress-options {
-  display: flex;  
+  display: flex;
 }
 
 .brand-dress-label-block {
@@ -217,10 +243,10 @@ color: var(--black-2);
 
 .color_dress__name {
   font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-text-transform: uppercase;
-color: var(--black);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--black);
 }
 
 .select_color__radiobuttons {
@@ -250,28 +276,29 @@ color: var(--black);
 
 .select-size__headline {
   font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-text-transform: uppercase;
-color: var(--black);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--black);
 }
 
 .link__size_guide {
   font-family: var(--second-family);
-font-weight: 400;
-font-size: 14px;
-text-decoration: underline;
-text-decoration-skip-ink: none;
-text-align: right;
-color: var(--link);
+  font-weight: 400;
+  font-size: 14px;
+  text-decoration: underline;
+  text-decoration-skip-ink: none;
+  text-align: right;
+  color: var(--link);
 }
 
 .product__total-price-block {
   display: flex;
   margin-top: 35px;
 }
+
 .Quantity_price_total-block {
-  display: flex; 
+  display: flex;
 }
 
 .Quantity-count-block {
@@ -280,21 +307,20 @@ color: var(--link);
   width: 119px;
   height: 43px;
   background: var(--white);
-  margin-top: 0px;
+  margin-top: 10px;
   justify-content: space-between;
-  margin-left: 40px;
 }
 
 .price-total-headline {
   font-family: var(--font-family);
-font-weight: 400;
-font-size: 14px;
-text-transform: uppercase;
-color: var(--black);
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: var(--black);
 }
 
 .count-minus-block,
- .count-plus-block {
+.count-plus-block {
   width: 41px;
   height: 41px;
   display: flex;
@@ -306,8 +332,8 @@ color: var(--black);
 
 .minus {
   width: 10px;
-height: 2px;
-background: var(--divider);
+  height: 2px;
+  background: var(--divider);
 }
 
 .count-minus-block:hover,
@@ -316,8 +342,8 @@ background: var(--divider);
 }
 
 
-.count-plus { 
-fill: #C4C4C4;
+.count-plus {
+  fill: #C4C4C4;
 }
 
 .currency {
@@ -414,12 +440,12 @@ fill: #C4C4C4;
 }
 
 .product__info_item {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 12px;
-    text-transform: uppercase;
-    color: var(--gray-1);
-    margin-right: 15px;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
+  color: var(--gray-1);
+  margin-right: 15px;
 }
 
 .product__bold-text {
@@ -466,16 +492,19 @@ fill: #C4C4C4;
   top: 0;
   left: 0;
 }
+
 .zoom-right-top-corner {
   position: absolute;
   top: 0;
   right: 0;
 }
+
 .zoom-right-bottom-corner {
   position: absolute;
   bottom: 0;
   right: 0;
 }
+
 .zoom-left-bottom-corner {
   position: absolute;
   bottom: 0;
@@ -488,6 +517,7 @@ fill: #C4C4C4;
   justify-content: center;
   align-items: center;
 }
+
 .zoom-stripe-2 {
   position: absolute;
   display: flex;
@@ -509,6 +539,7 @@ fill: #C4C4C4;
   -ms-transform: scale(1.5);
   -o-transform: scale(1.5);
 }
+
 .button-zoom-block:hover .zoom-left-arrows {
   fill: black;
   stroke: 2px;
@@ -534,7 +565,7 @@ fill: #C4C4C4;
 }
 
 .zoom-img:hover {
-fill: blue;
+  fill: blue;
 }
 
 .zoom-left-arrows {
@@ -546,13 +577,13 @@ fill: blue;
 .zoom-right-arrows {
   position: absolute;
   left: 0;
-  bottom: 0;  
+  bottom: 0;
 }
 
 .zoom-right-arrows:hover {
   position: absolute;
   right: 0;
-  bottom: 0; 
+  bottom: 0;
 }
 
 .product__dress-options-block {
@@ -575,7 +606,7 @@ fill: blue;
 }
 
 .social-icon:hover {
-fill: blueviolet;
+  fill: blueviolet;
 }
 
 .social-block__icons {
@@ -588,6 +619,3 @@ fill: blueviolet;
 .social-icon {
   cursor: pointer;
 }
-
-
-
