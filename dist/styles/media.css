@@ -1124,10 +1124,6 @@
         position: fixed;
     }
 
-    .open_menu {
-        display: flex;
-    }
-
     .black-stripe {
         width: 30px;
         right: 30px;
@@ -2011,6 +2007,8 @@
 
     .open_menu {
         display: flex;
+        flex-direction: column;
+        align-items: baseline;
     }
 
     .black-stripe {
