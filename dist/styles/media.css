@@ -1,5 +1,23 @@
 @media (max-width: 1440px) {
 
+    .dress-img-block {
+        width: 100%;
+    }
+
+    .dress-img {
+        display: flex;
+        width: 100%;
+    }
+
+    .catalog-clothes-block {
+        display: flex;
+        flex-direction: column;
+        max-width: 344px;
+        max-height: 548px;
+        margin-bottom: 48px;
+        cursor: pointer;
+        width: 30%;
+    }
 
     /* shopping cart */
 
@@ -112,7 +130,7 @@
 
     .BlockProposing__right-block {
         width: 100%;
-        max-width: 520px;
+        max-width: 670px;
     }
 
     .woman-2-img {
@@ -413,6 +431,10 @@
         width: 100%;
     }
 
+    .dress-img {
+        display: flex;
+        width: 100%;
+    }
 
     .ShopSomeWear__catalog-clothes {
         display: flex;
@@ -475,7 +497,7 @@
     }
 
     .catalog-clothes-block {
-        width: 100%;
+        width: 18vw;
     }
 
     .BlockSeeOffers__wrap {
@@ -713,6 +735,14 @@
 }
 
 @media (max-width: 768px) {
+
+    .FeaturedItems__headline {
+        margin-top: 30px;
+    }
+
+    .FeaturedItems__headline:last-child {
+        margin-top: 0;
+    }
 
     /* shopping cart*/
 
@@ -1477,10 +1507,6 @@
         word-wrap: break-word;
     }
 
-    .ShopSomeWear__catalog-clothes {
-        max-width: 410px;
-    }
-
 
     .product__block-favorite,
     .ShopSomeWear {
@@ -1965,6 +1991,7 @@
         font-size: 1.5rem;
         align-items: center;
         display: flex;
+        margin-top: 0;
     }
 
     .owl-carousel .owl-item img {
@@ -1984,6 +2011,10 @@
 }
 
 @media (max-width: 425px) {
+
+    .FeaturedItems__headline {
+        margin-top: 0;
+    }
 
     .navigation {
         display: none;
@@ -2893,13 +2924,6 @@
         margin-top: 10px;
     }
 
-    .FeaturedItems__headline {
-        padding-left: 0;
-        font-size: 1.5rem;
-        align-items: center;
-        display: flex;
-    }
-
     .owl-carousel .owl-item img {
         display: block;
         width: 100%;
@@ -2912,6 +2936,11 @@
     }
 
     .footer__block-list:last-child {
+        width: 100%;
+    }
+
+    .item {
+        display: flex;
         width: 100%;
     }
 }
