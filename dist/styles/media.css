@@ -1660,13 +1660,13 @@
     }
 
     .filter-block {
-        max-width: 410px;
         width: 100%;
+        max-width: 640px;
+        padding-right: 10px;
     }
 
     .catalog__goods-block-wrap {
         width: 100%;
-        max-width: 400px;
         border-left: none;
         padding-left: 0;
         margin-top: 50px;
