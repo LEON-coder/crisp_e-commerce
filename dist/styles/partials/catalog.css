@@ -103,6 +103,11 @@
 /* catalog */
 
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .catalog__drop-down {
   display: flex;
   width: 100%;
@@ -186,10 +191,12 @@ details {
   position: relative;
 }
 
-details[open]>.Size-list {
+.catalog__drop-down[open]>.Size-list {
   left: 0;
   transition: 1s;
   opacity: 1;
+  max-height: 350px;
+  height: 100%;
 }
 
 .Color {
