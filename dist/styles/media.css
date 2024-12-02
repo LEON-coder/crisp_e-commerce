@@ -10,13 +10,7 @@
     }
 
     .catalog-clothes-block {
-        display: flex;
-        flex-direction: column;
-        max-width: 344px;
-        max-height: 548px;
-        margin-bottom: 48px;
-        cursor: pointer;
-        width: 30%;
+        width: 100%;
     }
 
     /* shopping cart */
@@ -362,6 +356,24 @@
         flex-wrap: wrap;
         margin-top: 55px;
         padding: 0 21px;
+    }
+
+    .owl-carousel .owl-stage-outer {
+        position: relative;
+        overflow: hidden;
+        transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        max-width: 1400px;
+        width: 100%;
+    }
+
+    /* product  */
+    .product__dress-options-block {
+        display: flex;
+        margin-left: 40px;
+        flex-direction: column;
+        max-width: 550px;
+        width: 100%;
     }
 }
 
@@ -731,6 +743,14 @@
     .My-Wishlist__name-dress {
         font-size: 1rem;
         margin-right: 10px;
+    }
+
+
+    /* product  */
+    .ShopSomeWear__catalog-clothes {
+        justify-content: space-between;
+        width: 100%;
+        max-width: 1484px;
     }
 }
 
@@ -2619,6 +2639,11 @@
 
     .color_dress {
         height: auto;
+    }
+
+    .catalog__drop-down .catalog__drop-down_name:after {
+        height: 16px;
+        width: 16px;
     }
 
 
