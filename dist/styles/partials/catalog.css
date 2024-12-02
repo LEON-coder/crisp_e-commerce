@@ -606,7 +606,7 @@ details[open]>.Color-list {
   font-size: 14px;
   color: var(--gray-1);
   cursor: pointer;
-  text-decoration: none;
+  text-decoration: none;cursor: pointer;
 }
 
 .color_dress {
