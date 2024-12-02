@@ -2753,6 +2753,10 @@
 
     /* product   */
 
+    .product__dress-item {
+        margin-top: 0px;
+    }
+
     .product__dress-item-wrap {
         padding: 0 20px 0 20px;
         width: 100%;
