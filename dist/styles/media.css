@@ -2080,11 +2080,7 @@
     }
 
     .navigation__item {
-        padding-top: 10px;
-        margin-bottom: 20px;
-        width: 100%;
-        display: flex;
-        justify-content: flex-start;
+        border: none;
     }
 
     .navigation__item:hover {
@@ -2104,14 +2100,7 @@
     }
 
     .navigation__links {
-        display: flex;
-        justify-content: flex-start;
-        width: 100%;
-        padding-left: 0;
-        max-width: 317px;
-        height: fit-content;
-        flex-direction: column;
-        align-items: baseline;
+        max-width: 640px;
     }
 
     .header__block-autorization {
