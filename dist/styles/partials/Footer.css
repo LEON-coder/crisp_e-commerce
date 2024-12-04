@@ -1,16 +1,16 @@
-
 footer {
     width: 100%;
     background: var(--black);
 }
 
- .footer-logo {
+.footer-logo {
     display: flex;
     align-items: baseline;
     height: fit-content;
+    cursor: pointer;
 }
 
- .footer__wrap {
+.footer__wrap {
     padding: 64px 20px 117px 21px;
     border-bottom: 1px solid #4f4f4f;
     width: 100%;
@@ -84,20 +84,20 @@ footer {
 }
 
 .footer__join-us_headline {
-  font-family: var(--font-family);
-font-weight: 600;
-font-size: 18px;
-text-transform: uppercase;
-color: var(--white);
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: var(--white);
 }
 
 .footer__join-us_describe {
-  font-family: var(--third-family);
-font-weight: 400;
-font-size: 13px;
-line-height: 208%;
-text-transform: uppercase;
-color: var(--gray-1);
+    font-family: var(--third-family);
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 208%;
+    text-transform: uppercase;
+    color: var(--gray-1);
 }
 
 .E-mail {

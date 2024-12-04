@@ -25,6 +25,7 @@
 .Logo {
   width: 92px;
   height: 42px;
+  cursor: pointer;
 }
 
 .navigation {
