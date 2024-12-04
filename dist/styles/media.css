@@ -385,14 +385,6 @@
         padding: 0 21px;
     }
 
-    .owl-carousel .owl-stage-outer {
-        position: relative;
-        overflow: hidden;
-        transform: translate3d(0, 0, 0);
-        -webkit-transform: translate3d(0, 0, 0);
-        max-width: 1400px;
-        width: 100%;
-    }
 
     /* product  */
     .product__dress-options-block {
@@ -480,7 +472,6 @@
         flex-wrap: wrap;
         border-left: none;
         padding-left: 0;
-        overflow-x: hidden;
     }
 
     .selecting-brand-block__headline {
@@ -985,7 +976,6 @@
         flex-wrap: wrap;
         border-left: none;
         padding-left: 0;
-        overflow-x: hidden;
     }
 
     .selecting-brand-block__headline {
@@ -2187,6 +2177,10 @@
 
 @media (max-width: 425px) {
 
+    .catalog-clothes-text__describe {
+        font-size: 0.7rem;
+    }
+
     .FeaturedItems__headline {
         margin-top: 0;
     }
@@ -2510,7 +2504,7 @@
     }
 
     .catalog-clothes-block {
-        width: 25vw;
+        width: auto;
     }
 
     .catalog-clothes-block-wrap {
@@ -2589,9 +2583,9 @@
     }
 
 
-    .product__block-favorite,
     .ShopSomeWear {
         width: 100%;
+        margin-top: 50px;
     }
 
     .ShopSomeWear__select-panel_checkbox {
@@ -3142,7 +3136,6 @@
 
     .item {
         display: flex;
-        width: 100%;
     }
 
 

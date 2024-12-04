@@ -129,15 +129,6 @@
     max-width: 818px;
     width: 65%;
   }
-
-  .FeaturedItems__headline {
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 283%;
-    color: var(--black);
-    margin-top: 77px;
-  }
 }
 
 @media (max-width: 1024px) {
