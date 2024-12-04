@@ -2784,7 +2784,7 @@
 
     .catalog__block-cloth {
         max-width: 420px;
-        width: 100%;
+        width: 45%;
         position: relative;
     }
 
@@ -2909,7 +2909,7 @@
     }
 
     .forgot-password {
-        width: auto;
+        width: 80px;
     }
 
     .create-account__login-block {
