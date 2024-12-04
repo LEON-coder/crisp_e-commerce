@@ -2919,6 +2919,32 @@
         align-items: center;
     }
 
+    .create-order__order-summary-block {
+        margin-left: 0;
+    }
+
+    .Review-Payments-block__order-summary-block {
+        max-width: 530px;
+        width: 100%;
+    }
+
+    .Review_Payments-block {
+        margin-bottom: 40px;
+    }
+
+    .Dashboard__tabs-block_central-block-wrap {
+        padding-right: 40px;
+    }
+
+    .checkbox-billing-block {
+        padding-left: 0;
+    }
+
+    .info-customer-block {
+        margin-left: 0;
+    }
+
+
 
 
     /* product   */
@@ -3123,7 +3149,28 @@
     /* my-dashboard */
 
     .My-Wishlist__dress-item {
-        width: 50vw;
+        width: 100%;
+        max-width: 425px;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    .My-Wishlist__name-dress {
+        font-size: 0.8rem;
+        margin-right: 10px;
+    }
+
+    .order-summary__item-block {
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+
+    .order-summary__text-block {
+        display: flex;
+        flex-direction: column;
+        margin-left: 0;
+        max-width: 184px;
+        margin-right: auto;
     }
 
     .Dashboard__tabs_block_center--info {
