@@ -2229,7 +2229,7 @@
 @media (max-width: 425px) {
 
     .catalog-clothes-text__describe {
-        font-size: 0.7rem;
+        font-size: 0.8rem;
     }
 
     .FeaturedItems__headline {
@@ -2553,7 +2553,7 @@
     }
 
     .catalog-clothes-block {
-        width: 22vw;
+        width: 35vw;
     }
 
     .catalog-clothes-block-wrap {
