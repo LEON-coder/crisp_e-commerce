@@ -1,5 +1,10 @@
 @media (max-width: 1440px) {
 
+    .ShopSomeWear__select-panel {
+        max-width: 294px;
+
+    }
+
     /* my_dashboard */
 
     .Dashboard__tabs-block_center-block {
@@ -37,7 +42,7 @@
     }
 
     .catalog-clothes-block {
-        width: 100%;
+        width: 16vw;
     }
 
     /* shopping cart */
@@ -150,7 +155,7 @@
     }
 
     .BlockProposing__right-block {
-        width: 100%;
+        width: 45%;
         max-width: 670px;
     }
 
@@ -273,6 +278,11 @@
         min-width: 200px;
         justify-content: space-between;
         width: 30%;
+        height: 100%;
+    }
+
+    .Blog__post_wrap {
+        height: auto;
     }
 
     .Explore-img {
@@ -527,7 +537,7 @@
     }
 
     .catalog-clothes-block {
-        width: 18vw;
+        width: 16vw;
     }
 
     .BlockSeeOffers__wrap {
@@ -584,9 +594,11 @@
     }
 
     .ShopSomeWear__select-panel_checkbox {
-        display: flex;
-        flex-direction: column;
-        padding-right: 10px;
+        max-width: 230px;
+    }
+
+    .ShopSomeWear__select-panel {
+        max-width: 270px;
     }
 
     .Explore-block__img {
@@ -809,6 +821,10 @@
         margin-top: 0;
     }
 
+    .shop-button {
+        margin-bottom: 40px;
+    }
+
 
     /* my_dashboard */
 
@@ -1021,9 +1037,6 @@
         height: 100%;
     }
 
-    .catalog-clothes-block {
-        width: 100%;
-    }
 
     .BlockSeeOffers__wrap {
         gap: 30px;
@@ -1088,6 +1101,16 @@
         display: flex;
         flex-direction: column;
         padding-right: 10px;
+    }
+
+    .ShopSomeWear__select-panel {
+        max-width: 295px;
+        width: 100%;
+        justify-content: space-between;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-right: auto;
     }
 
     .Explore-block__img {
@@ -1183,6 +1206,10 @@
 
     /* catalog */
 
+    .catalog-clothes-block {
+        width: 16vw;
+    }
+
     .catalog__block-cloth {
         max-width: 344px;
         width: 14vw;
@@ -1196,9 +1223,16 @@
 
     .Bannershoping-block-text {
         max-width: 360px;
-        margin-top: 35px;
-        margin-left: 40px;
+        padding-top: 35px;
+        margin-left: 80px;
         margin-right: auto;
+    }
+
+    .Bannershoping-frame {
+        position: absolute;
+        top: -19px;
+        right: 0;
+        width: 100%;
     }
 
     .catalog-bannershoping-frame {
@@ -1588,6 +1622,10 @@
         padding-bottom: 40px;
     }
 
+    .ShopSomeWear__wrap {
+        flex-wrap: wrap;
+    }
+
 
     .checkbox-wrapper {
         display: flex;
@@ -1651,6 +1689,7 @@
 
     .Bannershoping {
         height: auto;
+        margin-bottom: 40px;
     }
 
     .Bannershoping-text {
@@ -1811,6 +1850,10 @@
         opacity: 1;
         max-height: 350px;
         height: 100%;
+    }
+
+    .catalog-clothes-block {
+        width: 16vw;
     }
 
 
@@ -2510,7 +2553,7 @@
     }
 
     .catalog-clothes-block {
-        width: 35vw;
+        width: 16vw;
     }
 
     .catalog-clothes-block-wrap {
@@ -2577,11 +2620,6 @@
         text-wrap: auto;
         word-wrap: break-word;
     }
-
-    .ShopSomeWear__catalog-clothes {
-        max-width: 410px;
-    }
-
 
     .ShopSomeWear {
         width: 100%;
@@ -3135,7 +3173,7 @@
     }
 
     .item {
-        display: flex;
+        width: 15vw;
     }
 
 

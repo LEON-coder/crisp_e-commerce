@@ -1,22 +1,21 @@
-
 .Blog {
     margin-top: 82px;
     background: #f8f9fb;
     padding-bottom: 46px;
 }
 
- .Blog__headline {
-  font-family: var(--font-family);
-font-weight: 400;
-font-size: 24px;
-line-height: 283%;
-color: var(--black);
- }
+.Blog__headline {
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 283%;
+    color: var(--black);
+}
 
- .Blog__posts {
+.Blog__posts {
     display: flex;
     width: 100%;
-    justify-content: space-between;    
+    justify-content: space-between;
 }
 
 .Blog__post {
@@ -24,18 +23,17 @@ color: var(--black);
     flex-direction: column;
     max-width: 447px;
     background: #f8f9fb;
-    max-height: 420px;
 }
 
- .Blog__post_name {
-  font-family: var(--font-family);
-font-weight: 600;
-font-size: 18px;
-text-transform: uppercase;
-color: #bdbdbd;
- }
+.Blog__post_name {
+    font-family: var(--font-family);
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #bdbdbd;
+}
 
- .Blog__post_headline {
+.Blog__post_headline {
     font-family: var(--font-family);
     font-weight: 400;
     font-size: 26px;
@@ -74,7 +72,6 @@ color: #bdbdbd;
     position: relative;
     display: flex;
     flex-direction: column;
-    max-height: 420px;   
 }
 
 .Blog__checkboxes {
@@ -88,10 +85,9 @@ color: #bdbdbd;
 }
 
 .Blog__checkbox_topic {
-  display: flex;
+    display: flex;
 }
 
 .Blog__topic_headline {
-  margin-left: 14px;
+    margin-left: 14px;
 }
-    
