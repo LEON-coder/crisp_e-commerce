@@ -181,3 +181,33 @@
   margin: 0 auto;
   margin-bottom: 38px;
 }
+
+#content-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  position: relative;
+}
+
+.catalog-clothes-more {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  transition: 2s ease;
+  -webkit-transition: 2s ease;
+  -moz-transition: 2s ease;
+  -ms-transition: 2s ease;
+  -o-transition: 2s ease;
+}
+
+.catalog-clothes-more--active {
+  transition: 1s;
+  -webkit-transition: 1s;
+  -moz-transition: 1s;
+  -ms-transition: 1s;
+  -o-transition: 1s;
+  position: relative;
+  left: 0;
+}
