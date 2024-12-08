@@ -7,6 +7,18 @@
 
     /* my_dashboard */
 
+    .Dashboard__address-book,
+    .Dashboard__Default-Shipping-Address {
+        max-width: 270px;
+    }
+
+    .Contact-US-label {
+        font-family: var(--font-family);
+        font-weight: 500;
+        top: 275px;
+    }
+
+
     .Dashboard__tabs-block_center-block {
         padding: 73px 0px 0px 60px;
     }
@@ -771,6 +783,44 @@
 
     /* my_dashboard  */
 
+    .Dashboard__tabs_select-list {
+        width: 100%;
+        max-width: 550px;
+        height: 44px;
+        padding-left: 8px;
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 125%;
+        border-radius: 0;
+        color: var(--black-2);
+        background: var(--white);
+        border: 1px solid var(--divider);
+    }
+
+    #first-name,
+    #last-name,
+    #email,
+    #Password,
+    #confirm_password {
+        font-family: var(--second-family);
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 125%;
+        color: var(--black-2);
+        background: var(--white);
+        border: 1px solid var(--divider);
+        height: 44px;
+        padding-left: 16px;
+        width: 100%;
+        max-width: 550px;
+        margin-left: auto;
+    }
+
+    .Dashboard__tabs-block_central-block-wrap {
+        max-width: 1000px;
+    }
+
     .create-account__name-input {
         width: auto;
     }
@@ -812,7 +862,7 @@
     }
 
     .Contact-US-label {
-        top: 305px;
+        top: 275px;
     }
 }
 
@@ -832,6 +882,11 @@
 
 
     /* my_dashboard */
+
+    .My-Wishlist__dress-item {
+        max-width: 200px;
+        width: 20vw;
+    }
 
     .Dashboard__tabs_item {
         font-family: var(--font-family);
@@ -1859,6 +1914,11 @@
 
 
     /* my_dashboard */
+
+    .My-Wishlist__dress-collection {
+        max-width: 1000px;
+        justify-content: space-between;
+    }
 
     .Dashboard__tabs-block_aside {
         margin-right: 30px;
@@ -3184,9 +3244,12 @@
 
     /* my-dashboard */
 
+    .My-Wishlist__dress-collection {
+        justify-content: center;
+    }
+
     .My-Wishlist__dress-item {
-        width: 100%;
-        max-width: 200px;
+        width: 33vw;
     }
 
     .My-Wishlist__name-dress {
@@ -3209,7 +3272,7 @@
 
     .Dashboard__tabs_block_center--info {
         padding-left: 20px;
-        padding-right: 60px;
+        padding-right: 20px;
     }
 
     .wishlist-button {
