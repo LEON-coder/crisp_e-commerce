@@ -1,7 +1,6 @@
-
 .Dashboard__tabs-block {
-  display: flex;
-  justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -23,12 +22,12 @@
 }
 
 .Dashboard__headline {
-  font-family: var(--font-family);
-font-weight: 400;
-font-size: 48px;
-line-height: 142%;
-text-align: center;
-color: var(--black);
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 142%;
+    text-align: center;
+    color: var(--black);
 }
 
 .Dashboard__tabs-block_center-block {
@@ -45,7 +44,7 @@ color: var(--black);
 }
 
 .Dashboard__tabs_list {
- list-style: none;
+    list-style: none;
 }
 
 .Dashboard__tabs_item {
@@ -63,11 +62,13 @@ color: var(--black);
 .Dashboard__tabs-block_center-block-wrap {
     display: flex;
     position: relative;
-    width: 100%;    
+    width: 100%;
 }
+
 .Dashboard__tabs-block_central-block {
     display: flex;
-    flex-direction: column;
+    max-width: 662px;
+    width: 100%;
 }
 
 .Dashboard__tabs-block_headline {
@@ -78,7 +79,7 @@ color: var(--black);
     text-transform: uppercase;
     color: var(--black-2);
     margin-bottom: 16px;
-    margin-top: 25px;
+    margin-top: 29px;
 }
 
 .Dashboard__tabs_account-headline {
@@ -86,7 +87,6 @@ color: var(--black);
     font-weight: 400;
     font-size: 24px;
     color: var(--black);
-    margin-bottom: 34px;
 }
 
 .Dashboard__contact_information_address {
@@ -95,22 +95,23 @@ color: var(--black);
 }
 
 .Dashboard__link {
-  font-family: var(--second-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 125%;
-color: var(--gray-1);
-text-decoration: none;
-cursor: pointer;
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--gray-1);
+    text-decoration: none;
+    cursor: pointer;
 }
 
 .Dashboard__tabs-block_central-block-wrap {
     display: flex;
     width: 100%;
-    max-width: 606px;
+    max-width: 662px;
     justify-content: space-between;
-    flex-direction: column;
     margin-bottom: 80px;
+    flex-wrap: wrap;
+    margin-top: 28px;
 }
 
 .Dashboard__contact_information_buttons-block {
@@ -136,23 +137,35 @@ cursor: pointer;
 
 
 .Dashboard__width {
-    max-width: 316px;    
+    max-width: 316px;
 }
 
-.Dashboard__contact_information, .Dashboard__address-book, .Dashboard__Newsletters, .Dashboard__Default-Shipping-Address {
-    max-width: 316px;
+.Dashboard__contact_information,
+.Dashboard__Newsletters {
+    max-width: 270px;
     max-height: 140px;
     flex-direction: column;
     display: flex;
     width: 100%;
 }
 
+.Dashboard__address-book,
+.Dashboard__Default-Shipping-Address {
+    max-width: 300px;
+}
+
+
+.Dashboard__address-book,
+.Dashboard__Default-Shipping-Address {
+    margin-top: 64px;
+}
+
 .Dashboard__describe {
-font-family: var(--second-family);
-font-weight: 400;
-font-size: 16px;
-line-height: 125%;
-color: var(--gray-1);
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    color: var(--gray-1);
 }
 
 .Address_Book {
@@ -162,6 +175,7 @@ color: var(--gray-1);
     margin-bottom: 0;
     margin-top: 0;
 }
+
 .address_book-img {
     cursor: pointer;
     width: 24px;
@@ -178,20 +192,15 @@ color: var(--gray-1);
     padding-top: 30px;
 }
 
-.My_dashbord-tab,
-.Account_Information-tab  {
-  display: none;
-}
-
 .Dashboard__labels {
     max-width: 528px;
     width: 100%;
 }
 
 .Dashboard__input {
-  width: 100%;
- max-width: 392px;
-height: 44px;
+    width: 100%;
+    max-width: 392px;
+    height: 44px;
 }
 
 .Dashboard__button-save {
@@ -224,12 +233,9 @@ height: 44px;
 }
 
 .Dashboard__tabs-block_aside {
-  margin-right: 108px;
+    margin-right: 108px;
 }
 
-.add_new_address {
-    display: none;
-}
 .contact-information-address {
     margin-top: 49px;
     margin-bottom: 28px;
@@ -241,7 +247,7 @@ height: 44px;
 }
 
 .address-mt {
-  margin-top: 28px;
+    margin-top: 28px;
 }
 
 .Dashboard__tabs_select-list {
@@ -258,6 +264,7 @@ height: 44px;
     background: var(--white);
     border: 1px solid var(--divider);
 }
+
 .Dashboard__tabs_select-item {
     background-color: white;
     text-decoration: none;
@@ -271,7 +278,7 @@ height: 44px;
 }
 
 .My-Wishlist {
-  display: flex;
+    display: flex;
 }
 
 .My-Wishlist__wrap {
@@ -279,8 +286,9 @@ height: 44px;
     width: 100%;
     flex-direction: column;
 }
+
 .My-Wishlist__dress-item {
-  width: 200px;
+    width: 200px;
 }
 
 .My-Wishlist__dress-collection {
@@ -305,8 +313,8 @@ height: 44px;
 }
 
 .wishlist-dress-img {
-  width: 100%;
-  height: 100%;
+    width: 100%;
+    height: 100%;
 }
 
 .My-Wishlist__edit-block {
@@ -318,18 +326,17 @@ height: 44px;
 }
 
 .wishlist-remove {
-  margin-bottom: 6px;
-  transition: 1s;
-  -webkit-transition: 1s;
-  -moz-transition: 1s;
-  -ms-transition: 1s;
-  -o-transition: 1s;
+    margin-bottom: 6px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 
 .wishlist-remove:hover,
-.wishlist-edit:hover
- {   
-    background: #d0e4f2;    
+.wishlist-edit:hover {
+    background: #d0e4f2;
 }
 
 .My-Wishlist__name-dress {
@@ -358,21 +365,21 @@ height: 44px;
 }
 
 .My-Wishlist__count {
-  width: 40px;
-height: 39px;
-font-family: var(--font-family);
-font-weight: 400;
-font-size: 16px;
-text-transform: uppercase;
-text-align: center;
-color: var(--black-2);
-border: 1px solid var(--divider);
-width: 40px;
-height: 39px;
-background: var(--white);
-display: flex;
-justify-content: center;
-align-items: center;
+    width: 40px;
+    height: 39px;
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    color: var(--black-2);
+    border: 1px solid var(--divider);
+    width: 40px;
+    height: 39px;
+    background: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .My-Wishlist__add-button {
@@ -428,5 +435,48 @@ align-items: center;
 }
 
 .wishlist-button:hover {
-background: var(--light-blue-hover);
+    background: var(--light-blue-hover);
+}
+
+.tabs-block {
+    display: flex;
+}
+
+.tab {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+.tab button:hover {
+    background: var(--black);
+    color: var(--white);
+}
+
+
+.tab button.active {
+    background: var(--light-blue-hover);
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 133%;
+    color: var(--black);
+}
+
+
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border-top: none;
+    padding-left: 0;
 }
