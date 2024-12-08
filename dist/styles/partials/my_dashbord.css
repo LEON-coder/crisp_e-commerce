@@ -56,7 +56,6 @@
     width: 288px;
     height: 44px;
     display: flex;
-    align-items: center;
 }
 
 .Dashboard__tabs-block_center-block-wrap {
@@ -451,7 +450,12 @@
     outline: none;
     cursor: pointer;
     padding: 14px 16px;
-    transition: 0.3s;
+    transition: 1s;
+    white-space: nowrap;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
 }
 
 .tab button:hover {
