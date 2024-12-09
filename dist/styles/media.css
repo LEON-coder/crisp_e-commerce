@@ -347,8 +347,7 @@
     }
 
     .Dashboard__labels {
-        width: 100%;
-        max-width: 700px;
+        max-width: 1400px;
     }
 
     .create-account__name-input {
@@ -784,18 +783,7 @@
     /* my_dashboard  */
 
     .Dashboard__tabs_select-list {
-        width: 100%;
-        max-width: 550px;
-        height: 44px;
-        padding-left: 8px;
-        font-family: var(--second-family);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 125%;
-        border-radius: 0;
-        color: var(--black-2);
-        background: var(--white);
-        border: 1px solid var(--divider);
+        max-width: 650px;
     }
 
     #first-name,
@@ -803,18 +791,7 @@
     #email,
     #Password,
     #confirm_password {
-        font-family: var(--second-family);
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 125%;
-        color: var(--black-2);
-        background: var(--white);
-        border: 1px solid var(--divider);
-        height: 44px;
-        padding-left: 16px;
-        width: 100%;
-        max-width: 550px;
-        margin-left: auto;
+        max-width: 650px;
     }
 
     .Dashboard__tabs-block_central-block-wrap {
@@ -882,6 +859,33 @@
 
 
     /* my_dashboard */
+
+
+    .Dashboard__labels {
+        width: 100%;
+        max-width: 1000px;
+    }
+
+    #first-name,
+    #last-name,
+    #email,
+    #Password,
+    #confirm_password {
+        margin-left: 0;
+        max-width: 700px;
+    }
+
+    .Dashboard__tabs_select-list {
+        max-width: 600px;
+    }
+
+    .Dashboard__address-book {
+        margin-top: 64px;
+    }
+
+    .Dashboard__Default-Shipping-Address {
+        margin-top: 0;
+    }
 
     .My-Wishlist__dress-item {
         max-width: 200px;
@@ -1915,6 +1919,22 @@
 
     /* my_dashboard */
 
+    .Dashboard__address-book {
+        margin-top: 64px;
+    }
+
+    .Dashboard__Default-Shipping-Address {
+        margin-top: 0;
+    }
+
+    .Dashboard__address-book {
+        margin-top: 30px;
+    }
+
+    .Dashboard__tabs_block_center--info {
+        padding: 0 40px;
+    }
+
     .My-Wishlist__dress-collection {
         max-width: 1000px;
         justify-content: space-between;
@@ -2286,6 +2306,11 @@
 }
 
 @media (max-width: 425px) {
+
+
+    .Dashboard__Default-Shipping-Address {
+        margin-top: 0;
+    }
 
     .Dashboard__tabs-block_center-block {
         padding: 10px 0px 0px 10px;

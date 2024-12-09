@@ -56,6 +56,7 @@
     width: 288px;
     height: 44px;
     display: flex;
+    align-items: center;
 }
 
 .Dashboard__tabs-block_center-block-wrap {
@@ -154,7 +155,10 @@
 }
 
 
-.Dashboard__address-book,
+.Dashboard__address-book {
+    margin-top: 64px;
+}
+
 .Dashboard__Default-Shipping-Address {
     margin-top: 64px;
 }
@@ -459,18 +463,18 @@
 }
 
 .tab button:hover {
-    background: var(--black);
+    background: var(--advanced);
     color: var(--white);
 }
 
 
 .tab button.active {
-    background: var(--light-blue-hover);
+    background: var(--black);
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
     line-height: 133%;
-    color: var(--black);
+    color: var(--white);
 }
 
 
@@ -483,4 +487,8 @@
 
 .headline_shipping_address {
     margin-top: 60px;
+}
+
+.my-orders-info-block {
+    display: flex;
 }
